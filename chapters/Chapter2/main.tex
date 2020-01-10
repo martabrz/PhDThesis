@@ -1,2 +1,33 @@
-\chapter{Chapter 2}
-\label{ch:chapter-2}
+\chapter{Topological states in fractal lattices}
+\label{ch:fractals}
+
+Underlying geometry in quantum lattice models plays an important role in defining their electronic properties (
+
+Interestingly, the authors in pointed out that topological states can be realized even in amorphous solids. Fractal lattices comprise of many interesting features: they are aperiodic, but scale invariant. Also, there is no sharp notion between bulk and edge.
+
+Here, we are interested in the lattice regularization of two fractals, Sierpiński carpet (SC) and triangle (or gasket) (SG). This approach is relevant for potential experimental realization as it introduces the distance between nearest-neighbouring sites (lattice constant) to be a natural cutoff.
+
+The reason why we investigate these lattices is motivated by their distinct Hausdorff dimensions ($d_H = \ln A / \ln L$, where $A$ is the area and $L$ the linear size) and connectivity properties. Firstly, $d_H = 1.892 \ldots$ for SC and $d_H = 1.585 \ldots$ for SG. 
+
+
+
+We consider tight-binding model of spinless electrons exposed to a magnetic field. The Hamiltonian reads
+\begin{equation}
+H = -t  \sum_{\langle i, j \rangle} e^{\textnormal{i} A_{ij}} c^{\dagger}_i c_j + \mathrm{h.c.},
+\label{eq:frac_ham}
+\end{equation}
+where we set $t = 1$.
+
+One of the difficulties is to compute topological invariants in that systems as they do not exhibit translational invariance. One may therefore employ real-space methods. Other methods (for example, the Bott index) may be numerically insufficient. Here, we used the real-space expression for the Chern number:
+
+\begin{equation}
+\mathcal{C} = 12 \pi i \sum_{j \in A} \sum_{k \in B} \sum_{l \in C} \left( P_{jk} P_{kl} P_{lj} - P_{jl} P_{lk} P_{kj} \right),
+\label{eq: chern_real}
+\end{equation}
+where $P$ is the projector operator onto occupied states and $i, j, l$ label the lattice sites.
+
+
+
+As an ultimate probe, we study potential topological phase transition with the level spacing statistics. Depending whether states are extended or localized, they follow Wigner-Dyson or Poisson distribution, respectively. To do so, we add the on-site disorder term $\sum_i V_i c_i^{\dagger} c_i$ in Eq.~\eqref{eq:frac_ham}, where $V_i$ is drawn from a uniform distribution $[-W/2, W/2 ]$. Having computed the level spacings, we calculate their variance and average over $500$ disorder realizations for each disorder strength $W$.
+
+

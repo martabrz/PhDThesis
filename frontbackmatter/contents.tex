@@ -24,25 +24,25 @@
     %*******************************************************
     % List of Figures
     %*******************************************************
-    %\phantomsection
-    % \refstepcounter{dummy}
-    %\addcontentsline{toc}{chapter}{\listfigurename}
-    % \pdfbookmark[1]{\listfigurename}{lof}
-    % \listoffigures
-
-    % \vspace{8ex}
-
-    %*******************************************************
-    % List of Tables
-    %*******************************************************
-    %\phantomsection
-    % \refstepcounter{dummy}
-    %\addcontentsline{toc}{chapter}{\listtablename}
-    % \pdfbookmark[1]{\listtablename}{lot}
-    % \listoftables
-
-    % \vspace{8ex}
-    % \newpage
+%    \phantomsection
+%     \refstepcounter{dummy}
+%    \addcontentsline{toc}{chapter}{\listfigurename}
+%     \pdfbookmark[1]{\listfigurename}{lof}
+%     \listoffigures
+%
+%    % \vspace{8ex}
+%
+%    %*******************************************************
+%    % List of Tables
+%    %*******************************************************
+%    \phantomsection
+%     \refstepcounter{dummy}
+%    \addcontentsline{toc}{chapter}{\listtablename}
+%     \pdfbookmark[1]{\listtablename}{lot}
+%     \listoftables
+%
+%    % \vspace{8ex}
+%     \newpage
 
     %*******************************************************
     % List of Listings
@@ -57,30 +57,15 @@
 
     % Notation
     \refstepcounter{dummy}
-    \pdfbookmark[1]{Notation}{notation}
-    \markboth{\spacedlowsmallcaps{Notation}}{\spacedlowsmallcaps{Notation}}
-    \chapter*{Notation}
-
-    \section*{Frequently used symbols}%
+    \pdfbookmark[1]{Abbreviations}{notation}
+    \markboth{\spacedlowsmallcaps{Abbreviations}}{\spacedlowsmallcaps{Abbreviations}}
+    \chapter*{Abbreviations}
     \vskip -2em
     \begin{tabularx}{\textwidth}{lX}
-      %\toprule%
-      %\tableheadline{Symbol} & \tableheadline{Meaning} \\
-      %\midrule%
-      $E$ & energy \\
-      $m$ & rest mass \\
-      $p$ & impulse \\
-      %\bottomrule
+      \toprule%
+      QH & quantum Hall
+      TI & topological insulator \\
     \end{tabularx}
 
-    \section*{Physical constants}
-    \sisetup{separate-uncertainty=false}
-    \vskip -2em
-    \begin{tabularx}{\textwidth}{lX}
-$c$ & speed of light in vacuum, $c=\u{299792458}{\metre\per\second}$ \\
-    \end{tabularx}
-    \begin{flushright}
-    (CODATA 2014~\cite{codata})
-    \end{flushright}
-    \sisetup{separate-uncertainty=true}
+  
 \endgroup

@@ -1,0 +1,349 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global}
+    \entry{Charges2D2019}{article}{}
+      \name{author}{8}{}{%
+        {{hash=eeff977327009428da3851bed3b60554}{%
+           family={Schindler},
+           familyi={S\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=3479d797af349bc3dad1f5d54739d608}{%
+           family={Brzezi{ń}ska},
+           familyi={B\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fd1de1c323d7c099a1eeb623bfda9ba5}{%
+           family={Benalcazar},
+           familyi={B\bibinitperiod},
+           given={Wladimir\bibnamedelima A.},
+           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2d6f1212c96877b3e8db89d2688e10c8}{%
+           family={Iraola},
+           familyi={I\bibinitperiod},
+           given={Mikel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c575bd38795ba715ac6c322f46066938}{%
+           family={Bouhon},
+           familyi={B\bibinitperiod},
+           given={Adrien},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7c3f74b67f487f1bbd715996c951671d}{%
+           family={Tsirkin},
+           familyi={T\bibinitperiod},
+           given={Stepan\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f8b719b2d847347fb4ae1de50c03cd0c}{%
+           family={Vergniory},
+           familyi={V\bibinitperiod},
+           given={Maia\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=1c8677ba5bc12884eb0db91db3352fdb}{%
+           family={Neupert},
+           familyi={N\bibinitperiod},
+           given={Titus},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{689112c9856370574c059746dfce1b45}
+      \strng{fullhash}{dd4041e48676051a5ca3e803701cedcc}
+      \strng{bibnamehash}{dd4041e48676051a5ca3e803701cedcc}
+      \strng{authorbibnamehash}{dd4041e48676051a5ca3e803701cedcc}
+      \strng{authornamehash}{689112c9856370574c059746dfce1b45}
+      \strng{authorfullhash}{dd4041e48676051a5ca3e803701cedcc}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. Research}
+      \field{month}{11}
+      \field{title}{Fractional corner charges in spin-orbit coupled crystals}
+      \field{volume}{1}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{033074}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevResearch.1.033074
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevResearch.1.033074
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevResearch.1.033074
+      \endverb
+    \endentry
+    \entry{2M-WS2-2019}{article}{}
+      \name{author}{12}{}{%
+        {{hash=e63dd50230e14732988e2e3630cb0218}{%
+           family={Guguchia},
+           familyi={G\bibinitperiod},
+           given={Zurab},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d96c79f14869c3bfda8c8e9c66107509}{%
+           family={Gawryluk},
+           familyi={G\bibinitperiod},
+           given={Dariusz\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a3c8cb01101740f0bc2cce81b054991b}{%
+           family={Brzezinska},
+           familyi={B\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7c3f74b67f487f1bbd715996c951671d}{%
+           family={Tsirkin},
+           familyi={T\bibinitperiod},
+           given={Stepan\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=4f047556dd070eabad2acd3f6d0adb02}{%
+           family={Khasanov},
+           familyi={K\bibinitperiod},
+           given={Rustem},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b5010eb653468ae1648fad3068a1966b}{%
+           family={Pomjakushina},
+           familyi={P\bibinitperiod},
+           given={Ekaterina},
+           giveni={E\bibinitperiod}}}%
+        {{hash=516bef14813b9afbf2dcaf616f58b2b3}{%
+           family={Rohr},
+           familyi={R\bibinitperiod},
+           given={Fabian\bibnamedelima O.},
+           giveni={F\bibinitperiod\bibinitdelim O\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=f7820f40df3e7225c1aaad94e60d59a9}{%
+           family={Verezhak},
+           familyi={V\bibinitperiod},
+           given={Joel\bibnamedelimb A.\bibnamedelimi T.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=8859bc2aac3b15c3c789ffcbdf72da44}{%
+           family={Hasan},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi Zahid},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=1c8677ba5bc12884eb0db91db3352fdb}{%
+           family={Neupert},
+           familyi={N\bibinitperiod},
+           given={Titus},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a194e67d4c8b9a86aebf61bb8a0b608b}{%
+           family={Luetkens},
+           familyi={L\bibinitperiod},
+           given={Hubertus},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7caa5017a431848f37cfbda31aba3a68}{%
+           family={Amato},
+           familyi={A\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1cd80f72bc81eb49d9918f9310ba29fa}
+      \strng{fullhash}{53b6d09c58921a5c248ccb2b0a8e5ad5}
+      \strng{bibnamehash}{53b6d09c58921a5c248ccb2b0a8e5ad5}
+      \strng{authorbibnamehash}{53b6d09c58921a5c248ccb2b0a8e5ad5}
+      \strng{authornamehash}{1cd80f72bc81eb49d9918f9310ba29fa}
+      \strng{authorfullhash}{53b6d09c58921a5c248ccb2b0a8e5ad5}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2397-4648}
+      \field{journaltitle}{npj Quantum Materials}
+      \field{number}{1}
+      \field{title}{Nodeless superconductivity and its evolution with pressure in the layered dirac semimetal 2M-WS2}
+      \field{volume}{4}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{50}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41535-019-0189-5
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s41535-019-0189-5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s41535-019-0189-5
+      \endverb
+    \endentry
+    \entry{Fractals2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3479d797af349bc3dad1f5d54739d608}{%
+           family={Brzezi{ń}ska},
+           familyi={B\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9df6762a9175642053d7fa7a6989e7c7}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Ashley\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1c8677ba5bc12884eb0db91db3352fdb}{%
+           family={Neupert},
+           familyi={N\bibinitperiod},
+           given={Titus},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{864d8518c0d4f47ed7f0e7cb416d9e7f}
+      \strng{fullhash}{864d8518c0d4f47ed7f0e7cb416d9e7f}
+      \strng{bibnamehash}{864d8518c0d4f47ed7f0e7cb416d9e7f}
+      \strng{authorbibnamehash}{864d8518c0d4f47ed7f0e7cb416d9e7f}
+      \strng{authornamehash}{864d8518c0d4f47ed7f0e7cb416d9e7f}
+      \strng{authorfullhash}{864d8518c0d4f47ed7f0e7cb416d9e7f}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{20}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{11}
+      \field{title}{Topology in the Sierpi{ń}ski-Hofstadter problem}
+      \field{volume}{98}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{205116}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.98.205116
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.98.205116
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.98.205116
+      \endverb
+    \endentry
+    \entry{BiSbEnt2018}{article}{}
+      \name{author}{5}{}{%
+        {{hash=3479d797af349bc3dad1f5d54739d608}{%
+           family={Brzezi{ń}ska},
+           familyi={B\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e670b6face1912221b88c6d7cf5ca2e0}{%
+           family={Bieniek},
+           familyi={B\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a0fe7a03a86ada4f4963c151898d09a0}{%
+           family={Wo{ź}niak},
+           familyi={W\bibinitperiod},
+           given={Tomasz},
+           giveni={T\bibinitperiod}}}%
+        {{hash=87cc5ca89c7ec576141a1c0288cb9222}{%
+           family={Potasz},
+           familyi={P\bibinitperiod},
+           given={Pawe{ł}},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7ec4dd65d380a054780c5e63e9e32315}{%
+           family={W{ó}js},
+           familyi={W\bibinitperiod},
+           given={Arkadiusz},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{50c5b2a88366ddc1f211374b452322b5}
+      \strng{fullhash}{c4bc93080e7013bf77147418143bd5e3}
+      \strng{bibnamehash}{c4bc93080e7013bf77147418143bd5e3}
+      \strng{authorbibnamehash}{c4bc93080e7013bf77147418143bd5e3}
+      \strng{authornamehash}{50c5b2a88366ddc1f211374b452322b5}
+      \strng{authorfullhash}{c4bc93080e7013bf77147418143bd5e3}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics: Condensed Matter}
+      \field{number}{12}
+      \field{title}{Entanglement entropy and entanglement spectrum of Bi$_{1-x}$ Sb$_{x}$ (111) bilayers}
+      \field{volume}{30}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{125501}
+      \range{pages}{1}
+    \endentry
+    \entry{Qvoter2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=5bcb206eb767e0291ff0b7681531f6db}{%
+           family={Radosz},
+           familyi={R\bibinitperiod},
+           given={Wojciech},
+           giveni={W\bibinitperiod}}}%
+        {{hash=564bbdeaa5a15e57628cca324005919b}{%
+           family={Mielnik-Pyszczorski},
+           familyi={M\bibinithyphendelim P\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3479d797af349bc3dad1f5d54739d608}{%
+           family={Brzezi{ń}ska},
+           familyi={B\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cff4c354e49edb2aaa34d910a2454924}{%
+           family={Sznajd-Weron},
+           familyi={S\bibinithyphendelim W\bibinitperiod},
+           given={Katarzyna},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{51722ce5bc3240adb42213137f71abca}
+      \strng{fullhash}{8cbb48ddb2d66dafd3dd903a34ac7f0b}
+      \strng{bibnamehash}{8cbb48ddb2d66dafd3dd903a34ac7f0b}
+      \strng{authorbibnamehash}{8cbb48ddb2d66dafd3dd903a34ac7f0b}
+      \strng{authornamehash}{51722ce5bc3240adb42213137f71abca}
+      \strng{authorfullhash}{8cbb48ddb2d66dafd3dd903a34ac7f0b}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. E}
+      \field{month}{6}
+      \field{title}{$Q$-voter model with nonconformity in freely forming groups: Does the size distribution matter?}
+      \field{volume}{95}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{062302}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevE.95.062302
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevE.95.062302
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevE.95.062302
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

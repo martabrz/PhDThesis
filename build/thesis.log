@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.14)  16 OCT 2019 18:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.12)  10 JAN 2020 16:32
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2093,27 +2093,29 @@ File: polish.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 (./frontbackmatter/dedication.aux) (./frontbackmatter/abstract.aux)
 (./frontbackmatter/acknowledgments.aux) (./frontbackmatter/contents.aux)
 (./chapters/Introduction/main.aux) (./chapters/Chapter1/main.aux)
-(./chapters/Chapter2/main.aux) (./chapters/Conclusion/main.aux)
-(./chapters/Appendix/main.aux) (./frontbackmatter/publications.aux))
+(./chapters/Chapter2/main.aux) (./chapters/Chapter3/main.aux)
+(./chapters/Chapter4/main.aux) (./chapters/Conclusion/main.aux)
+(./chapters/Appendix/main.aux) (./frontbackmatter/bibliography.aux)
+(./frontbackmatter/publications.aux))
 \openout1 = `build/thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Try loading font information for T1+pplj on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 22.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
@@ -2127,8 +2129,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'build/thesis.bbl' found.
 
 (./build/thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 21.
-Package biblatex Info: Reference segment=0 on input line 21.
+Package biblatex Info: Reference section=0 on input line 22.
+Package biblatex Info: Reference segment=0 on input line 22.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
@@ -2172,7 +2174,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box86
-Package hyperref Info: Link coloring ON on input line 21.
+Package hyperref Info: Link coloring ON on input line 22.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2182,9 +2184,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count531
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
 
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/se-pdfdoc.def
 File: se-pdfdoc.def 2016/05/16 v1.11 stringenc: PDFDocEncoding
@@ -2196,7 +2198,7 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
 
-LaTeX Info: Redefining \microtypecontext on input line 21.
+LaTeX Info: Redefining \microtypecontext on input line 22.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2232,31 +2234,31 @@ Package scrhack Info: \landscape patched to make \textheight change optional on
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 21.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 22.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 21.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 22.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 21.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 22.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 21.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 22.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 21.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 22.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1zplm.fd
@@ -2342,7 +2344,11 @@ File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 (./frontbackmatter/contents.tex
 Package tocbasic Info: character protrusion at toc deactivated on input line 11
 .
- (./build/thesis.toc)
+ (./build/thesis.toc
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplj/m/sc/10'.
+(microtype)             Ignoring protrusion settings for this character.
+)
 \tf@toc=\write5
 \openout5 = `build/thesis.toc'.
 
@@ -2356,20 +2362,33 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 11
 
 
 ]
-Underfull \hbox (badness 10000) in alignment at lines 74--74
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.68     \end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.68     \end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Underfull \hbox (badness 10000) in alignment at lines 68--68
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 81--81
-[] []
+Underfull \vbox (badness 10000) detected at line 68
  []
 
-
-LaTeX Warning: Citation 'codata' on page 14 undefined on input line 83.
-
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 83.
 ) [14
 
 ]
@@ -2406,20 +2425,19 @@ Chapter 2.
 
  (./chapters/Chapter2/main.tex
 Chapter 3.
-) [5
+[5
 
 
 
-] [6
+]) [6]
+\openout2 = `chapters/Chapter3/main.aux'.
 
-
-
-]
-\openout2 = `chapters/Conclusion/main.aux'.
-
- (./chapters/Conclusion/main.tex
+ (./chapters/Chapter3/main.tex
 Chapter 4.
 ) [7
+
+
+
 
 
 
@@ -2428,19 +2446,51 @@ Chapter 4.
 
 
 ]
-\openout2 = `chapters/Appendix/main.aux'.
+\openout2 = `chapters/Chapter4/main.aux'.
 
- (./chapters/Appendix/main.tex
-Appendix A.
-) [9
+ (./chapters/Chapter4/main.tex
+Chapter 5.
+[9
 
 
 
-] [10
+]) [10]
+\openout2 = `chapters/Conclusion/main.aux'.
+
+ (./chapters/Conclusion/main.tex
+Chapter 6.
+) [11
+
+
+
+
+
+
+] [12
 
 
 
 ]
+\openout2 = `chapters/Appendix/main.aux'.
+
+ (./chapters/Appendix/main.tex
+Appendix A.
+) [13
+
+
+
+] [14
+
+
+
+]
+\openout2 = `frontbackmatter/bibliography.aux'.
+
+ (./frontbackmatter/bibliography.tex
+
+LaTeX Warning: Empty bibliography on input line 14.
+
+)
 \openout2 = `frontbackmatter/publications.aux'.
 
  (./frontbackmatter/publications.tex
@@ -2448,15 +2498,14 @@ Appendix A.
 \blx@sectionciteorder@1=\count533
 Package biblatex Info: Reference section=1 on input line 9.
 Package biblatex Info: Setting label 'refsection:1' on input line 9.
-
-
-Package biblatex Warning: Type 'article' not found on input line 12.
-
-
-LaTeX Warning: Empty bibliography on input line 12.
-
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 12.
 Package biblatex Info: Reference section=0 on input line 13.
-) [11
+) [15
+
+
+
+
 
 
 
@@ -2465,50 +2514,46 @@ Package biblatex Info: Reference section=0 on input line 13.
 Package caption Warning: Unused \captionsetup[sub] on input line 70.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 80.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
 (./build/thesis.aux (./frontbackmatter/dirtytitlepage.aux)
 (./frontbackmatter/titlepage.aux) (./frontbackmatter/titleback.aux)
 (./frontbackmatter/dedication.aux) (./frontbackmatter/abstract.aux)
 (./frontbackmatter/acknowledgments.aux) (./frontbackmatter/contents.aux)
 (./chapters/Introduction/main.aux) (./chapters/Chapter1/main.aux)
-(./chapters/Chapter2/main.aux) (./chapters/Conclusion/main.aux)
-(./chapters/Appendix/main.aux) (./frontbackmatter/publications.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 80.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 80.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                build/thesis
-(biblatex)                and rerun LaTeX afterwards.
-
+(./chapters/Chapter2/main.aux) (./chapters/Chapter3/main.aux)
+(./chapters/Chapter4/main.aux) (./chapters/Conclusion/main.aux)
+(./chapters/Appendix/main.aux) (./frontbackmatter/bibliography.aux)
+(./frontbackmatter/publications.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 89.
 Package logreq Info: Writing requests to 'build/thesis.run.xml'.
 \openout1 = `build/thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 61422 strings out of 492616
- 1359584 string characters out of 6129481
- 2035026 words of memory out of 5000000
- 64219 multiletter control sequences out of 15000+600000
- 630635 words of font info for 250 fonts, out of 8000000 for 9000
+ 61574 strings out of 492616
+ 1360794 string characters out of 6129480
+ 2047200 words of memory out of 5000000
+ 64164 multiletter control sequences out of 15000+600000
+ 624773 words of font info for 319 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 81i,20n,136p,9102b,2559s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 81i,22n,136p,9102b,2559s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
-ive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/20
-19/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texm
-f-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/
-fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on build/thesis.pdf (25 pages, 95437 bytes).
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/local/texlive/201
+9/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2019/tex
+mf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2019/texmf-d
+ist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2019/texmf-dist/font
+s/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
+/urw/palatino/uplri8a.pfb>
+Output written on build/thesis.pdf (29 pages, 143521 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
- 98409 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 290 PDF objects out of 1000 (max. 8388607)
+ 245 compressed objects within 3 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 86681 words of extra memory for PDF output out of 89155 (max. 10000000)
 

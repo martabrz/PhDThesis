@@ -11,9 +11,10 @@
 \usepackage{etex}
 \reserveinserts{10}
 
+
 \input{preamble/general}
 \usepackage[final]{pdfpages}
-
+\newcommand{\todo}[1]{{\color{blue} [\@#1]}}
 % Bibliography
 \addbibresource[label=ownpubs]{ownpubs.bib}
 \addbibresource{bibliography.bib}
@@ -62,6 +63,14 @@
 \include{\dir/main}
 
 \cleardoublepage%
+\def\dir{chapters/Chapter3}
+\include{\dir/main}
+
+\cleardoublepage%
+\def\dir{chapters/Chapter4}
+\include{\dir/main}
+
+\cleardoublepage%
 \def\dir{chapters/Conclusion}
 \include{\dir/main}
 
@@ -70,7 +79,7 @@
 \def\dir{chapters/Appendix}
 \include{\dir/main}
 
-%\cleardoublepage\include{frontbackmatter/bibliography}
+\cleardoublepage\include{frontbackmatter/bibliography}
 
 \bookmarksetup{startatroot}
 %\pagenumbering{gobble}
