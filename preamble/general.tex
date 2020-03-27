@@ -12,12 +12,11 @@
   %listings,%
   %parts,%
   floatperchapter, pdfspacing,%
-  beramono,%
   %minionprospacing,
   %subfig,%
   %eulermath,%
-  a5paper,%
 }{classicthesis}
+
 
 % Meta
 \input{preamble/meta}
@@ -37,6 +36,8 @@
 
 % Handy packages
 \usepackage{csquotes}  % smart quotes
+
+\usepackage{braket}
 \usepackage[T1]{fontenc}
 \usepackage{xspace}
 \usepackage{textcomp}
@@ -184,8 +185,8 @@
 }
 
 % Chapter font
-\let\chapterNumber\undefined%
-\newfont{\chapterNumber}{eurb10 scaled 5500}
+%\let\chapterNumber\undefined%
+%\newfont{\chapterNumber}{eurb10 scaled 5500}
 %\newfont{\chapterNumber}{MinionPro-Regular-lf-t1 scaled 5500}
 
 % SI units
@@ -252,3 +253,6 @@
 \clubpenalty = 10000
 \widowpenalty = 10000
 %\displaywidowpenalty = 10000
+
+\usepackage[left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+%\usepackage{lmodern}

@@ -6,14 +6,33 @@
 \babel@toc {polish}{}
 \babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}{Introduction}}{1}{chapter.1}% 
-\contentsline {chapter}{\numberline {2}{Topological band theory}}{3}{chapter.2}% 
-\contentsline {chapter}{\numberline {3}{Topological states in fractal lattices}}{5}{chapter.3}% 
-\contentsline {chapter}{\numberline {4}{Obstructed atomic limits in two-dimensional systems}}{7}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}{Material candidates}}{7}{section.4.1}% 
-\contentsline {chapter}{\numberline {5}{Non-Hermitian systems}}{9}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}{Exceptional points}}{10}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}{Skin effect}}{10}{section.5.2}% 
-\contentsline {chapter}{\numberline {6}{Summary}}{11}{chapter.6}% 
-\contentsline {chapter}{\numberline {A}{Appendix}}{13}{appendix.A}% 
+\contentsline {chapter}{\numberline {2}{Topological band theory}}{5}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}{Conventional band theory}}{5}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}{Symmetries and classification of topological insulators and superconductors}}{5}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}{Topological invariants}}{7}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}{Chern number}}{7}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}{$Z_2$ topological index}}{7}{subsection.2.3.2}% 
+\contentsline {section}{\numberline {2.4}{Topical examples and brief review on experimental progress}}{8}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}{Su-Schriffer-Heeger chain}}{8}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.2}{Integer quantum Hall states and Chern insulators}}{8}{subsection.2.4.2}% 
+\contentsline {subsection}{\numberline {2.4.3}{Quantum spin Hall systems}}{9}{subsection.2.4.3}% 
+\contentsline {chapter}{\numberline {3}{Topological states in self-similar lattices}}{11}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}{Real-space methods for computing topological invariants}}{11}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}{Edge states}}{14}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}{Effect of disorder}}{15}{section.3.3}% 
+\contentsline {chapter}{\numberline {4}{Obstructed atomic limits and fractional corner charges}}{17}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}{Crystal symmetries}}{17}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}{Modern theory of polarization: Wannier functions}}{17}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}{Bulk indices}}{18}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}{Symmetry indicators}}{18}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.2}{Wilson loops}}{18}{subsection.4.3.2}% 
+\contentsline {section}{\numberline {4.4}{Material candidates}}{18}{section.4.4}% 
+\contentsline {chapter}{\numberline {5}{Topology in non-Hermitian systems}}{21}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}{Exceptional points}}{22}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}{Breakdown of bulk-boundary correspondence}}{22}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}{Skin effect}}{23}{section.5.3}% 
+\contentsline {subsection}{\numberline {5.3.1}{Reciprocal skin effect}}{23}{subsection.5.3.1}% 
+\contentsline {chapter}{\numberline {6}{Summary}}{25}{chapter.6}% 
+\contentsline {chapter}{\numberline {A}{Appendix}}{27}{appendix.A}% 
 \vspace {\beforebibskip }
-\contentsline {chapter}{\numberline {}{Bibliography}}{15}{dummy.4}% 
+\contentsline {chapter}{\numberline {}{Bibliography}}{29}{dummy.3}% 

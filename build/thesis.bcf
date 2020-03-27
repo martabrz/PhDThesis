@@ -1995,15 +1995,93 @@
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
     <bcf:datasource type="file" datatype="bibtex">ownpubs.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">preprints.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">Landau1950</bcf:citekey>
+    <bcf:citekey order="2">Berezinsky:1970fr</bcf:citekey>
+    <bcf:citekey order="2">Berezinsky:1972rfj</bcf:citekey>
+    <bcf:citekey order="3">Kosterlitz_1972</bcf:citekey>
+    <bcf:citekey order="3">Kosterlitz_1973</bcf:citekey>
+    <bcf:citekey order="4">IQHE1980</bcf:citekey>
+    <bcf:citekey order="5">FQHE1982</bcf:citekey>
+    <bcf:citekey order="6">codata2016</bcf:citekey>
+    <bcf:citekey order="7">TKNN1982</bcf:citekey>
+    <bcf:citekey order="8">Haldane1988</bcf:citekey>
+    <bcf:citekey order="9">TSCRead2000</bcf:citekey>
+    <bcf:citekey order="10">CSLWen1989</bcf:citekey>
+    <bcf:citekey order="10">CSSWen1989</bcf:citekey>
+    <bcf:citekey order="11">RevWen2017</bcf:citekey>
+    <bcf:citekey order="12">RevNayak2008</bcf:citekey>
+    <bcf:citekey order="13">AltlandZirnbauer1997</bcf:citekey>
+    <bcf:citekey order="14">10foldRyu2010</bcf:citekey>
+    <bcf:citekey order="15">10foldKitaev2009</bcf:citekey>
+    <bcf:citekey order="16">10foldRyu2010</bcf:citekey>
+    <bcf:citekey order="17">10foldKitaev2009</bcf:citekey>
+    <bcf:citekey order="18">10foldSchnyder2008</bcf:citekey>
+    <bcf:citekey order="19">10foldKitaev2009</bcf:citekey>
+    <bcf:citekey order="20">10foldRyu2010</bcf:citekey>
+    <bcf:citekey order="21">FuKane2007</bcf:citekey>
+    <bcf:citekey order="22">ShengCs2006</bcf:citekey>
+    <bcf:citekey order="23">SSH1976</bcf:citekey>
+    <bcf:citekey order="24">Jotzu2014</bcf:citekey>
+    <bcf:citekey order="25">CIacustic2019</bcf:citekey>
+    <bcf:citekey order="26">BernevigQSHE2006</bcf:citekey>
+    <bcf:citekey order="27">MurakamiBi2006</bcf:citekey>
+    <bcf:citekey order="28">AmorphTIShenoy2017</bcf:citekey>
+    <bcf:citekey order="29">2018:BHZ</bcf:citekey>
+    <bcf:citekey order="30">Kempkes2019</bcf:citekey>
+    <bcf:citekey order="31">Shang2015</bcf:citekey>
+    <bcf:citekey order="32">FIBSC</bcf:citekey>
+    <bcf:citekey order="33">Gyrosc2018Irvine</bcf:citekey>
+    <bcf:citekey order="34">2016:TomadinTransport1</bcf:citekey>
+    <bcf:citekey order="34">2017:YuanOptCond</bcf:citekey>
+    <bcf:citekey order="35">BottIdx</bcf:citekey>
+    <bcf:citekey order="36">1976:Hofstadter</bcf:citekey>
+    <bcf:citekey order="37">supp1</bcf:citekey>
+    <bcf:citekey order="37">supp2</bcf:citekey>
+    <bcf:citekey order="38">2010:ProdanDisordCI</bcf:citekey>
+    <bcf:citekey order="38">2011:Prodan</bcf:citekey>
+    <bcf:citekey order="39">KatnelsonLevels2019</bcf:citekey>
+    <bcf:citekey order="40">EdgesFremling2020</bcf:citekey>
+    <bcf:citekey order="41">PaiFractal2019</bcf:citekey>
+    <bcf:citekey order="42">FuTCI2011</bcf:citekey>
+    <bcf:citekey order="42">HsiehTCI2012</bcf:citekey>
+    <bcf:citekey order="43">Slager2013</bcf:citekey>
+    <bcf:citekey order="43">PhysRevB.90.165114</bcf:citekey>
+    <bcf:citekey order="43">PhysRevB.93.195413</bcf:citekey>
+    <bcf:citekey order="43">PhysRevB.95.235425</bcf:citekey>
+    <bcf:citekey order="43">PhysRevB.93.045429</bcf:citekey>
+    <bcf:citekey order="44">Benalcazar61</bcf:citekey>
+    <bcf:citekey order="44">PhysRevLett.119.246401</bcf:citekey>
+    <bcf:citekey order="44">HOTI12018</bcf:citekey>
+    <bcf:citekey order="45">TQC2017</bcf:citekey>
+    <bcf:citekey order="46">MarziariWF2012</bcf:citekey>
+    <bcf:citekey order="47">GDY12019</bcf:citekey>
+    <bcf:citekey order="47">GDY22019</bcf:citekey>
+    <bcf:citekey order="48">BenderPT1998</bcf:citekey>
+    <bcf:citekey order="49">SVDHerviou2019</bcf:citekey>
+    <bcf:citekey order="50">Bernard_2002</bcf:citekey>
+    <bcf:citekey order="51">PhysRevLett.120.146402</bcf:citekey>
+    <bcf:citekey order="51">PhysRevX.8.031079</bcf:citekey>
+    <bcf:citekey order="51">PhysRevB.99.125103</bcf:citekey>
   </bcf:section>
   <!-- SECTION 1 -->
   <bcf:bibdata section="1">
     <bcf:datasource type="file" datatype="bibtex">ownpubs.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
+    <bcf:citekey order="0" nocite="1">*</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 2 -->
+  <bcf:bibdata section="2">
+    <bcf:datasource type="file" datatype="bibtex">preprints.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="2">
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
@@ -2026,6 +2104,15 @@
                 labelalphanametemplatename="global">
   </bcf:datalist>
   <bcf:datalist section="1"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="2"
                 name="none/global//global/global"
                 type="entry"
                 sortingtemplatename="none"

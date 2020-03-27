@@ -1,15 +1,193 @@
 \chapter{Topological band theory}
 \label{ch:topo-intro}
+In this chapter, we introduce more formally the concept of topology in the band theory. We provide the definitions of topological invariants, precise the bulk-boundary correspondence, and discuss the details of the classification for gapped free-fermion models.
 
-If the system has a translational invariance, then the states can be represented in the form of Bloch states labeled by the band index $n$ and momenta $k$.
+\section{Conventional band theory}
+We introduce the formalism for translational invariant lattice models described within the tight-binding formalism for non-interacting particles. This imposes only quadratic terms in creation and annihilation operators in the second-quantized Hamiltonian.
+
+It is often convenient to work in the reciprocal space. This can be done by performing the Fourier transform, which allows to diagonalize only a single block corresponding to all degrees of freedom in a unit cell.
 
 
-For two-dimensions, it is given by the (first) Chern number:
+with vectors satisfying $a_i \cdot b_j = 2 \pi \delta_{ij}$, where $\delta_{ij}$ is the Kronecker delta function.
+
+
+Hence, in order to change
+
+%\subsection{Topological equivalence}
+%Topology cares about the smooth, continuous deformations
+%
+%
+%
+%If the system has a translational invariance, then the states can be represented in the form of Bloch states labeled by the band index $n$ and momenta $k$.
+%
+%
+%\subsection{Bulk-boundary correspondence}
+%There's another striking consequence of non-trivial (non-zero) bulk topological index - the presence of protected gapless edge modes in the open geometry. Even though there's no rigorous proof for the bulk-boundary correspondence, it works remarkably well.
+
+
+\section{Symmetries and classification of topological insulators and superconductors}
+In quantum mechanics, the symmetries are constructed according to the Wigner's theorem: they are the operators that preserve transition probabilities and are therefore implemented via unitaries or antiunitaries which commute with the Hamiltonian. 
+
+A fundamental example of antiunitary operator is the time-reversal, which takes $t \rightarrow -t$. Acting on Hamiltonian $H$:
 \begin{equation}
-C = \frac{1}{2 \pi}
+\mathcal{T}  H \mathcal{T}^{-1} = + H
+\end{equation}
+As all antiunitary operators, $\mathcal{T}$ can be decomposed into a product of a unitary operator $T$ and complex conjugate $\mathcal{K}$, $\mathcal{T} = T \mathcal{K}$. Applying $\mathcal{T}$ twice will lead to the rise of the phase factor, hence $\mathcal{T}^2 = \pm 1$. This is true for all antiunitary symmetries. For spin-1/2 systems, TRS systems follow the Kramers' theorem which tells that all states comes in time-reversal symmetric pairs $\mathcal{T} \ket{n} = \ket{n}$.
+
+Another (antiunitary) symmetry is the particle-hole $\mathcal{P}$, defined as:
+\begin{equation}
+\mathcal{P}  H \mathcal{P}^{-1} = - H
+\end{equation}
+
+Finally, we can define chiral symmetry being a product of $\mathcal{T}$ and $\mathcal{P}$, $\mathcal{C}= \mathcal{TP}$ \footnote{Note that $\mathcal{P}$ and $\mathcal{C}$ anticommute with the single-particle Hamiltonian}
+\begin{equation}
+\mathcal{C}  H \mathcal{C}^{-1} = - H
+\end{equation}
+$\mathcal{C}$ may be present in the system, even if $\mathcal{T}$ and $\mathcal{P}$ are absent. Although chiral symmetry in not a symmetry in a strict sense, but guarantees that non-zero eigenvalues of the Hamiltonian come in pairs, hence there is a spectral symmetry.
+
+
+
+
+Dates back to the idea of \'{E}lie Cartan's classification of symmetric spaces in differential geometry. Later on, Altland and Zirnbauer applied this classification in the context of random matrix theory~\cite{AltlandZirnbauer1997}
+
+
+
+
+\begin{table}
+\centering
+\begin{tabular}{|c|c||c|c|c||c|c|c|c|}
+\hline
+ & & $\mathcal{T}$ & $\mathcal{P}$ & $\mathcal{C}$ & $d = 1$ & $d = 2$ & $d = 3$ \\
+\hline
+\hline
+standard & A (unitary) & 0 & 0 & 0 & - & $\mathbb{Z}$ & - \\ 
+\cline{2-8}
+ & AI (orthogonal) & +1 & 0 & 0 & - & - & - \\
+\cline{2-8}
+ & AII (symplectic) & -1 & 0 & 0 & - & $\mathbb{Z}_2$ & $\mathbb{Z}_2$ \\
+\hline
+\hline
+ chiral & AIII (chiral unitary) & 0 & 0 & 1 & $\mathbb{Z}$ & - & $\mathbb{Z}$ \\
+\cline{2-8}
+ & BDI (chiral orthogonal) & +1 & +1 & 1 & $\mathbb{Z}$ & - & - \\
+\cline{2-8}
+ & CII (chiral symplectic) & -1 & -1 & 1 & $\mathbb{Z}$ & - & $\mathbb{Z}_2$ \\
+\hline
+\hline
+BdG & D & 0 & +1 & 0 & $\mathbb{Z}_2$ & $\mathbb{Z}$ & - \\
+\cline{2-8}
+& C & 0 & -1 & 0 & - & $\mathbb{Z}$ & - \\
+\cline{2-8}
+ & DIII & -1 & +1 & 1 &  $\mathbb{Z}_2$ &  $\mathbb{Z}_2$ &  $\mathbb{Z}$ \\
+\cline{2-8}
+ & CI & +1 & -1 & 1 & - & - & $\mathbb{Z}$ \\
+\hline
+\end{tabular}
+\caption{Table of symmetry classes of non-interacting Hamiltonians taken from Refs.~\cite{10foldRyu2010} and \cite{10foldKitaev2009}}
+\label{tab:10fold}
+\end{table}
+
+All possible combination of internal symmetries in $d = 1, 2, 3$ spatial dimensions are tabulated in Tab.~\ref{tab:10fold}. There are ten distinguished classes.
+
+This was first proposed in Ref.~\cite{10foldSchnyder2008}, with further mathematical improvements from K-theory (such is pattern called Bott periodicity; with a period two for the complex classes AI, AIII and a period eight for remaining eight real classes) given by Kitavev~\cite{10foldKitaev2009} to finally provide the complete classification \cite{10foldRyu2010}.
+
+For higher dimensions, topological invariants repeat themselves and show the Bott periodicity with period 2 for classes A and AIII, and period 8 for the remaining ones.
+
+\section{Topological invariants}
+
+Berry connection of Bloch states:
+\begin{equation}
+\mathbf{A} = i \braket{u_n (\mathbf{k} )| \Delta  | u_m (\mathbf{k} ) }
+\label{eq:berryconn}
+\end{equation}
+
+$\Delta \equiv  \Delta_{\mathbf{k}$
+Berry curvature: 
+\begin{equation}
+F = \Delta \times \textbf{A}
+\label{eq:berrycurv}
 \end{equation}
 
 
-There's another striking consequence of non-trivial (non-zero) bulk topological index - the presence of protected gapless edge modes in the open geometry. Even though there's no rigorous proof for the bulk-boundary correspondence, it works remarkably well.
 
+Gauss-Bonnet theorem for a two-dimensional manifold $M$ without a boundary:
+\begin{equation}
+\int_M K dA = 2 \pi (2 - 2g)
+\label{eq:gaussbonnet}
+\end{equation}
+with $K$ being the Gauss curvature and $g$ - genus.
+
+\subsection{Chern number}
+
+For two-dimensions, it is given by the (first) Chern number:
+\begin{equation}
+C = \frac{1}{2 \pi} \int_{BZ} F
+\label{eq:chern}
+\end{equation}
+(note, some conventions incorporate imaginary unit $i$ explicitly in the prefactor).
+
+\subsection{$Z_2$ topological index}
+
+
+Some systems can have one trivial and one topological phase, which is characterized by a two-valued index $\nu$ being 0 or 1, respectively. $Z_2$ invariant can be computed easily in the presence of inversion symmetry using Fu-Kane formula~\cite{FuKane2007}:
+\begin{equation}
+\delta_i = \prod_{m = 1}^N  \xi_{2m} (\Gamma_i); \hspace*{2cm} (-1)^{\nu} = \prod_i \delta_i
+\label{eq:fukane}
+\end{equation}
+where $\Gamma_i$ are time-reversal invariant momenta in the BZ, $\xi_{2m} (\Gamma_i)$ is every second occupied Kramers pair. In case of 3D systems, two types of TI can be observed, defined whether they have a strong or weak indices. Non-zero strong index means that the system cannot be seen as a set of stacked 2D layers, it's intrinsically three-dimensional.
+
+Because for TRS systems $C$ always vanishes, if $S_z$ (spin component pointing out of 2D plane) is conserved, one may define the spin Chern number~\cite{ShengCs2006} based on the fact that spins up and down have independent Chern numbers:
+\begin{equation}
+C_s = \frac{C_{\uparrow} - C_{\downarrow}}{2}
+\label{eq:spinchern}
+\end{equation}
+and is related to $\nu$ as $\nu = C_s \mod 2$
+
+
+
+Pffafian formalism 
+
+\section{Topical examples and brief review on experimental progress}
+
+\subsection{Su-Schriffer-Heeger chain}
+SSH model, firstly proposed to describe polyacetylene, describes spinless fermions in 1D chain~\cite{SSH1976}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\columnwidth]{intro_ssh.pdf}
+\caption{A schematic of SSH chain. There are two atomic sites $A$ and $B$ per unit cell and alternating hoppings with strength $t$ (within unit cell) and $t'$ (between neighbouring unit cells). Depending on $t$ and $t'$,  the model exhibits two phases: if $t' > t$, the system is in a topological phase with gapless edge modes in an open geometry; conversely, if $t' < t$ the system is in a trivial phase with $t' = 0$ as a fully dimerized case.}
+\label{fig:ssh}
+\end{figure}
+
+Bloch Hamiltonian reads:
+\begin{equation}
+H (k) = \begin{pmatrix}
+0 & t + t' e^{i k} \\
+t + t' e^{-i k} & 0
+\end{pmatrix}
+\label{eq:ssh}
+\end{equation}
+
+The system has the chiral symmetry realized by $\sigma_z$ and is in BDI class, hence obeys $Z$ classification.
+
+\subsection{Integer quantum Hall states and Chern insulators}
+IQH states can be seen as the most robust topological states without intrinsic topological order as they don't need any symmetry to persist. In particular, TR is broken. Actually, in the classification based on the entanglement (Wen vs. Kitaev)
+
+
+Haldane model is a first example of a Chern insulator, where TR symmetry is broken because of complex NNN hopping. Experimental realizations include fermionic ultracold atoms~\cite{Jotzu2014} or classical wave systems~\cite{CIacustic2019}.
+
+\subsection{Quantum spin Hall systems}
+First by Kane and Mele by taking two Haldane models of Chern insulators of opposite chirality. The resulting model has now restored time-reversal and can be described by $Z_2$ index. It was proposed to describe graphene, but due to negligible spin-orbit coupling it's not realizable experimentally under realistic conditions. 
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{intro_qheqshe.pdf}
+\caption{Comparison between the band structures for Chern insulators with $C = +1$ and the quantum spin Hall system seen as two copies of CI with opposite chiralities}
+
+\label{fig:qheqshe}
+\end{figure}
+
+In the same time, QSHE was proposed to be realized in strained zinc-blende semiconductors (such as GaAs)~\cite{BernevigQSHE2006}. In 2006, Bernevig, Hughes and Zhang gave an idea that CdTe/ HgTe/CdTe quantum wells may exhibit the band inversion at a critical thickness. Due to strong spin-orbit coupling in HgTe, CB has a $p$-like character and  VB is composed of $s$-orbitals instead of normal ordering which is observed in CdTe: $s$-orbital character of conduction band and $p$-orbital of valence band. Hence, by changing the thickness of the HgTe layer, it is possible to manipulate which effect will contribute more. It was confirmed experimentally year later by observing quantized resistance $h^2 / 2e$ (factor 2 comes from the spin contribution) in a thick quantum well.
+
+
+In Ref.~\cite{MurakamiBi2006}
 

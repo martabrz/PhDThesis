@@ -17,6 +17,7 @@
 \newcommand{\todo}[1]{{\color{blue} [\@#1]}}
 % Bibliography
 \addbibresource[label=ownpubs]{ownpubs.bib}
+\addbibresource[label=preprints]{preprints.bib}
 \addbibresource{bibliography.bib}
 
 \begin{document}
@@ -25,6 +26,7 @@
 \selectlanguage{english}
 \pagenumbering{roman}
 \pagestyle{scrplain}
+\graphicspath{{figs/}}
 
 %
 % Cover
@@ -41,7 +43,7 @@
 \include{frontbackmatter/dirtytitlepage}
 \include{frontbackmatter/titlepage}
 \include{frontbackmatter/titleback}
-\cleardoublepage\include{frontbackmatter/dedication}
+%\cleardoublepage\include{frontbackmatter/dedication}
 \cleardoublepage\include{frontbackmatter/abstract}
 \cleardoublepage\include{frontbackmatter/acknowledgments}
 \pagestyle{scrheadings}
@@ -83,7 +85,7 @@
 
 \bookmarksetup{startatroot}
 %\pagenumbering{gobble}
-%\cleardoublepage\include{frontbackmatter/cv}
+\cleardoublepage\include{frontbackmatter/cv}
 \cleardoublepage\include{frontbackmatter/publications}
 
 \end{document}

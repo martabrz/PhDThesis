@@ -85,6 +85,7 @@
     </requires>
     <requires type="editable">
       <file>ownpubs.bib</file>
+      <file>preprints.bib</file>
       <file>bibliography.bib</file>
     </requires>
   </external>
