@@ -20,10 +20,20 @@ Prediction of peculiar transport properties: \cite{2016:TomadinTransport1, 2017:
 
 
 \section{Real-space methods for computing topological invariants}
-Disordered or amorphous systems, due to lack of translational invariance, require defining topological invariants in a real space. Non-commutative
+Disordered or amorphous systems, due to lack of translational invariance, require defining topological invariants in a real space. Insights from non-commutative geometry have provided to be useful. Here, we discuss the real-space invariants for the relevant symmetry class A.
 \subsection*{Bott index}
-Algorithm for computing the Bott index~\cite{BottIdx}
-
+To use the Bott index, which measures the commutativity of the projected position operators. Algorithm for computing the Bott index~\cite{BottIdx}.
+\begin{equation}
+\begin{aligned}
+U &= P e^{i 2 \pi X} P \\ 
+V &= P e^{i 2 \pi Y} P
+\end{aligned}
+\end{equation}
+where $X, Y$ are the coordinates, rescale to fit the interval $[0, 1)$.
+\begin{equation}
+B = \frac{1}{2 \pi} Im \left( Tr [ \log (V U V^{\dagger} U^{\dagger} ) ] \right)
+\end{equation}
+which requires to take a logarithm of a matrix.
 \subsection*{Chern number}
 
 

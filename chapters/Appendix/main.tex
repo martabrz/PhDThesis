@@ -1,2 +1,61 @@
-\chapter{Appendix}
-\label{ch:appendix}
+\chapter{Band theory}
+\label{ch:appendixA}
+We recap the formalism for translational invariant lattice models described within the tight-binding approximation for non-interacting particles.
+\subsection{General definitions}
+This imposes only quadratic terms in creation and annihilation operators in the second-quantized Hamiltonian. We define a crystal as a regular arrangement of the unit cells at positions $\mathbf{R_n}$
+\begin{equation}
+\mathbf{R_n} = n_1  \mathbf{a}_1 + n_2  \mathbf{a}_2 + n_3  \mathbf{a}_3, \hspace*{0.5cm}  i = 1, \, 2, \, 3 \hspace*{0.5cm}  \textnormal{and} \hspace*{0.5cm} \mathbf{n} = (n_1, n_2, n3)  \in \mathbb{R}^3
+\end{equation}
+where $\lbrace \mathbf{a}_i \rbrace$ are the linearly independent basis vectors. We can define the reciprocal lattice vectors $\lbrace \mathbf{b}_i \rbrace$
+\begin{equation}
+\mathbf{G}_m = m_1 \mathbf{b}_i + m_2 \mathbf{b}_i + m_3 \mathbf{b}_i, \hspace*{0.5cm} m_i \in \mathbb{Z}
+\end{equation}
+satisfying
+\begin{equation}
+\mathbf{a}_i \cdot \mathbf{a}_i = 2 \pi \delta_{ij}, \hspace*{0.5cm} i, \, j = 1, \, 2, \, 3
+\end{equation}
+constructed
+\begin{equation}
+\mathbf{b}_i  = 2 \pi \frac{\mathbf{a}_j  \times \mathbf{a}_k }{\mathbf{a}_i  \cdot \left(\mathbf{a}_j  \times \mathbf{a}_k  \right)} \hspace*{0.5cm} \textnormal{and} \hspace*{0.5cm} \mathbf{a}_i = 2 \pi \frac{\mathbf{b}_j  \times \mathbf{b}_k }{\mathbf{b}_i  \cdot \left( \mathbf{b}_j \times \mathbf{b}_k  \right)}
+\end{equation}
+
+
+
+\begin{equation}
+\mathbf{R}_n \cdot \mathbf{G}_m = 2 \pi \left( n_1 m_1 + n_2 m_2 + n_3 m_3 \right) = 2 \pi N,
+\end{equation}
+with $N$ being an integer.
+
+Brillouin zone  is the unit cell of the reciprocal lattice.
+
+The Bloch's theorem states that the Schrodinger equation for translationally invariant Hamiltonians can be solved by a wave function $\psi = e^{ikt} u$
+where $u$ is the periodic part of the Bloch function and identical in every unit cell.
+
+% Hence, the creation and annihilation operators can be written
+
+%\begin{equation}
+%\hat{c}^{\dagger}_{\alpha, \mathbf{r}} = \frac{1}{\sqrt{N}} \sum_{\mathbf{k}} e^{\mathnormal{i} 
+%\mathbf{k} \cdot \mathbf{r} \hat{c}^{\dagger}_{\alpha, \mathbf{k}}
+%\end{equation}
+
+
+\subsection{Wannier functions}
+Another basis for the single-particle Hilbert spaces can be constructed using Wannier states. Given a set of occupied Bloch states, one may construct the Wannier function as their Fourier transform:
+\begin{equation}
+\ket{\mathbf{R}, n} = \frac{V}{(2 \pi)^3} \int_{BZ} d \mathbf{k} e^{i \mathbf{k} \cdot \mathbf{R}} \sum_{m = 1}^J U_{mn} (\mathbf{k}) \ket{\psi_{m\mathbf{k}}}.
+\label{eq:wannier}
+\end{equation}
+Wannier functions are not uniquely defined - there is a gauge freedom. For instance, multiplying the Bloch state by U(1) phase factor $\phi( \mathbf{k} )$; $\ket{\mathbf{k}, n} \rightarrow e^{\textnormal{i} \phi( \mathbf{k} )} \ket{\mathbf{k}, n}$, which acts locally in reciprocal space, leaves the physical observables invariant. However, it changes the shape of basis functions in real space, only the sum over the Wannier centers in a given unit cell remains the same. Most often, the rotation matrix $U_{nm}$ is determined in such a way the minimizes the spread in real space (= the sum of the mean squares) of the Wannier function. For more detailed discussion, we refer to the review by Marziari \emph{et al.}~\cite{MarziariWF2012}. 
+
+\subsection{Group theory: representations and character table}
+Here, we recall basic notions from group theory~\cite{dresselhaus2007group}. A group $\mathbb{G}$ has the properties:
+\begin{itemize}
+\item the product of two elements of $\mathbb{G}$ is also in $\mathbb{G}$: $a, b 
+in \mathbb{G} \Rightarrow a \star b = c \in \mathbb{G}$
+\item there is a unit element $e \in \mathbb{G}$ that satisfies $e \star a = a \star e = a,  \forall a \in \mathbb{G}$
+\item multiplication is associative: $a \star ( b \star c) = (a \star b) \star$
+\item for every element $a \in \mathbb{G}$, there is an inverse $a^{-1} \in \mathbb{G} \Rightarrow a^{-1} \star a = a \star a^{-1} = e$.
+\end{itemize}
+A group is call Abelian if for all elements $a \star b = b \star a$, otherwise it it non-Abelian.
+
+A representation of a group over some vector space $V$ is a collection of linear operators on  this  vector  space,  which  satisfy  the  same  algebra  as  the  group  elements. For finite groups, this operators can be simply matrices. Then, an irreducible representation is a set of matrix operators that are block-diagonalized simultaneously and cannot be divided into smaller parts.

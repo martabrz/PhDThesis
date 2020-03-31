@@ -2,13 +2,20 @@
 \label{ch:topo-intro}
 In this chapter, we introduce more formally the concept of topology in the band theory. We provide the definitions of topological invariants, precise the bulk-boundary correspondence, and discuss the details of the classification for gapped free-fermion models.
 
-\section{Conventional band theory}
-We introduce the formalism for translational invariant lattice models described within the tight-binding formalism for non-interacting particles. This imposes only quadratic terms in creation and annihilation operators in the second-quantized Hamiltonian.
 
-It is often convenient to work in the reciprocal space. This can be done by performing the Fourier transform, which allows to diagonalize only a single block corresponding to all degrees of freedom in a unit cell.
+\section{Notion of topology}
+Topology is a branch of mathematics that deals with properties of smooth, continuous transformations.
+We briefly introduce fundamental concepts~\cite{Nakahara}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width = 0.8\textwidth]{intro_genus.pdf}
+\caption{From a perspective of topology, the}
+\end{figure}
+
+\subsection{Homotopy and equivalence classes}
 
 
-with vectors satisfying $a_i \cdot b_j = 2 \pi \delta_{ij}$, where $\delta_{ij}$ is the Kronecker delta function.
 
 
 Hence, in order to change
@@ -26,7 +33,12 @@ Hence, in order to change
 
 
 \section{Symmetries and classification of topological insulators and superconductors}
+
+
+
 In quantum mechanics, the symmetries are constructed according to the Wigner's theorem: they are the operators that preserve transition probabilities and are therefore implemented via unitaries or antiunitaries which commute with the Hamiltonian. 
+
+A local unitary symmetry can be decomposed as $U = U_1 \ldots U_n$, where each $U_i$ affects only a small region in space. Conversely, a non-local unitary 
 
 A fundamental example of antiunitary operator is the time-reversal, which takes $t \rightarrow -t$. Acting on Hamiltonian $H$:
 \begin{equation}
@@ -147,9 +159,10 @@ and is related to $\nu$ as $\nu = C_s \mod 2$
 
 Pffafian formalism 
 
-\section{Topical examples and brief review on experimental progress}
+\section{Topical examples}
+In the following, we would like to discuss relevant examples of toy models and discuss experimental realizations.
 
-\subsection{Su-Schriffer-Heeger chain}
+\subsection{Class BDI: Su-Schriffer-Heeger chain}
 SSH model, firstly proposed to describe polyacetylene, describes spinless fermions in 1D chain~\cite{SSH1976}
 
 \begin{figure}[H]
@@ -167,27 +180,42 @@ t + t' e^{-i k} & 0
 \end{pmatrix}
 \label{eq:ssh}
 \end{equation}
+Dispersion
+\begin{equation}
+E(k) = \pm \sqrt{t^2 + t'^2 + 2 t t' \cos k}
+\end{equation}
 
-The system has the chiral symmetry realized by $\sigma_z$ and is in BDI class, hence obeys $Z$ classification.
 
-\subsection{Integer quantum Hall states and Chern insulators}
+
+The system has the chiral symmetry realized by $\sigma_z$, particle-hole $P = \sigma_z \mathcal{K}$ and time-reversal $\mathcal{T} = \mathcal{K}$. Here, It is the chiral symmetry that protects the topological properties and, for instance, adding long range hoppings would destroy topological states.
+
+
+\subsection{Class A: integer quantum Hall states and Chern insulators}
 IQH states can be seen as the most robust topological states without intrinsic topological order as they don't need any symmetry to persist. In particular, TR is broken. Actually, in the classification based on the entanglement (Wen vs. Kitaev)
 
 
 Haldane model is a first example of a Chern insulator, where TR symmetry is broken because of complex NNN hopping. Experimental realizations include fermionic ultracold atoms~\cite{Jotzu2014} or classical wave systems~\cite{CIacustic2019}.
 
-\subsection{Quantum spin Hall systems}
-First by Kane and Mele by taking two Haldane models of Chern insulators of opposite chirality. The resulting model has now restored time-reversal and can be described by $Z_2$ index. It was proposed to describe graphene, but due to negligible spin-orbit coupling it's not realizable experimentally under realistic conditions. 
+\clearpage
+
+
+\subsection{Class AII: quantum spin Hall effect}
+In 2005, Kane and Mele extended the notion of Chern insulators by taking two copies of Haldane model with opposite chiralities~\cite{KaneMeleGraphene}. This lead to the construction of a insulating state which is time-reversal invariant and has protected gapless edge modes lying in the bulk gap, where the topological properties are defined by a $\mathbf{Z}_2$ invariant. Edge states are helical - that is, they two states counterpropagate along a boundary They also come in time-reversal pairs according to the Kramers' theorem. States with odd number of Kramers' edge pairs are topological, while with even number - are topologically trivial. Another consequence of the TR symmetry is that energy levels crossing appear only at special points in the BZ. Authors suggested that this model may be realized in graphene, however due to negligible spin-orbit coupling, it is not realizable experimentally under realistic conditions~\cite{PhysRevB.74.165310, PhysRevB.75.041401}. Besides fundamental theoretical interest, QSH states hold great promise for spintronics as it is possible to manipulate spin degrees of freedom in the absence of magnetic field~\cite{RevModPhys.82.3045}.
+
 \begin{figure}
 \centering
 \includegraphics[width=\columnwidth]{intro_qheqshe.pdf}
-\caption{Comparison between the band structures for Chern insulators with $C = +1$ and the quantum spin Hall system seen as two copies of CI with opposite chiralities}
+\caption{Left: Schematic representation of the band structures of (a) Chern insulator with $C = +1$ and (b) QSH system constructed as two copies of CI with opposite Chern numbers, together with conserved z-spin component. Right: Edge modes flowing in samples}
 
 \label{fig:qheqshe}
 \end{figure}
 
-In the same time, QSHE was proposed to be realized in strained zinc-blende semiconductors (such as GaAs)~\cite{BernevigQSHE2006}. In 2006, Bernevig, Hughes and Zhang gave an idea that CdTe/ HgTe/CdTe quantum wells may exhibit the band inversion at a critical thickness. Due to strong spin-orbit coupling in HgTe, CB has a $p$-like character and  VB is composed of $s$-orbitals instead of normal ordering which is observed in CdTe: $s$-orbital character of conduction band and $p$-orbital of valence band. Hence, by changing the thickness of the HgTe layer, it is possible to manipulate which effect will contribute more. It was confirmed experimentally year later by observing quantized resistance $h^2 / 2e$ (factor 2 comes from the spin contribution) in a thick quantum well.
+Subsequently, QSH effect was proposed in strained zinc-blende semiconductors (such as gallium arsenide)~\cite{BernevigQSHE2006}. Bernevig, Hughes and Zhang~\cite{Bernevig1757} predicted a quantum phase transition in HgTe/CdTe quantum wells as a function of the thickness. This happens because of a band inversion due to strong spin-orbit coupling in HgTe: CB has a $p$-like character and  VB is composed of $s$-orbitals instead of normal ordering which is observed in CdTe: $s$-orbital character of conduction band and $p$-orbital of valence band. It was confirmed experimentally year later by observing quantized resistance $h^2 / 2e$ (factor 2 comes from the spin contribution) ~\cite{MolenkampQSHE2007}. This ignited a search for new materials exhibiting QSH states~\cite{PhysRevLett.100.236601,PhysRevLett.107.136603}, and topological insulators in three-dimensions.
+
+
+
 
 
 In Ref.~\cite{MurakamiBi2006}
 
+\clearpage

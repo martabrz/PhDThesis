@@ -1,8 +1,18 @@
-\chapter{Obstructed atomic limits and fractional corner charges}
+\chapter{Obstructed atomic limits}
 \label{ch:oals}
 
-
 \section{Crystal symmetries}
+In Chapter~\ref{ch:intro}, we discussed the role of \textbf{internal} symmetries. Now let us move to the symmetries in crystals (formal definitions are given in Appendix~\ref{ch:appendixA}).
+
+
+
+
+
+
+
+
+
+
 Gapless boundary modes in topological crystalline insulators are protected by spatial symmetries which act non-locally (i.e. mirror symmetry $M_z: x \rightarrow -x$
 Prediction of 3D TCI with two-dimensional surface states in the semiconducting SnTe protected by the mirror symmetry~\cite{FuTCI2011, HsiehTCI2012}.
 
@@ -10,17 +20,18 @@ Extending the classification schemes to crystal symmetries ~\cite{Slager2013, Ph
 
 Crystal symmetries give rise to a generalization of TIs called higher-order topological insulators, where non-trivial $d$-dimensional bulk is accompanied by boundary modes in less than $(d-1)$-dimensions~\cite{Benalcazar61, PhysRevLett.119.246401, HOTI12018}. For instance, 3D system may exhibit 1D hinge modes/
 
+The group of symmetry operations that leave a point, line or plane in momentum space invariant is called its little group
+
 
 A general framework of topological quantum chemistry~\cite{TQC2017}
 
-\section{Modern theory of polarization: Wannier functions}
-Those systems can be understood using the Wannier functions. Given a set of occupied Bloch states, one may construct the Wannier function as their Fourier transform:
-\begin{equation}
-\ket{\mathbf{R} n} = \frac{V}{(2 \pi)^3} \int_{BZ} d \mathbf{k} e^{i \mathbf{k} \cdot \mathbf{R}} \sum_{m = 1}^J U_{mn} (\mathbf{k}) \ket{\psi_{m\mathbf{k}}} 
-\end{equation}
-In general, Wannier functions are not uniquely defined, only the sum over the Wannier centers in a given unit cell. Most often, the rotation matrix $U_{nm}$ is determined in such a way the minimizes the spread in a real space (= the sum of the mean squares) of the Wannier function. For more detailed discussion, we refer to the review by Marziari \emph{et al.}~\cite{MarziariWF2012}. 
+\section{Wannier representation}
 
-Obstructed atomic limits admit the Wannier function representation, (with Wannier functions being exponentially localized and symmetry-preserving) which is in contrast to strong topological phases. However, the Wannier centers do not coincide with atomic positions (as in the case of trivial atomic limit), but they are rather localized on other symmetric points in the unit cell called the Wyckoff positions.
+Strong topological phases 
+Recently, an important question has been asked: the fact that there are obstructions to the Wannier representation guarantees stable topology? It turned out that it is not~\cite{PhysRevLett.121.126402}. Actually, the bands may exhibit a \textbf{fragile topology} which means that they do not obey Wannier representation, but may be trivialized by adding degrees of freedom.
+
+
+On the other hand, obstructed atomic limits admit the Wannier function representation, (with Wannier functions being exponentially localized and symmetry-preserving). However, the Wannier centers do not coincide with atomic positions (as in the case of trivial atomic limit), but they are rather localized on other symmetric points in the unit cell called the Wyckoff positions.
 
 
 \begin{figure}
@@ -31,6 +42,14 @@ Obstructed atomic limits admit the Wannier function representation, (with Wannie
 \end{figure}
 
 
+
+
+\section{Corner charges}
+
+\subsection{Charge fractionalization in 1D}
+
+
+Detection of fractional charges with entanglement spectrum~\cite{PhysRevB.101.115140}.
 
 
 
@@ -50,6 +69,10 @@ Fu-Kane formula presented in Chapter~\ref{ch:topo-intro} was actually the first 
 
 
 \subsection{Wilson loops}
+(Non)-Abelian Wilson loops can be seen as a generalization of the one-dimensional Berry phase. As a unitary matrix, it can be written as 
+\begin{equation}
+W[\gamma] = \bar{\exp} \left( - \int_gamma d l A (k) \right)
+\end{equation}
 
 Given the projector onto occupied states $P:= \sum_{E < E_F} \ket{\psi} \bra{\psi}$, the Wilson loop is defined as a product of $P$ along closed path $\gamma$ in $k$-space:
 \begin{equation}
@@ -62,7 +85,12 @@ and it is gauge invariant.
 Predicted also in atomically thin carbon allotrope called graphdiyne~\cite{GDY12019, GDY22019}.
 
 
-As potential experimental realization, we propose group-V honeycomb monolayers of bismuth, antimony and arsenic. They share the very same crystal structure. With non-zero buckling, these systems preserve $C_3$ and $\mathcal{I}$. When $d_z = 0$, TCI phase is exhibited.
+As potential experimental realization, we propose group-V honeycomb monolayers of bismuth, antimony and arsenic. 
+
+A bismuth itself was among first materials predicted to be a QSH insulator~\cite{MurakamiBi2006}
+
+
+They share the very same crystal structure. With non-zero buckling, these systems preserve $C_3$ and $\mathcal{I}$. When $d_z = 0$, TCI phase is exhibited.
 
 
 \begin{figure}
