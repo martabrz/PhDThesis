@@ -4,8 +4,7 @@ In this chapter, we introduce more formally the concept of topology in the band 
 
 
 \section{Notion of topology}
-Topology is a branch of mathematics that deals with properties of smooth, continuous transformations.
-We briefly introduce fundamental concepts~\cite{Nakahara}.
+Topology is a branch of mathematics that deals with properties of smooth, continuous transformations. It ignores the geometrical details of an object, but rather focuses on global features that can be described by topological invariants We briefly introduce fundamental concepts~\cite{Nakahara}.
 
 \begin{figure}[H]
 \centering
@@ -14,8 +13,11 @@ We briefly introduce fundamental concepts~\cite{Nakahara}.
 \end{figure}
 
 \subsection{Homotopy and equivalence classes}
-
-
+Consider two smooth manifolds $X, Y$. Then continuous maps $f_0 : X \rightarrow Y$ and $f_0 : X \right Y$ are homotopically equivalent if there is a continuous maps
+\begin{equation}
+F : [0, 1] \times X \rightarrow Y
+\end{equation}
+$F(0,x) = f_0 (x)$ and $F(1,x) = f_1 (x)$ for all $x \in X$.
 
 
 Hence, in order to change
@@ -69,17 +71,17 @@ Dates back to the idea of \'{E}lie Cartan's classification of symmetric spaces i
 \centering
 \begin{tabular}{|c|c||c|c|c||c|c|c|c|}
 \hline
- & & $\mathcal{T}$ & $\mathcal{P}$ & $\mathcal{C}$ & $d = 1$ & $d = 2$ & $d = 3$ \\
+ & & $\mathcal{T}$ & $\mathcal{P}$ & $\mathcal{C}$ & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
 \hline
 \hline
-standard & A (unitary) & 0 & 0 & 0 & - & $\mathbb{Z}$ & - \\ 
+standard & A (unitary) & 0 & 0 & 0 & - & $\mathbb{Z}$ & - &   $\mathbb{Z}$ & - &  $\mathbb{Z}$  & -  $\mathbb{Z}$ \\ 
 \cline{2-8}
  & AI (orthogonal) & +1 & 0 & 0 & - & - & - \\
 \cline{2-8}
  & AII (symplectic) & -1 & 0 & 0 & - & $\mathbb{Z}_2$ & $\mathbb{Z}_2$ \\
 \hline
 \hline
- chiral & AIII (chiral unitary) & 0 & 0 & 1 & $\mathbb{Z}$ & - & $\mathbb{Z}$ \\
+ chiral & AIII (chiral unitary) & 0 & 0 & 1 & $\mathbb{Z}$ & - & $\mathbb{Z}$ & - & $\mathbb{Z}$ & - & $\mathbb{Z}$  & -\\
 \cline{2-8}
  & BDI (chiral orthogonal) & +1 & +1 & 1 & $\mathbb{Z}$ & - & - \\
 \cline{2-8}
@@ -95,17 +97,22 @@ BdG & D & 0 & +1 & 0 & $\mathbb{Z}_2$ & $\mathbb{Z}$ & - \\
  & CI & +1 & -1 & 1 & - & - & $\mathbb{Z}$ \\
 \hline
 \end{tabular}
-\caption{Table of symmetry classes of non-interacting Hamiltonians taken from Refs.~\cite{10foldRyu2010} and \cite{10foldKitaev2009}}
+\caption{Table of symmetry classes of non-interacting Hamiltonians. 0 corresponds to the absence of symmetry and $\pm$ 1 indicates the sign to which the symmetry squares
+
+}
 \label{tab:10fold}
 \end{table}
 
-All possible combination of internal symmetries in $d = 1, 2, 3$ spatial dimensions are tabulated in Tab.~\ref{tab:10fold}. There are ten distinguished classes.
+All possible combination of internal symmetries in $d = 1, \ldots, 8$ spatial dimensions are tabulated in Tab.~\ref{tab:10fold}. There are ten distinguished classes.
 
 This was first proposed in Ref.~\cite{10foldSchnyder2008}, with further mathematical improvements from K-theory (such is pattern called Bott periodicity; with a period two for the complex classes AI, AIII and a period eight for remaining eight real classes) given by Kitavev~\cite{10foldKitaev2009} to finally provide the complete classification \cite{10foldRyu2010}.
 
 For higher dimensions, topological invariants repeat themselves and show the Bott periodicity with period 2 for classes A and AIII, and period 8 for the remaining ones.
 
 \section{Topological invariants}
+\subsection{Geometrical phases and adiabatic evolution}
+
+
 
 Berry connection of Bloch states:
 \begin{equation}
@@ -190,15 +197,41 @@ E(k) = \pm \sqrt{t^2 + t'^2 + 2 t t' \cos k}
 The system has the chiral symmetry realized by $\sigma_z$, particle-hole $P = \sigma_z \mathcal{K}$ and time-reversal $\mathcal{T} = \mathcal{K}$. Here, It is the chiral symmetry that protects the topological properties and, for instance, adding long range hoppings would destroy topological states.
 
 
-\subsection{Class A: integer quantum Hall states and Chern insulators}
-IQH states can be seen as the most robust topological states without intrinsic topological order as they don't need any symmetry to persist. In particular, TR is broken. Actually, in the classification based on the entanglement (Wen vs. Kitaev)
+\subsection{Class A}
+\subsubsection{Quantum Hall effect}
+IQH states can be seen as the most robust topological states without intrinsic topological order as they don't need any symmetry to persist. In particular, TR is broken. Actually, in the classification based on the entanglement (Wen vs. Kitaev),
 
 
-Haldane model is a first example of a Chern insulator, where TR symmetry is broken because of complex NNN hopping. Experimental realizations include fermionic ultracold atoms~\cite{Jotzu2014} or classical wave systems~\cite{CIacustic2019}.
-
-\clearpage
+Let us start from a semiclassical description of the QH effect. In the bulk, electrons do not move freely through the sample, but rather follow circular trajectories with a radius $l_B = \sqrt{\hbar / eB}$. However, at the edges the orbits do not form closed loops and contribute to the current flow. Edge current will not disappear in presence of disorder and is not affected by the detailed shape of a sample. Recall the 
 
 
+
+
+
+A consequence of non-trivial bulk topology is the presence of gapless edge modes at the interface between systems with different topologies (for instance, trivial vacuum). They are chiral, that is, they propagate along the edge only in one direction.
+
+\subsubsection{Chern insulators}
+Haldane model is a canonical example of a Chern insulator. It describes spinless electrons in a single honeycomb lattice, where staggered potential $M$ breaks inversion symmetry and the complex next-nearest-neighbour hoppings breaking TR symmetry arise due to to Aharanov-Bohm phases. It is possible to choose the AB phases such that net magnetic field in an unit cell is zero (in contrast to the quantum Hall effect).
+
+
+
+
+Peierls substitution:
+\begin{equation}
+r_{xy} \rightarrow t_{xy} \exp \left( -\textnormal{i} \frac{e}{h} \int_{\Gamma} \mathbf{A} \cdot d \ell \right)
+\label{eq:peierls}
+\end{equation}
+Staggered mass term $M$ is defined 
+
+
+
+\begin{equation}
+H_{Haldane} = -t \sum_{\langle i, j \rangle} \hat{c}^{\dagger}_i \hat{c}_j - t' \sum_{\langle \langle i, j \rangle \rangle} e^{\mathrm{i} \phi} \hat{c}^{\dagger}_i \hat{c}_j  + \sum_i M_i \hat{c}^{\dagger}_i \hat{c}_j  + h. c.,
+\end{equation}
+where $ \langle \ldots \rangle$ corresponds to real-valued hoppings between nearest neighbours, and $ \langle \langle \ldots \rangle \range$ to the next-nearest neighbours
+
+
+Experimental realizations include fermionic ultracold atoms~\cite{Jotzu2014} or classical wave systems~\cite{CIacustic2019}.
 \subsection{Class AII: quantum spin Hall effect}
 In 2005, Kane and Mele extended the notion of Chern insulators by taking two copies of Haldane model with opposite chiralities~\cite{KaneMeleGraphene}. This lead to the construction of a insulating state which is time-reversal invariant and has protected gapless edge modes lying in the bulk gap, where the topological properties are defined by a $\mathbf{Z}_2$ invariant. Edge states are helical - that is, they two states counterpropagate along a boundary They also come in time-reversal pairs according to the Kramers' theorem. States with odd number of Kramers' edge pairs are topological, while with even number - are topologically trivial. Another consequence of the TR symmetry is that energy levels crossing appear only at special points in the BZ. Authors suggested that this model may be realized in graphene, however due to negligible spin-orbit coupling, it is not realizable experimentally under realistic conditions~\cite{PhysRevB.74.165310, PhysRevB.75.041401}. Besides fundamental theoretical interest, QSH states hold great promise for spintronics as it is possible to manipulate spin degrees of freedom in the absence of magnetic field~\cite{RevModPhys.82.3045}.
 

@@ -1,6 +1,23 @@
 \chapter{Band theory}
 \label{ch:appendixA}
-We recap the formalism for translational invariant lattice models described within the tight-binding approximation for non-interacting particles.
+
+If the crystal potential $V( \mathbf{r})$ is periodic
+\begin{equation}
+V (\mathbf{r} + \mathbf{R})  = V ( \mathbf{r}),
+\label{eq:periodic_pot}
+\end{equation}
+then, according to the Bloch theorem, the eigenstate of the $H$ can be written in a form of plane waves
+\begin{equation}
+\psi_{n, \mathbf{k}} (\mathbf{r}) = e^ { - \mathrm{i} \mathbf{k} \cdot \mathbf{r}} u_{n, \, \mathbf{k}} (\mathbf{r})  
+\label{eq:bloch}
+\end{equation}
+
+
+
+
+
+
+
 \subsection{General definitions}
 This imposes only quadratic terms in creation and annihilation operators in the second-quantized Hamiltonian. We define a crystal as a regular arrangement of the unit cells at positions $\mathbf{R_n}$
 \begin{equation}
@@ -28,9 +45,6 @@ with $N$ being an integer.
 
 Brillouin zone  is the unit cell of the reciprocal lattice.
 
-The Bloch's theorem states that the Schrodinger equation for translationally invariant Hamiltonians can be solved by a wave function $\psi = e^{ikt} u$
-where $u$ is the periodic part of the Bloch function and identical in every unit cell.
-
 % Hence, the creation and annihilation operators can be written
 
 %\begin{equation}
@@ -38,14 +52,6 @@ where $u$ is the periodic part of the Bloch function and identical in every unit
 %\mathbf{k} \cdot \mathbf{r} \hat{c}^{\dagger}_{\alpha, \mathbf{k}}
 %\end{equation}
 
-
-\subsection{Wannier functions}
-Another basis for the single-particle Hilbert spaces can be constructed using Wannier states. Given a set of occupied Bloch states, one may construct the Wannier function as their Fourier transform:
-\begin{equation}
-\ket{\mathbf{R}, n} = \frac{V}{(2 \pi)^3} \int_{BZ} d \mathbf{k} e^{i \mathbf{k} \cdot \mathbf{R}} \sum_{m = 1}^J U_{mn} (\mathbf{k}) \ket{\psi_{m\mathbf{k}}}.
-\label{eq:wannier}
-\end{equation}
-Wannier functions are not uniquely defined - there is a gauge freedom. For instance, multiplying the Bloch state by U(1) phase factor $\phi( \mathbf{k} )$; $\ket{\mathbf{k}, n} \rightarrow e^{\textnormal{i} \phi( \mathbf{k} )} \ket{\mathbf{k}, n}$, which acts locally in reciprocal space, leaves the physical observables invariant. However, it changes the shape of basis functions in real space, only the sum over the Wannier centers in a given unit cell remains the same. Most often, the rotation matrix $U_{nm}$ is determined in such a way the minimizes the spread in real space (= the sum of the mean squares) of the Wannier function. For more detailed discussion, we refer to the review by Marziari \emph{et al.}~\cite{MarziariWF2012}. 
 
 \subsection{Group theory: representations and character table}
 Here, we recall basic notions from group theory~\cite{dresselhaus2007group}. A group $\mathbb{G}$ has the properties:
@@ -58,4 +64,163 @@ in \mathbb{G} \Rightarrow a \star b = c \in \mathbb{G}$
 \end{itemize}
 A group is call Abelian if for all elements $a \star b = b \star a$, otherwise it it non-Abelian.
 
+The group $G$ describing symmetry operations that leaves a crystal invariant is called a space group. An operator $T_g$ corresponding to certain symmetry operation $g \in G$ commutes with the matrix of the Hamiltonian, i.e. $[T_g,H] = 0$. In reciprocal space, although the whole matrix H still commutes with $T_g$, a block $ H(k)$ corresponding to a vector $k$ in the BZ may not do so:
+
+\begin{equation}
+T_g H(k) T_G^+ = H (gK)
+\end{equation}
+in Wigner-Seitz notation $g = \lbrace R | \mathbf{v} \rbrace$. The set of $g \in G$ that leaves $k$ invariant up to a reciprocal lattice vector $G$ is called little group $G_k$ of $k$:
+\begin{equation}
+G_{\mathbf{k}} = \lbrace g = \lbrace p_g | \mathbf{r}_g \rbrace \in G | p_g \mathbf{k} \approx \mathbf{k}
+\label{eq:littlegroup}
+\end{equation}
+whereGis the crystal space group,pgis the point group part ofG,rgis the translation part ofG, and≈indicatesequivalence  modulo  translation  by  integer  multiples  of  reciprocal  lattice  vectors.   Note  thatGkcontains  all  thetranslation symmetries.  Topological quantum chemistry (TQC) (10,24) maps this momentum space description to areal space picture and offers simple criteria to asses the topology of a set of bands.
+
+Consider a set of eigenstates $H (\mathbf{k})$. Under the action of a symmetry operation $g \in G_{\mathbf{k}}$, each $\ket{\psi_{n \mathbf{k}}}$ transforms linearly
+\begin{equation}
+g ket{\psi_{i \mathbf{k}}} = \sum_{j=1}^N K^{ji} (g) \ket{ \psi_{j \mathbf{k}}}
+\end{equation}
+Matrices $K(g)$ form the representation $K$ of $G_{\mathbf{k}}$ defined in the space spanned by
+$\lbrace \ket{\psi_{n \mathbf{k}}} \rbrace_N$. It is said that K is an IR, if this space can not be divided in smaller invariant non-trivial subspaces. Every IR is characterized by the set of traces $\chi_K (g) = Tr K (g)$ of its matrices, known as character of the IR. Eigenstates $\ket{\psi_{n \mathbf{k}}}$ transform under IRs of $G_{\mathbf{k}}$ 
+
+A  Wyckoff  position  is  a  generic  location  inside  the  unit  cell  of  a  crystal.   Each  Wyckoff  positionw has  its  own site-symmetry group $G_w$ which is a subgroup of the crystal space group$G$:
+\begin{equation}
+G_w = \lbrace g = \lbrace p_g | \mathbf{r}_g \rbrace \in G |
+\label{eq:wyckoff}
+\end{equation}
+
+Among all points inside the unit cell, maximal Wyckoff positions play an important role.  These are defined as sites where the site-symmetry group is a maximal subgroup of G
+\begin{equation}
+\Bbbk H | G_w \subset H \subset G
+\end{equation}
+
+
+
+
+Band representations (BRs) are particular group representations that are induced by the irreducible represen-tation of the site-symmetry group at the Wyckoff positions.  Elementary band representations (EBRs) are BRs thatcannot be further decomposed into multiples of BRs.  These are induced by localized orbitals at maximal Wyckoff
+
+
 A representation of a group over some vector space $V$ is a collection of linear operators on  this  vector  space,  which  satisfy  the  same  algebra  as  the  group  elements. For finite groups, this operators can be simply matrices. Then, an irreducible representation is a set of matrix operators that are block-diagonalized simultaneously and cannot be divided into smaller parts.
+
+
+\chapter{Wannier functions}
+\label{ch:app_wannier}
+Although the concept of Wannier functions (WF) dates back to 1937~\cite{PhysRev.52.191}, it has become an important computational tool in materials science. Especially, an intimate connection between the spatial localization of Wannier states and the properties of corresponding Bloch states provides insights into understanding of topological phases. Wannier functions also simplify computing polarization - instead of integrating over the Berry phase, it is enough to sum the Wannier charge centers~\ref{PhysRevB.48.4442}.
+
+The main objective is to construct the real-space localized basis. As the Wannier functions span the same single-particle Hilbert space as the Bloch states, they share the same eigenvalue spectrum.
+
+The Wannier function of an isolated band $n$ is defined as
+\begin{equation}
+w_n (\mathbf{r} - \mathbf{R})= \frac{V}{(2 \pi)^d} \int_{BZ} d \mathbf{k} e^{-\mathrm{i} \mathbf{k} \cdot \mathbf{R}}  \psi_{n, \, \mathbf{k}} (\mathbf{k}).
+\label{eq:wannier}
+\end{equation}
+Here, $V$ correspond to the unit cell volume in $d$ dimension and $  \psi_{n, \, \mathbf{k}} (\mathbf{k})$ is the Bloch state for the $n$-th band. All the original Bloch states can all be exactly reproduced from a linear combination of the WF
+\begin{equation}
+\psi_{n, \, \mathbf{k}} (\mathbf{k}) = \sum_{\mathbf{R}} e^{\mathrm{i} \mathbf{k} \cdot \mathbf{R}} w_n (\mathbf{r} - \mathbf{R}).
+\label{eq:wannier_inverse}
+\end{equation}
+From Eq.~\eqref{eq:wannier}, it is easily seen that Wannier functions are not uniquely defined. For instance, multiplying the Bloch state by $U(1)$ phase factor, $\ket{\mathbf{k}, n} \rightarrow e^{\textnormal{i} \phi( \mathbf{k} )} \ket{\mathbf{k}, n}$, which acts locally in reciprocal space, leaves the physical observables invariant. However, it changes the shape of basis functions in real space. WF center, $\braket{w | \mathbf{r} | w}$, is gauge-independent.
+
+
+
+
+The generalization to a set of isolated bands is 
+\begin{equation}
+w_ (\mathbf{r} - \mathbf{R})= \frac{V}{(2 \pi)^d} \int_{BZ} d \mathbf{k} e^{-\mathrm{i} \mathbf{k} \cdot \mathbf{R}}  \psi_{n, \, \mathbf{k}} (\mathbf{k}).
+
+\label{eq:WF_many}
+\end{equation}
+
+In case of N occupied bands there is additional $U(N)$ gauge freedom:
+\begin{equation}
+\psi_{n, \, \mathbf{k}} \longrightarrow \sum_m U_{mn} ( \mathbf{k} ) \psi_{m, \, \mathbf{k}} 
+\label{eq:
+\end{equation}
+as $N$ Bloch bands can be mixed with each other. Large freedom of a gauge choice exists even if with the constrain that resulting states and phases have to be smooth functions of $\mathbf{k}$.
+
+
+
+
+The standard choice is to make a unitary transformation of the occupied bands only, thus resulting in as many WF as there are occupied bands.
+
+
+ only the sum over the Wannier centers in a given unit cell remains the same. Because of that gauge freedom, it
+
+
+\section{Maximally localized Wannier functions}
+One of the possible choice of a matrix $U$ is to minimize the spread
+\begin{equation}
+\Omega = \sum_n \braket{r^2}_n - \braket{\mathbf{r}}^2_n.
+\label{eq:wf_spread}
+\end{equation}
+$\Omega$ can be spllitted into two parts, gauge invariant $\Omega_I$ and gauge dependent $\tilde{\Omega }$
+\begin{equation}
+\begin{aligned}
+\Omega := \Omega_I +\tilde{\Omega} \\
+\Omega_I = \sum_n \braket{r^2}_n - \sum_{\mathbf{R}, \, n, \, m} |\braket{\mathbf{R}, \, m | \mathbf{r} | 0, \, n}|^2 \\
+\tilde{\Omega} \sum_n \sum_{\mathbf{R}, \,m} | \braket{\mathbf{R m | \mathbf{r} | \mathbf{0} n}}^2
+\end{aligned}
+\label{eq:MLWF}
+\end{equation}
+\section{Symmetry constrains}
+
+\section{Relation between Wannier functions and Wilson loops}
+
+
+
+
+
+\chapter{Entanglement entropy from a single-particle correlation matrix}
+We start with the non-interacting Hamiltonian $H = - \sum_{ij} t_{ij} c^{\dagger}_i c_j$, which is the most general bilinear function of the fermionic operators preserving the number of excitations $n_i = c_i^{\dagger} c_i$. Let us define the one-particle correlation function
+\begin{equation*}
+C_{ij} = \braket{ c^{\dagger}_i c_j} = \braket{\psi | c^{\dagger}_i c_j | \psi} ,
+\end{equation*}
+where $\ket{\psi}$ is an eigenstate of $H$ (Slater determinant), not necessarily the ground state. By using Wick's theorem, we can express four-point (and higher-order) correlation function in terms of two-point correlation function. 
+
+Consider only subsystem $A$ of a composite system - $i,j$ indices are now restricted to the $A$ part. We can express $C_{ij}$ through density matrix of a canonical statistical ensemble ($\rho = \exp (- \beta H) / Z$, $\beta = 1$)
+\begin{equation*}
+\braket{c^{\dagger}_i c_j} = Tr (\rho c^{\dagger}_i c_j )= C_{ij}
+\end{equation*}
+To easily calculate the trace, we transform our Hamiltonian $H$ into the diagonal basis. So we rewrite our creation/annihilation operators $c^{\dagger}_i,  c_j$ as new fermionic operators:
+\begin{equation}
+\begin{aligned}
+c_i &= \sum_k \phi_k (i) a_k \\
+c_j^{\dagger} &= \sum_k  \phi_k^* (j) a_k^{\dagger} 
+\end{aligned}
+\end{equation}
+$\phi_k (i) = \braket{i |k}$ are the eigenvectors in the site basis $\ket{i}$ with corresponding eigenvalues $\epsilon_k$.
+\begin{equation}
+H = - \sum_{ij} t_{ij} c^{\dagger}_i c_j \overset{diag}{\longrightarrow} H = \sum_k t_{ij} \phi_k^* (i) \phi_k (j) a_k^{\dagger} a_k = \sum_k \epsilon_k a_k^{\dagger} a_k 
+\end{equation}
+The density matrix becomes
+\begin{equation*}
+\rho = \frac{1}{Z} e^{- \sum_k \epsilon_k a_k^{\dagger} a_k},
+\end{equation}
+while the correlation function is ($M$ - number of states)
+\begin{equation}
+\begin{aligned}
+C_{ij} &= \frac{ Tr \left( e^{- \sum_k \epsilon_k a_k^{\dagger} a_k} c^{\dagger}_i c_j \right)}{Z} = \frac{Tr \left( \sum_k \phi_k (i) \phi_k^* (j) e^{-  \epsilon_k a_k^{\dagger} a_k} a^{\dagger}_k a_k \right) }{Tr \left( \sum_k  e^{- \epsilon_k a_k^{\dagger} a_k} \right)} \\
+&= \frac{\sum_{k=1}^M \phi_k (i) \phi_k^* (j)  \braket{k | e^{-\epsilon_k a_k^{\dagger} a_k} a_k^{\dagger} a_k | k} + \braket{0 | e^{0} a_0^{\dagger} a_0 | 0} }{\braket{0 | e^{0} | 0} + \sum_{k=1}^M  \braket{k |e^{-\epsilon_k a_k^{\dagger} a_k}  |k }} \\
+& = \sum_k \phi_k (i) \phi_k^* (j) \frac{\left( e^{-\epsilon_k} + 0 \right) }{1 + e^{-\epsilon_k}} =  \sum_k \phi_k (i) \phi_k^* (j)  \frac{1}{(1 + e^{-\epsilon_k}) e^{\epsilon_k} } \\
+&= \boxed{ \sum_k \phi_k (i) \phi_k^* (j) \frac{1}{1 + e^{\epsilon_k}}}
+\end{aligned}
+\end{equation}
+If we denote $\zeta_k$ as eigenvalues of $C_{ij}$, then the relation between $\zeta_k$ and $\epsilon_k$ is
+\begin{equation}
+\zeta_k = \frac{1}{1 + e^{\epsilon_k}}
+\end{equation}
+
+
+
+
+
+
+\section{Singular value decomposition}
+\begin{theorem}
+Let $M$ be a $ m \times n$ matrix whose entries $\in \mathbb{C}$. Therefore, there exists a factorization of the form
+\begin{equation*}
+M = U \Sigma V^{\dagger}
+\end{equation*}
+where $U$ is a $ m \times m$ unitary matrix ($U^{\dagger} U  = \mathbb{1}$), $\Sigma$ is a $m \times n$ diagonal matrix with non-negative elements, and $V^{\dagger}$ is a $n \times n$ unitary matrix. 
+\end{theorem}
+The vectors in the matrices $U$ and $V$ are orthonormal, so they represent rotations. Moreover, $U$ and $V$ are usually not related to each other at all. $\Sigma_{ii}$ elements are all real and non-negative. The SVD always exist for any sort of rectangular or square matrix.

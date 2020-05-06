@@ -1,92 +1,135 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'build/thesis.blg'
-[70] biber-darwin:315> INFO - === Mon Mar 30, 2020, 23:49:42
-[100] Biber.pm:371> INFO - Reading 'build/thesis.bcf'
-[217] Biber.pm:889> INFO - Found 75 citekeys in bib section 0
-[218] Biber.pm:886> INFO - Using all citekeys in bib section 1
-[218] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[218] Biber.pm:886> INFO - Using all citekeys in bib section 2
-[218] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[247] Biber.pm:4093> INFO - Processing section 0
-[260] Biber.pm:4254> INFO - Looking for bibtex format file 'ownpubs.bib' for section 0
-[262] bibtex.pm:1523> INFO - LaTeX decoding ...
-[282] bibtex.pm:1340> INFO - Found BibTeX data source 'ownpubs.bib'
-[285] Biber.pm:4254> INFO - Looking for bibtex format file 'preprints.bib' for section 0
-[286] bibtex.pm:1523> INFO - LaTeX decoding ...
-[293] bibtex.pm:1340> INFO - Found BibTeX data source 'preprints.bib'
-[295] Biber.pm:4254> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[300] bibtex.pm:1523> INFO - LaTeX decoding ...
-[557] bibtex.pm:1340> INFO - Found BibTeX data source 'bibliography.bib'
-[591] Utils.pm:193> WARN - month field 'jun' in entry 'Kosterlitz_1972' is not an integer - this will probably not sort properly.
-[598] Utils.pm:193> WARN - month field 'apr' in entry 'Kosterlitz_1973' is not an integer - this will probably not sort properly.
-[609] Utils.pm:193> WARN - month field 'Aug' in entry 'IQHE1980' is not an integer - this will probably not sort properly.
-[617] Utils.pm:193> WARN - month field 'May' in entry 'FQHE1982' is not an integer - this will probably not sort properly.
-[634] Utils.pm:193> WARN - month field 'Aug' in entry 'TKNN1982' is not an integer - this will probably not sort properly.
-[638] Utils.pm:193> WARN - month field 'Oct' in entry 'Haldane1988' is not an integer - this will probably not sort properly.
-[644] Utils.pm:193> WARN - month field 'Apr' in entry 'TSCRead2000' is not an integer - this will probably not sort properly.
-[650] Utils.pm:193> WARN - month field 'Oct' in entry 'CSLWen1989' is not an integer - this will probably not sort properly.
-[657] Utils.pm:193> WARN - month field 'Jun' in entry 'CSSWen1989' is not an integer - this will probably not sort properly.
-[661] Utils.pm:193> WARN - month field 'Dec' in entry 'RevWen2017' is not an integer - this will probably not sort properly.
-[672] Utils.pm:193> WARN - month field 'Sep' in entry 'RevNayak2008' is not an integer - this will probably not sort properly.
-[673] Utils.pm:193> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Nakahara' and 'nakahara' in file 'bibliography.bib'
-[677] Utils.pm:193> WARN - month field 'Jan' in entry 'AltlandZirnbauer1997' is not an integer - this will probably not sort properly.
-[678] Utils.pm:193> WARN - month field 'jun' in entry '10foldRyu2010' is not an integer - this will probably not sort properly.
-[696] Utils.pm:193> WARN - month field 'Nov' in entry '10foldSchnyder2008' is not an integer - this will probably not sort properly.
-[702] Utils.pm:193> WARN - month field 'Jul' in entry 'FuKane2007' is not an integer - this will probably not sort properly.
-[709] Utils.pm:193> WARN - month field 'Jul' in entry 'ShengCs2006' is not an integer - this will probably not sort properly.
-[717] Utils.pm:193> WARN - month field 'Jun' in entry 'SSH1976' is not an integer - this will probably not sort properly.
-[746] Utils.pm:193> WARN - month field 'Jan' in entry 'CIacustic2019' is not an integer - this will probably not sort properly.
-[752] Utils.pm:193> WARN - month field 'Nov' in entry 'KaneMeleGraphene' is not an integer - this will probably not sort properly.
-[765] Utils.pm:193> WARN - month field 'Oct' in entry 'PhysRevB.74.165310' is not an integer - this will probably not sort properly.
-[775] Utils.pm:193> WARN - month field 'Jan' in entry 'PhysRevB.75.041401' is not an integer - this will probably not sort properly.
-[781] Utils.pm:193> WARN - month field 'Nov' in entry 'RevModPhys.82.3045' is not an integer - this will probably not sort properly.
-[787] Utils.pm:193> WARN - month field 'Mar' in entry 'BernevigQSHE2006' is not an integer - this will probably not sort properly.
-[814] Utils.pm:193> WARN - month field 'Jun' in entry 'PhysRevLett.100.236601' is not an integer - this will probably not sort properly.
-[821] Utils.pm:193> WARN - month field 'Sep' in entry 'PhysRevLett.107.136603' is not an integer - this will probably not sort properly.
-[824] Utils.pm:193> WARN - month field 'Dec' in entry 'MurakamiBi2006' is not an integer - this will probably not sort properly.
-[830] Utils.pm:193> WARN - month field 'Jun' in entry 'AmorphTIShenoy2017' is not an integer - this will probably not sort properly.
-[838] Utils.pm:193> WARN - month field 'mar' in entry '2018:BHZ' is not an integer - this will probably not sort properly.
-[890] Utils.pm:193> WARN - month field 'Mar' in entry '2016:TomadinTransport1' is not an integer - this will probably not sort properly.
-[901] Utils.pm:193> WARN - month field 'Dec' in entry '2017:YuanOptCond' is not an integer - this will probably not sort properly.
-[911] Utils.pm:193> WARN - month field 'Sep' in entry '1976:Hofstadter' is not an integer - this will probably not sort properly.
-[919] Utils.pm:193> WARN - month field 'Feb' in entry 'supp1' is not an integer - this will probably not sort properly.
-[923] Utils.pm:193> WARN - month field 'May' in entry 'supp2' is not an integer - this will probably not sort properly.
-[930] Utils.pm:193> WARN - month field 'Sep' in entry '2010:ProdanDisordCI' is not an integer - this will probably not sort properly.
-[941] Utils.pm:193> WARN - month field 'Feb' in entry 'KatnelsonLevels2019' is not an integer - this will probably not sort properly.
-[949] Utils.pm:193> WARN - month field 'Jan' in entry 'EdgesFremling2020' is not an integer - this will probably not sort properly.
-[954] Utils.pm:193> WARN - month field 'Oct' in entry 'PaiFractal2019' is not an integer - this will probably not sort properly.
-[957] Utils.pm:193> WARN - month field 'Mar' in entry 'FuTCI2011' is not an integer - this will probably not sort properly.
-[979] Utils.pm:193> WARN - month field 'Oct' in entry 'PhysRevB.90.165114' is not an integer - this will probably not sort properly.
-[986] Utils.pm:193> WARN - month field 'May' in entry 'PhysRevB.93.195413' is not an integer - this will probably not sort properly.
-[993] Utils.pm:193> WARN - month field 'Jun' in entry 'PhysRevB.95.235425' is not an integer - this will probably not sort properly.
-[998] Utils.pm:193> WARN - month field 'Jan' in entry 'PhysRevB.93.045429' is not an integer - this will probably not sort properly.
-[1020] Utils.pm:193> WARN - month field 'Dec' in entry 'PhysRevLett.119.246401' is not an integer - this will probably not sort properly.
-[1057] Utils.pm:193> WARN - month field 'Sep' in entry 'PhysRevLett.121.126402' is not an integer - this will probably not sort properly.
-[1063] Utils.pm:193> WARN - month field 'Mar' in entry 'PhysRevB.101.115140' is not an integer - this will probably not sort properly.
-[1076] Utils.pm:193> WARN - month field 'Dec' in entry 'GDY12019' is not an integer - this will probably not sort properly.
-[1091] Utils.pm:193> WARN - month field 'Jun' in entry 'BenderPT1998' is not an integer - this will probably not sort properly.
-[1097] Utils.pm:193> WARN - month field 'May' in entry 'SVDHerviou2019' is not an integer - this will probably not sort properly.
-[1126] Utils.pm:193> WARN - month field 'Apr' in entry 'PhysRevLett.120.146402' is not an integer - this will probably not sort properly.
-[1135] Utils.pm:193> WARN - month field 'Sep' in entry 'PhysRevX.8.031079' is not an integer - this will probably not sort properly.
-[1141] Utils.pm:193> WARN - month field 'Mar' in entry 'PhysRevB.99.125103' is not an integer - this will probably not sort properly.
-[1152] Utils.pm:193> WARN - month field 'Oct' in entry 'MarziariWF2012' is not an integer - this will probably not sort properly.
-[1160] Utils.pm:193> WARN - I didn't find a database entry for 'Nakahara' (section 0)
-[1232] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1232] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1232] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1232] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[1289] Biber.pm:4093> INFO - Processing section 1
-[1289] Biber.pm:4254> INFO - Looking for bibtex format file 'ownpubs.bib' for section 1
-[1378] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1379] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1379] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1379] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[1385] Biber.pm:4093> INFO - Processing section 2
-[1385] Biber.pm:4254> INFO - Looking for bibtex format file 'preprints.bib' for section 2
-[1428] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1428] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1428] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1429] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[1431] bbl.pm:636> INFO - Writing 'build/thesis.bbl' with encoding 'UTF-8'
-[1479] bbl.pm:739> INFO - Output to build/thesis.bbl
-[1480] Biber.pm:110> INFO - WARNINGS: 54
+[268] biber-darwin:315> INFO - === Mon May  4, 2020, 16:28:27
+[314] Biber.pm:371> INFO - Reading 'build/thesis.bcf'
+[553] Biber.pm:889> INFO - Found 126 citekeys in bib section 0
+[553] Biber.pm:886> INFO - Using all citekeys in bib section 1
+[553] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[553] Biber.pm:886> INFO - Using all citekeys in bib section 2
+[554] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[587] Biber.pm:4093> INFO - Processing section 0
+[611] Biber.pm:4254> INFO - Looking for bibtex format file 'ownpubs.bib' for section 0
+[647] bibtex.pm:1523> INFO - LaTeX decoding ...
+[697] bibtex.pm:1340> INFO - Found BibTeX data source 'ownpubs.bib'
+[827] Biber.pm:4254> INFO - Looking for bibtex format file 'preprints.bib' for section 0
+[844] bibtex.pm:1523> INFO - LaTeX decoding ...
+[906] bibtex.pm:1340> INFO - Found BibTeX data source 'preprints.bib'
+[911] Biber.pm:4254> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[1260] bibtex.pm:1523> INFO - LaTeX decoding ...
+[3260] bibtex.pm:1340> INFO - Found BibTeX data source 'bibliography.bib'
+[3313] Utils.pm:193> WARN - month field 'jun' in entry 'Kosterlitz_1972' is not an integer - this will probably not sort properly.
+[3321] Utils.pm:193> WARN - month field 'apr' in entry 'Kosterlitz_1973' is not an integer - this will probably not sort properly.
+[3353] Utils.pm:193> WARN - month field 'Aug' in entry 'IQHE1980' is not an integer - this will probably not sort properly.
+[3377] Utils.pm:193> WARN - month field 'May' in entry 'FQHE1982' is not an integer - this will probably not sort properly.
+[3412] Utils.pm:193> WARN - month field 'Aug' in entry 'TKNN1982' is not an integer - this will probably not sort properly.
+[3420] Utils.pm:193> WARN - month field 'Oct' in entry 'Haldane1988' is not an integer - this will probably not sort properly.
+[3427] Utils.pm:193> WARN - month field 'Apr' in entry 'TSCRead2000' is not an integer - this will probably not sort properly.
+[3436] Utils.pm:193> WARN - month field 'Oct' in entry 'CSLWen1989' is not an integer - this will probably not sort properly.
+[3449] Utils.pm:193> WARN - month field 'Jun' in entry 'CSSWen1989' is not an integer - this will probably not sort properly.
+[3454] Utils.pm:193> WARN - month field 'Dec' in entry 'RevWen2017' is not an integer - this will probably not sort properly.
+[3469] Utils.pm:193> WARN - month field 'Sep' in entry 'RevNayak2008' is not an integer - this will probably not sort properly.
+[3470] Utils.pm:193> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Nakahara' and 'nakahara' in file 'bibliography.bib'
+[3475] Utils.pm:193> WARN - month field 'Jan' in entry 'AltlandZirnbauer1997' is not an integer - this will probably not sort properly.
+[3484] Utils.pm:193> WARN - month field 'Nov' in entry '10foldSchnyder2008' is not an integer - this will probably not sort properly.
+[3489] Utils.pm:193> WARN - month field 'jun' in entry '10foldRyu2010' is not an integer - this will probably not sort properly.
+[3505] Utils.pm:193> WARN - month field 'Jul' in entry 'FuKane2007' is not an integer - this will probably not sort properly.
+[3516] Utils.pm:193> WARN - month field 'Jul' in entry 'ShengCs2006' is not an integer - this will probably not sort properly.
+[3522] Utils.pm:193> WARN - month field 'Jun' in entry 'SSH1976' is not an integer - this will probably not sort properly.
+[3551] Utils.pm:193> WARN - month field 'Jan' in entry 'CIacustic2019' is not an integer - this will probably not sort properly.
+[3555] Utils.pm:193> WARN - month field 'Nov' in entry 'KaneMeleGraphene' is not an integer - this will probably not sort properly.
+[3567] Utils.pm:193> WARN - month field 'Oct' in entry 'PhysRevB.74.165310' is not an integer - this will probably not sort properly.
+[3575] Utils.pm:193> WARN - month field 'Jan' in entry 'PhysRevB.75.041401' is not an integer - this will probably not sort properly.
+[3579] Utils.pm:193> WARN - month field 'Nov' in entry 'RevModPhys.82.3045' is not an integer - this will probably not sort properly.
+[3584] Utils.pm:193> WARN - month field 'Mar' in entry 'BernevigQSHE2006' is not an integer - this will probably not sort properly.
+[3612] Utils.pm:193> WARN - month field 'Jun' in entry 'PhysRevLett.100.236601' is not an integer - this will probably not sort properly.
+[3619] Utils.pm:193> WARN - month field 'Sep' in entry 'PhysRevLett.107.136603' is not an integer - this will probably not sort properly.
+[3625] Utils.pm:193> WARN - month field 'Dec' in entry 'MurakamiBi2006' is not an integer - this will probably not sort properly.
+[3634] Utils.pm:193> WARN - month field 'Nov' in entry 'quasicrystals' is not an integer - this will probably not sort properly.
+[3643] Utils.pm:193> WARN - month field 'Sep' in entry 'PhysRevLett.109.106402' is not an integer - this will probably not sort properly.
+[3651] Utils.pm:193> WARN - month field 'Jan' in entry 'PhysRevLett.124.036803' is not an integer - this will probably not sort properly.
+[3664] Utils.pm:193> WARN - month field 'Nov' in entry 'PhysRevLett.123.196401' is not an integer - this will probably not sort properly.
+[3669] Utils.pm:193> WARN - month field 'Jun' in entry 'AmorphTIShenoy2017' is not an integer - this will probably not sort properly.
+[3676] Utils.pm:193> WARN - month field 'Apr' in entry 'statTI2014' is not an integer - this will probably not sort properly.
+[3715] Utils.pm:193> WARN - month field 'Sep' in entry 'PhysRevLett.45.855' is not an integer - this will probably not sort properly.
+[3723] Utils.pm:193> WARN - month field 'Dec' in entry 'fractalIsing1998' is not an integer - this will probably not sort properly.
+[3738] Utils.pm:193> WARN - month field 'Mar' in entry '2016:TomadinTransport1' is not an integer - this will probably not sort properly.
+[3749] Utils.pm:193> WARN - month field 'Dec' in entry '2017:YuanOptCond' is not an integer - this will probably not sort properly.
+[3759] Utils.pm:193> WARN - month field 'May' in entry 'plasmons' is not an integer - this will probably not sort properly.
+[3767] Utils.pm:193> WARN - month field 'Jun' in entry 'biblap1' is not an integer - this will probably not sort properly.
+[3776] Utils.pm:193> WARN - month field 'Feb' in entry 'biblap3' is not an integer - this will probably not sort properly.
+[3783] Utils.pm:193> WARN - month field 'Mar' in entry '2017:SachaRandFractal' is not an integer - this will probably not sort properly.
+[3837] Utils.pm:193> WARN - month field 'May' in entry 'PhysRevB.29.5504' is not an integer - this will probably not sort properly.
+[3842] Utils.pm:193> WARN - month field 'Oct' in entry 'PhysRevLett.49.1194' is not an integer - this will probably not sort properly.
+[3848] Utils.pm:193> WARN - month field 'Oct' in entry 'PhysRevB.60.10054' is not an integer - this will probably not sort properly.
+[3857] Utils.pm:193> WARN - month field 'mar' in entry '2018:BHZ' is not an integer - this will probably not sort properly.
+[3871] Utils.pm:193> WARN - month field 'Oct' in entry 'PaiFractal2019' is not an integer - this will probably not sort properly.
+[3887] Utils.pm:193> WARN - month field 'Jan' in entry 'EdgesFremling2020' is not an integer - this will probably not sort properly.
+[3896] Utils.pm:193> WARN - month field 'Jan' in entry 'KatnelsonFractal2020' is not an integer - this will probably not sort properly.
+[3901] Utils.pm:193> WARN - month field 'Sep' in entry '1976:Hofstadter' is not an integer - this will probably not sort properly.
+[3911] Utils.pm:193> WARN - month field 'Sep' in entry 'PhysRevB.28.3110' is not an integer - this will probably not sort properly.
+[3920] Utils.pm:193> WARN - month field 'Feb' in entry 'supp1' is not an integer - this will probably not sort properly.
+[3925] Utils.pm:193> WARN - month field 'May' in entry 'supp2' is not an integer - this will probably not sort properly.
+[3936] Utils.pm:193> WARN - month field 'Jun' in entry 'PhysRevLett.52.2304' is not an integer - this will probably not sort properly.
+[3943] Utils.pm:193> WARN - month field 'Feb' in entry 'onoda' is not an integer - this will probably not sort properly.
+[3951] Utils.pm:193> WARN - month field 'Sep' in entry '2010:ProdanDisordCI' is not an integer - this will probably not sort properly.
+[3970] Utils.pm:193> WARN - month field 'Oct' in entry 'PhysRevB.90.165114' is not an integer - this will probably not sort properly.
+[3978] Utils.pm:193> WARN - month field 'May' in entry 'PhysRevB.93.195413' is not an integer - this will probably not sort properly.
+[3987] Utils.pm:193> WARN - month field 'Jun' in entry 'PhysRevB.95.235425' is not an integer - this will probably not sort properly.
+[3999] Utils.pm:193> WARN - month field 'Jan' in entry 'PhysRevB.93.045429' is not an integer - this will probably not sort properly.
+[4004] Utils.pm:193> WARN - month field 'Mar' in entry 'FuTCI2011' is not an integer - this will probably not sort properly.
+[4042] Utils.pm:193> WARN - month field 'Dec' in entry 'PhysRevLett.119.246401' is not an integer - this will probably not sort properly.
+[4085] Utils.pm:193> WARN - month field 'Jul' in entry 'PhysRevX.9.031003' is not an integer - this will probably not sort properly.
+[4113] Utils.pm:193> WARN - month field 'Jan' in entry 'Hsu2016' is not an integer - this will probably not sort properly.
+[4129] Utils.pm:193> WARN - month field 'apr' in entry 'Thouless_1984' is not an integer - this will probably not sort properly.
+[4140] Utils.pm:193> WARN - month field 'Dec' in entry 'PhysRevB.74.235111' is not an integer - this will probably not sort properly.
+[4153] Utils.pm:193> WARN - month field 'Jan' in entry 'PhysRevLett.98.046402' is not an integer - this will probably not sort properly.
+[4160] Utils.pm:193> WARN - month field 'Jan' in entry 'PhysRevB.83.035108' is not an integer - this will probably not sort properly.
+[4171] Utils.pm:193> WARN - month field 'Sep' in entry 'PhysRevLett.121.126402' is not an integer - this will probably not sort properly.
+[4180] Utils.pm:193> WARN - month field 'Jun' in entry 'Po2017' is not an integer - this will probably not sort properly.
+[4192] Utils.pm:193> WARN - month field 'Aug' in entry 'PhysRevResearch.1.013012' is not an integer - this will probably not sort properly.
+[4203] Utils.pm:193> WARN - month field 'Apr' in entry 'PhysRevB.89.155114' is not an integer - this will probably not sort properly.
+[4228] Utils.pm:193> WARN - month field 'Dec' in entry 'GDY12019' is not an integer - this will probably not sort properly.
+[4265] Utils.pm:193> WARN - month field 'Mar' in entry 'Bilbao1' is not an integer - this will probably not sort properly.
+[4289] Utils.pm:193> WARN - month field 'Aug' in entry 'Vergniory17' is not an integer - this will probably not sort properly.
+[4295] Utils.pm:193> WARN - month field 'Jun' in entry 'BenderPT1998' is not an integer - this will probably not sort properly.
+[4307] Utils.pm:193> WARN - month field 'May' in entry 'SVDHerviou2019' is not an integer - this will probably not sort properly.
+[4324] Utils.pm:193> WARN - month field 'Apr' in entry 'PhysRevLett.120.146402' is not an integer - this will probably not sort properly.
+[4341] Utils.pm:193> WARN - month field 'Sep' in entry 'PhysRevX.8.031079' is not an integer - this will probably not sort properly.
+[4353] Utils.pm:193> WARN - month field 'Mar' in entry 'PhysRevB.99.125103' is not an integer - this will probably not sort properly.
+[4361] Utils.pm:193> WARN - month field 'Aug' in entry 'Shunyu2018prl' is not an integer - this will probably not sort properly.
+[4386] Utils.pm:193> WARN - month field 'Aug' in entry 'PhysRev.52.191' is not an integer - this will probably not sort properly.
+[4390] Utils.pm:193> WARN - I didn't find a database entry for 'Nakahara' (section 0)
+[4390] Utils.pm:193> WARN - I didn't find a database entry for 'Liu:Allen' (section 0)
+[4390] Utils.pm:193> WARN - I didn't find a database entry for 'Murakami:BiQSH' (section 0)
+[4391] Utils.pm:193> WARN - I didn't find a database entry for 'Slater:Koster' (section 0)
+[4391] Utils.pm:193> WARN - I didn't find a database entry for 'Chadi' (section 0)
+[4391] Utils.pm:193> WARN - I didn't find a database entry for 'stable:bi111' (section 0)
+[4391] Utils.pm:193> WARN - I didn't find a database entry for 'Sb:nontriv' (section 0)
+[4391] Utils.pm:193> WARN - I didn't find a database entry for 'Peschel' (section 0)
+[4392] Utils.pm:193> WARN - I didn't find a database entry for 'Hughes:inv' (section 0)
+[4392] Utils.pm:193> WARN - I didn't find a database entry for 'Vish:inv' (section 0)
+[4392] Utils.pm:193> WARN - I didn't find a database entry for 'Alex:CM' (section 0)
+[4392] Utils.pm:193> WARN - I didn't find a database entry for 'Ryu:EE' (section 0)
+[4392] Utils.pm:193> WARN - I didn't find a database entry for 'BABHughesBenalcazar17' (section 0)
+[4392] Utils.pm:193> WARN - I didn't find a database entry for 'irrep-github' (section 0)
+[4393] Utils.pm:193> WARN - I didn't find a database entry for 'elcoro2017' (section 0)
+[4393] Utils.pm:193> WARN - I didn't find a database entry for 'bilbao-server' (section 0)
+[4491] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4491] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4491] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[4491] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[4588] Biber.pm:4093> INFO - Processing section 1
+[4588] Biber.pm:4254> INFO - Looking for bibtex format file 'ownpubs.bib' for section 1
+[4683] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4683] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4683] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[4683] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[4691] Biber.pm:4093> INFO - Processing section 2
+[4692] Biber.pm:4254> INFO - Looking for bibtex format file 'preprints.bib' for section 2
+[4735] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4735] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4735] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[4735] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[4738] bbl.pm:636> INFO - Writing 'build/thesis.bbl' with encoding 'UTF-8'
+[4817] bbl.pm:739> INFO - Output to build/thesis.bbl
+[4818] Biber.pm:110> INFO - WARNINGS: 97

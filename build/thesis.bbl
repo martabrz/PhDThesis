@@ -38,8 +38,8 @@
       \strng{authorbibnamehash}{fb7e54299ba6bb0625afd4c01d6241fe}
       \strng{authornamehash}{fb7e54299ba6bb0625afd4c01d6241fe}
       \strng{authorfullhash}{fb7e54299ba6bb0625afd4c01d6241fe}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Zh. Eksp. Teor. Fiz.}
@@ -64,8 +64,8 @@
       \strng{authornamehash}{2b567d5b26a4bee5df12007e43859acb}
       \strng{authorfullhash}{2b567d5b26a4bee5df12007e43859acb}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Sov. Phys. JETP}
@@ -91,8 +91,8 @@
       \strng{authornamehash}{2b567d5b26a4bee5df12007e43859acb}
       \strng{authorfullhash}{2b567d5b26a4bee5df12007e43859acb}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Sov. Phys. JETP}
@@ -127,8 +127,8 @@
       \strng{authornamehash}{63505a218fcbc96ebe909df044e37685}
       \strng{authorfullhash}{63505a218fcbc96ebe909df044e37685}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Physics C: Solid State Physics}
@@ -172,8 +172,8 @@
       \strng{authornamehash}{63505a218fcbc96ebe909df044e37685}
       \strng{authorfullhash}{63505a218fcbc96ebe909df044e37685}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Physics C: Solid State Physics}
@@ -221,8 +221,8 @@
       \strng{authorbibnamehash}{1ac02f23c357277ab6077d04420d6fdc}
       \strng{authornamehash}{1ac02f23c357277ab6077d04420d6fdc}
       \strng{authorfullhash}{1ac02f23c357277ab6077d04420d6fdc}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{6}
@@ -270,8 +270,8 @@
       \strng{authorbibnamehash}{9d2b32356eda3399a0d586b58d03b98a}
       \strng{authornamehash}{9d2b32356eda3399a0d586b58d03b98a}
       \strng{authorfullhash}{9d2b32356eda3399a0d586b58d03b98a}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{22}
@@ -316,8 +316,8 @@
       \strng{authorbibnamehash}{ad1b77e5d8495aaf81f85fc517805493}
       \strng{authornamehash}{ad1b77e5d8495aaf81f85fc517805493}
       \strng{authorfullhash}{ad1b77e5d8495aaf81f85fc517805493}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Physical and Chemical Reference Data}
@@ -374,8 +374,8 @@
       \strng{authorbibnamehash}{42ca5b42b6f54c5a9464fa033209b7c0}
       \strng{authornamehash}{f7044af62fefe3eca10065f802e7b478}
       \strng{authorfullhash}{42ca5b42b6f54c5a9464fa033209b7c0}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{6}
@@ -413,8 +413,8 @@
       \strng{authorbibnamehash}{3a0dc1a4bb58ef9e8936b4afcc45ebc6}
       \strng{authornamehash}{3a0dc1a4bb58ef9e8936b4afcc45ebc6}
       \strng{authorfullhash}{3a0dc1a4bb58ef9e8936b4afcc45ebc6}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{18}
@@ -457,8 +457,8 @@
       \strng{authorbibnamehash}{717fd7f233d96e98651703a5c819beff}
       \strng{authornamehash}{717fd7f233d96e98651703a5c819beff}
       \strng{authorfullhash}{717fd7f233d96e98651703a5c819beff}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{15}
@@ -711,98 +711,6 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevB.55.1142
       \endverb
     \endentry
-    \entry{10foldRyu2010}{article}{}
-      \name{author}{4}{}{%
-        {{hash=e98e80616d8c35e9d2fbbb928838ec72}{%
-           family={Ryu},
-           familyi={R\bibinitperiod},
-           given={Shinsei},
-           giveni={S\bibinitperiod}}}%
-        {{hash=a67373224eafb9e6200fd3ab19f3b6b6}{%
-           family={Schnyder},
-           familyi={S\bibinitperiod},
-           given={Andreas\bibnamedelima P},
-           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=7b57c51242955fc185759690e6088d41}{%
-           family={Furusaki},
-           familyi={F\bibinitperiod},
-           given={Akira},
-           giveni={A\bibinitperiod}}}%
-        {{hash=dc858600b1f8b10b087f1d4e46c6cff7}{%
-           family={Ludwig},
-           familyi={L\bibinitperiod},
-           given={Andreas\bibnamedelimb W\bibnamedelima W},
-           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {{IOP} Publishing}%
-      }
-      \strng{namehash}{f1da944322c22e1c9fba79c4d7f594b3}
-      \strng{fullhash}{634d9f24dd08e8c9cecd798c384a7851}
-      \strng{bibnamehash}{634d9f24dd08e8c9cecd798c384a7851}
-      \strng{authorbibnamehash}{634d9f24dd08e8c9cecd798c384a7851}
-      \strng{authornamehash}{f1da944322c22e1c9fba79c4d7f594b3}
-      \strng{authorfullhash}{634d9f24dd08e8c9cecd798c384a7851}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{New Journal of Physics}
-      \field{month}{6}
-      \field{number}{6}
-      \field{title}{Topological insulators and superconductors: tenfold way and dimensional hierarchy}
-      \field{volume}{12}
-      \field{year}{2010}
-      \field{pages}{065010}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1367-2630/12/6/065010
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1088%2F1367-2630%2F12%2F6%2F065010
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1088%2F1367-2630%2F12%2F6%2F065010
-      \endverb
-    \endentry
-    \entry{10foldKitaev2009}{article}{}
-      \name{author}{1}{}{%
-        {{hash=59949d44a3903dfabb88bff3220ff2e0}{%
-           family={Kitaev},
-           familyi={K\bibinitperiod},
-           given={Alexei},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{59949d44a3903dfabb88bff3220ff2e0}
-      \strng{fullhash}{59949d44a3903dfabb88bff3220ff2e0}
-      \strng{bibnamehash}{59949d44a3903dfabb88bff3220ff2e0}
-      \strng{authorbibnamehash}{59949d44a3903dfabb88bff3220ff2e0}
-      \strng{authornamehash}{59949d44a3903dfabb88bff3220ff2e0}
-      \strng{authorfullhash}{59949d44a3903dfabb88bff3220ff2e0}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{AIP Conference Proceedings}
-      \field{number}{1}
-      \field{title}{Periodic table for topological insulators and superconductors}
-      \field{volume}{1134}
-      \field{year}{2009}
-      \field{pages}{22\bibrangedash 30}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1063/1.3149495
-      \endverb
-      \verb{eprint}
-      \verb https://aip.scitation.org/doi/pdf/10.1063/1.3149495
-      \endverb
-      \verb{urlraw}
-      \verb https://aip.scitation.org/doi/abs/10.1063/1.3149495
-      \endverb
-      \verb{url}
-      \verb https://aip.scitation.org/doi/abs/10.1063/1.3149495
-      \endverb
-    \endentry
     \entry{10foldSchnyder2008}{article}{}
       \name{author}{4}{}{%
         {{hash=a67373224eafb9e6200fd3ab19f3b6b6}{%
@@ -855,6 +763,99 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevB.78.195125
+      \endverb
+    \endentry
+    \entry{10foldKitaev2009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=59949d44a3903dfabb88bff3220ff2e0}{%
+           family={Kitaev},
+           familyi={K\bibinitperiod},
+           given={Alexei},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{59949d44a3903dfabb88bff3220ff2e0}
+      \strng{fullhash}{59949d44a3903dfabb88bff3220ff2e0}
+      \strng{bibnamehash}{59949d44a3903dfabb88bff3220ff2e0}
+      \strng{authorbibnamehash}{59949d44a3903dfabb88bff3220ff2e0}
+      \strng{authornamehash}{59949d44a3903dfabb88bff3220ff2e0}
+      \strng{authorfullhash}{59949d44a3903dfabb88bff3220ff2e0}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AIP Conference Proceedings}
+      \field{number}{1}
+      \field{title}{Periodic table for topological insulators and superconductors}
+      \field{volume}{1134}
+      \field{year}{2009}
+      \field{pages}{22\bibrangedash 30}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1063/1.3149495
+      \endverb
+      \verb{eprint}
+      \verb https://aip.scitation.org/doi/pdf/10.1063/1.3149495
+      \endverb
+      \verb{urlraw}
+      \verb https://aip.scitation.org/doi/abs/10.1063/1.3149495
+      \endverb
+      \verb{url}
+      \verb https://aip.scitation.org/doi/abs/10.1063/1.3149495
+      \endverb
+    \endentry
+    \entry{10foldRyu2010}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e98e80616d8c35e9d2fbbb928838ec72}{%
+           family={Ryu},
+           familyi={R\bibinitperiod},
+           given={Shinsei},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a67373224eafb9e6200fd3ab19f3b6b6}{%
+           family={Schnyder},
+           familyi={S\bibinitperiod},
+           given={Andreas\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=7b57c51242955fc185759690e6088d41}{%
+           family={Furusaki},
+           familyi={F\bibinitperiod},
+           given={Akira},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dc858600b1f8b10b087f1d4e46c6cff7}{%
+           family={Ludwig},
+           familyi={L\bibinitperiod},
+           given={Andreas\bibnamedelimb W\bibnamedelima W},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{f1da944322c22e1c9fba79c4d7f594b3}
+      \strng{fullhash}{634d9f24dd08e8c9cecd798c384a7851}
+      \strng{bibnamehash}{634d9f24dd08e8c9cecd798c384a7851}
+      \strng{authorbibnamehash}{634d9f24dd08e8c9cecd798c384a7851}
+      \strng{authornamehash}{f1da944322c22e1c9fba79c4d7f594b3}
+      \strng{authorfullhash}{634d9f24dd08e8c9cecd798c384a7851}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New Journal of Physics}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Topological insulators and superconductors: tenfold way and dimensional hierarchy}
+      \field{volume}{12}
+      \field{year}{2010}
+      \field{pages}{065010}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1367-2630/12/6/065010
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088%2F1367-2630%2F12%2F6%2F065010
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088%2F1367-2630%2F12%2F6%2F065010
       \endverb
     \endentry
     \entry{FuKane2007}{article}{}
@@ -1384,8 +1385,8 @@
       \strng{authorbibnamehash}{6ee8bc5edb500b921713618c0aa22eb6}
       \strng{authornamehash}{6ee8bc5edb500b921713618c0aa22eb6}
       \strng{authorfullhash}{6ee8bc5edb500b921713618c0aa22eb6}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{10}
@@ -1683,6 +1684,243 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.97.236805
       \endverb
     \endentry
+    \entry{quasicrystals}{article}{}
+      \name{author}{4}{}{%
+        {{hash=fa2bd005d2ae0da5d55dfca423ba442b}{%
+           family={Shechtman},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ae496055cf450b9bc4a87c2674721750}{%
+           family={Blech},
+           familyi={B\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=8ff70c4f182794c2aebc127ce1403fd1}{%
+           family={Gratias},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b6f7fb0cbeffc7712dc66af2caeef79e}{%
+           family={Cahn},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{b4f2c8745ed3a9c0643a0ca2f3cc7b4b}
+      \strng{fullhash}{5f88461f2575b4918db681ae00d31585}
+      \strng{bibnamehash}{5f88461f2575b4918db681ae00d31585}
+      \strng{authorbibnamehash}{5f88461f2575b4918db681ae00d31585}
+      \strng{authornamehash}{b4f2c8745ed3a9c0643a0ca2f3cc7b4b}
+      \strng{authorfullhash}{5f88461f2575b4918db681ae00d31585}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{20}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{11}
+      \field{title}{Metallic Phase with Long-Range Orientational Order and No Translational Symmetry}
+      \field{volume}{53}
+      \field{year}{1984}
+      \field{pages}{1951\bibrangedash 1953}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.53.1951
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.53.1951
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.53.1951
+      \endverb
+    \endentry
+    \entry{PhysRevLett.109.106402}{article}{}
+      \name{author}{5}{}{%
+        {{hash=3e82c8e7c2d94ce373c3a0487424c657}{%
+           family={Kraus},
+           familyi={K\bibinitperiod},
+           given={Yaacov\bibnamedelima E.},
+           giveni={Y\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=43e7aaed6a7dd938f34c0e886d7170aa}{%
+           family={Lahini},
+           familyi={L\bibinitperiod},
+           given={Yoav},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=bb76bd2afd3dc99fdfa9aea030b661c1}{%
+           family={Ringel},
+           familyi={R\bibinitperiod},
+           given={Zohar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=e8dcfbff0721c91a8c91ed8331b52700}{%
+           family={Verbin},
+           familyi={V\bibinitperiod},
+           given={Mor},
+           giveni={M\bibinitperiod}}}%
+        {{hash=03a69cffb93cd10f9c6fc266f5f988d3}{%
+           family={Zilberberg},
+           familyi={Z\bibinitperiod},
+           given={Oded},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{a1e0a40b2050bcdf089c99708a699c04}
+      \strng{fullhash}{8a9eb681a991d848dedff129310f5c24}
+      \strng{bibnamehash}{8a9eb681a991d848dedff129310f5c24}
+      \strng{authorbibnamehash}{8a9eb681a991d848dedff129310f5c24}
+      \strng{authornamehash}{a1e0a40b2050bcdf089c99708a699c04}
+      \strng{authorfullhash}{8a9eb681a991d848dedff129310f5c24}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{10}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{9}
+      \field{title}{Topological States and Adiabatic Pumping in Quasicrystals}
+      \field{volume}{109}
+      \field{year}{2012}
+      \field{pages}{106402}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.109.106402
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.106402
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.106402
+      \endverb
+    \endentry
+    \entry{PhysRevLett.124.036803}{article}{}
+      \name{author}{5}{}{%
+        {{hash=42f6181eb67b9a39e475722f47481a53}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8a0ef548724b96b33e4394cb58ed4b94}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Chui-Zhen},
+           giveni={C\bibinithyphendelim Z\bibinitperiod}}}%
+        {{hash=d6519684082cf7f18b9fa0c2d4c2f6fd}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Jin-Hua},
+           giveni={J\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=847b802eb49a8d64e0694a5f417c19e7}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d615ce34ca268ebd2179bba9b569f310}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Dong-Hui},
+           giveni={D\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{ef602425541429aca1d2702ccb3c1c4e}
+      \strng{fullhash}{a51679ca38558428a50a81662a8acc05}
+      \strng{bibnamehash}{a51679ca38558428a50a81662a8acc05}
+      \strng{authorbibnamehash}{a51679ca38558428a50a81662a8acc05}
+      \strng{authornamehash}{ef602425541429aca1d2702ccb3c1c4e}
+      \strng{authorfullhash}{a51679ca38558428a50a81662a8acc05}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{1}
+      \field{title}{Higher-Order Topological Insulators in Quasicrystals}
+      \field{volume}{124}
+      \field{year}{2020}
+      \field{pages}{036803}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.124.036803
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.124.036803
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.124.036803
+      \endverb
+    \endentry
+    \entry{PhysRevLett.123.196401}{article}{}
+      \name{author}{6}{}{%
+        {{hash=8ae3dda39eed5c7f9c9e103154ec1453}{%
+           family={Varjas},
+           familyi={V\bibinitperiod},
+           given={Dániel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ce0c6095d24588a64db97980e4e8ccf6}{%
+           family={Lau},
+           familyi={L\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f787ef4f1ee00683ae9dc0c0b1350f05}{%
+           family={Pöyhönen},
+           familyi={P\bibinitperiod},
+           given={Kim},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c53bf78a1bf184e80d9b34bd2a5513c4}{%
+           family={Akhmerov},
+           familyi={A\bibinitperiod},
+           given={Anton\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=948c4a09a6eeb059fe30fd93ec8e3566}{%
+           family={Pikulin},
+           familyi={P\bibinitperiod},
+           given={Dmitry\bibnamedelima I.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=19cea359c3a69538ee1bcced2ae30ed3}{%
+           family={Fulga},
+           familyi={F\bibinitperiod},
+           given={Ion\bibnamedelima Cosma},
+           giveni={I\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{1d8d41e705bf804bce957ff2ebfa85d3}
+      \strng{fullhash}{a955b49a9df27ede49e6ea9a4df7087f}
+      \strng{bibnamehash}{a955b49a9df27ede49e6ea9a4df7087f}
+      \strng{authorbibnamehash}{a955b49a9df27ede49e6ea9a4df7087f}
+      \strng{authornamehash}{1d8d41e705bf804bce957ff2ebfa85d3}
+      \strng{authorfullhash}{a955b49a9df27ede49e6ea9a4df7087f}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{19}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{11}
+      \field{title}{Topological Phases without Crystalline Counterparts}
+      \field{volume}{123}
+      \field{year}{2019}
+      \field{pages}{196401}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.123.196401
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.123.196401
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.123.196401
+      \endverb
+    \endentry
     \entry{AmorphTIShenoy2017}{article}{}
       \name{author}{2}{}{%
         {{hash=d04c8c15cf364cdf1b4f24aba94cb0c5}{%
@@ -1727,299 +1965,235 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.118.236402
       \endverb
     \endentry
-    \entry{2018:BHZ}{article}{}
-      \name{author}{3}{}{%
-        {{hash=f8c49699c0437d4686f18926f428b406}{%
-           family={{Agarwala}},
-           familyi={A\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=398e0423f7b22ef41a249b6ce6720540}{%
-           family={{Pai}},
-           familyi={P\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=bb7789949833238400effe1c7c8c9358}{%
-           family={{Shenoy}},
-           familyi={S\bibinitperiod},
-           given={V.\bibnamedelimi B.},
-           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-      }
-      \strng{namehash}{fb6351dfc41580f30bd4ffa43191961b}
-      \strng{fullhash}{fb6351dfc41580f30bd4ffa43191961b}
-      \strng{bibnamehash}{fb6351dfc41580f30bd4ffa43191961b}
-      \strng{authorbibnamehash}{fb6351dfc41580f30bd4ffa43191961b}
-      \strng{authornamehash}{fb6351dfc41580f30bd4ffa43191961b}
-      \strng{authorfullhash}{fb6351dfc41580f30bd4ffa43191961b}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{cond-mat.dis-nn}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{ArXiv e-prints}
-      \field{month}{3}
-      \field{title}{{Fractalized Metals}}
-      \field{year}{2018}
-      \verb{eprint}
-      \verb 1803.01404
-      \endverb
-      \keyw{Condensed Matter - Disordered Systems and Neural Networks,Condensed Matter - Mesoscale and Nanoscale Physics}
-    \endentry
-    \entry{Kempkes2019}{article}{}
-      \name{author}{7}{}{%
-        {{hash=ddd4730ec15297cd6f1aca36dd99245e}{%
-           family={Kempkes},
-           familyi={K\bibinitperiod},
-           given={S.\bibnamedelimi N.},
-           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=7610d550cd2875a98eb7476f6a1493b3}{%
-           family={Slot},
-           familyi={S\bibinitperiod},
-           given={M.\bibnamedelimi R.},
-           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=c5fdb641417a780fb389d344776778d6}{%
-           family={Freeney},
+    \entry{statTI2014}{article}{}
+      \name{author}{4}{}{%
+        {{hash=80e583389133e2bda6f1e69794fe32dd}{%
+           family={Fulga},
            familyi={F\bibinitperiod},
-           given={S.\bibnamedelimi E.},
-           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=2888a7ce8a6457f6157c3422513f759a}{%
-           family={Zevenhuizen},
-           familyi={Z\bibinitperiod},
-           given={S.\bibnamedelimi J.\bibnamedelimi M.},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=bab139cf5de6b01aef5089a3290ba40f}{%
-           family={Vanmaekelbergh},
-           familyi={V\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=e9e10196897bfbfb18e1f4ab2455ac15}{%
-           family={Swart},
-           familyi={S\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod}}}%
-        {{hash=167255c2cbce2e86a5a509669e672b0b}{%
-           family={Smith},
-           familyi={S\bibinitperiod},
-           given={C.\bibnamedelimi Morais},
-           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{f4c26c6ba3e635e8c80523fe17c4514c}
-      \strng{fullhash}{1555789ec2b4c92b63ad03f0b06c1002}
-      \strng{bibnamehash}{1555789ec2b4c92b63ad03f0b06c1002}
-      \strng{authorbibnamehash}{1555789ec2b4c92b63ad03f0b06c1002}
-      \strng{authornamehash}{f4c26c6ba3e635e8c80523fe17c4514c}
-      \strng{authorfullhash}{1555789ec2b4c92b63ad03f0b06c1002}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1745-2481}
-      \field{journaltitle}{Nature Physics}
-      \field{number}{2}
-      \field{title}{Design and characterization of electrons in a fractal geometry}
-      \field{volume}{15}
-      \field{year}{2019}
-      \field{pages}{127\bibrangedash 131}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.1038/s41567-018-0328-0
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1038/s41567-018-0328-0
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1038/s41567-018-0328-0
-      \endverb
-    \endentry
-    \entry{Shang2015}{article}{}
-      \name{author}{10}{}{%
-        {{hash=9dde75d51bdb42e4730b2b01bb6e6a8c}{%
-           family={Shang},
-           familyi={S\bibinitperiod},
-           given={Jian},
-           giveni={J\bibinitperiod}}}%
-        {{hash=8f56a0b17db885429cbb1844baa99e0b}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Yongfeng},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=fb194450e9046854896c4ca5f2dc8d01}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Min},
-           giveni={M\bibinitperiod}}}%
-        {{hash=78c49b0b02d535d6d623e8d51eca714f}{%
-           family={Dai},
-           familyi={D\bibinitperiod},
-           given={Jingxin},
-           giveni={J\bibinitperiod}}}%
-        {{hash=1541f401e3257b31f3d4d0a71f076b0b}{%
-           family={Zhou},
-           familyi={Z\bibinitperiod},
-           given={Xiong},
-           giveni={X\bibinitperiod}}}%
-        {{hash=698f88be14d53c8fcddea53562c632b2}{%
-           family={Kuttner},
-           familyi={K\bibinitperiod},
-           given={Julian},
-           giveni={J\bibinitperiod}}}%
-        {{hash=f0e0a3691489d94d67f84293afa27455}{%
-           family={Hilt},
+           given={I.\bibnamedelimi C.},
+           giveni={I\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c5e5222d9cc65f77f36793497dcc79af}{%
+           family={Heck},
            familyi={H\bibinitperiod},
-           given={Gerhard},
-           giveni={G\bibinitperiod}}}%
-        {{hash=13bf41809394bc0d9bd4d656411c9ee5}{%
-           family={Shao},
-           familyi={S\bibinitperiod},
-           given={Xiang},
-           giveni={X\bibinitperiod}}}%
-        {{hash=46b5093aba206ee3bdb57df10bc4b8b5}{%
-           family={Gottfried},
-           familyi={G\bibinitperiod},
-           given={J.\bibnamedelimi Michael},
+           given={B.},
+           giveni={B\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=0523e42f7c3282b1c1ac87bcee6707db}{%
+           family={Edge},
+           familyi={E\bibinitperiod},
+           given={J.\bibnamedelimi M.},
            giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=6925c5dcdb9b5ed8f2a02432404549e7}{%
-           family={Wu},
-           familyi={W\bibinitperiod},
-           given={Kai},
-           giveni={K\bibinitperiod}}}%
+        {{hash=40f470a3b55966ad3a0eb8a6709230dd}{%
+           family={Akhmerov},
+           familyi={A\bibinitperiod},
+           given={A.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
-      \strng{namehash}{555d4882cda2fadf53abcda8df151358}
-      \strng{fullhash}{33f04547311db6b8cf3be47e39c112f1}
-      \strng{bibnamehash}{33f04547311db6b8cf3be47e39c112f1}
-      \strng{authorbibnamehash}{33f04547311db6b8cf3be47e39c112f1}
-      \strng{authornamehash}{555d4882cda2fadf53abcda8df151358}
-      \strng{authorfullhash}{33f04547311db6b8cf3be47e39c112f1}
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{841239fee7f9d007355fa558998a5ddf}
+      \strng{fullhash}{e496af6d0f1198acf7a09d4cb0e7d787}
+      \strng{bibnamehash}{e496af6d0f1198acf7a09d4cb0e7d787}
+      \strng{authorbibnamehash}{e496af6d0f1198acf7a09d4cb0e7d787}
+      \strng{authornamehash}{841239fee7f9d007355fa558998a5ddf}
+      \strng{authorfullhash}{e496af6d0f1198acf7a09d4cb0e7d787}
       \field{sortinit}{3}
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1755-4349}
-      \field{journaltitle}{Nature Chemistry}
-      \field{number}{5}
-      \field{title}{Assembling molecular Sierpinski triangle fractals}
-      \field{volume}{7}
-      \field{year}{2015}
-      \field{pages}{389\bibrangedash 393}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.1038/nchem.2211
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1038/nchem.2211
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1038/nchem.2211
-      \endverb
-    \endentry
-    \entry{FIBSC}{article}{}
-      \name{author}{5}{}{%
-        {{hash=488a6ef5e7b016e93a7acc0d55d9cc96}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Ting\bibnamedelima Lee},
-           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=a38457d6cf1981ea6f3e9443737520f6}{%
-           family={Dikken},
-           familyi={D\bibinitperiod},
-           given={Dirk\bibnamedelima Jan},
-           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=74a837f23794d9db6872709ae19759f2}{%
-           family={Prangsma},
-           familyi={P\bibinitperiod},
-           given={Jord\bibnamedelima C},
-           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=1e008ff7e36eecc06e4f8da4d9cdbea6}{%
-           family={Segerink},
-           familyi={S\bibinitperiod},
-           given={Frans},
-           giveni={F\bibinitperiod}}}%
-        {{hash=11f7fa35e1dfae6f40cf392763382979}{%
-           family={Herek},
-           familyi={H\bibinitperiod},
-           given={Jennifer\bibnamedelima L},
-           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \strng{namehash}{f5b5c8bc8d884057c9bf8d8220903e52}
-      \strng{fullhash}{f0857b574257bb86a633133d2834bb4e}
-      \strng{bibnamehash}{f0857b574257bb86a633133d2834bb4e}
-      \strng{authorbibnamehash}{f0857b574257bb86a633133d2834bb4e}
-      \strng{authornamehash}{f5b5c8bc8d884057c9bf8d8220903e52}
-      \strng{authorfullhash}{f0857b574257bb86a633133d2834bb4e}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{New Journal of Physics}
-      \field{number}{9}
-      \field{title}{Characterization of Sierpinski carpet optical antenna at visible and near-infrared wavelengths}
-      \field{volume}{16}
+      \field{issue}{15}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{4}
+      \field{title}{Statistical topological insulators}
+      \field{volume}{89}
       \field{year}{2014}
-      \field{pages}{093024}
+      \field{pages}{155424}
       \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.89.155424
+      \endverb
       \verb{urlraw}
-      \verb http://stacks.iop.org/1367-2630/16/i=9/a=093024
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.89.155424
       \endverb
       \verb{url}
-      \verb http://stacks.iop.org/1367-2630/16/i=9/a=093024
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.89.155424
       \endverb
     \endentry
-    \entry{Gyrosc2018Irvine}{article}{}
-      \name{author}{5}{}{%
-        {{hash=45b37888785b46eaafab29396866a5ee}{%
-           family={Mitchell},
+    \entry{mandelbrot1983fractal}{book}{}
+      \name{author}{3}{}{%
+        {{hash=23610556ebf15b69dc33aa4a93bc1171}{%
+           family={Mandelbrot},
            familyi={M\bibinitperiod},
-           given={Noah\bibnamedelima P.},
-           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=6eacb569e7059e9ddfdfb08f9dd00d4b}{%
-           family={Nash},
-           familyi={N\bibinitperiod},
-           given={Lisa\bibnamedelima M.},
-           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=d98504eb56b3021f45b028d1475b2430}{%
-           family={Hexner},
-           familyi={H\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=e206a64eef8c16141ea8fb77a46ef5f4}{%
-           family={Turner},
-           familyi={T\bibinitperiod},
-           given={Ari\bibnamedelima M.},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=51fe8f9b951810d83c6ff8b6cbf2e8c4}{%
-           family={Irvine},
-           familyi={I\bibinitperiod},
-           given={William\bibnamedelimb T.\bibnamedelimi M.},
-           giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+           given={B.B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=46d26c15b10b275b7016a993ac7735f0}{%
+           family={Freeman},
+           familyi={F\bibinitperiod},
+           given={W.H.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=1c76cbfe21c6f44c1d1e59d54f3e4420}{%
+           family={Company},
+           familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{da68550dccb252886479a23bd0de0a5a}
-      \strng{fullhash}{53e9a2c978024c2a4d73dd519f1db448}
-      \strng{bibnamehash}{53e9a2c978024c2a4d73dd519f1db448}
-      \strng{authorbibnamehash}{53e9a2c978024c2a4d73dd519f1db448}
-      \strng{authornamehash}{da68550dccb252886479a23bd0de0a5a}
-      \strng{authorfullhash}{53e9a2c978024c2a4d73dd519f1db448}
+      \list{publisher}{2}{%
+        {Henry Holt}%
+        {Company}%
+      }
+      \strng{namehash}{16019035e74e55c25d9aa29842ce8e75}
+      \strng{fullhash}{16019035e74e55c25d9aa29842ce8e75}
+      \strng{bibnamehash}{16019035e74e55c25d9aa29842ce8e75}
+      \strng{authorbibnamehash}{16019035e74e55c25d9aa29842ce8e75}
+      \strng{authornamehash}{16019035e74e55c25d9aa29842ce8e75}
+      \strng{authorfullhash}{16019035e74e55c25d9aa29842ce8e75}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780716711865}
+      \field{series}{Einaudi paperbacks}
+      \field{title}{The Fractal Geometry of Nature}
+      \field{year}{1983}
+      \verb{urlraw}
+      \verb https://books.google.ch/books?id=0R2LkE3N7-oC
+      \endverb
+      \verb{url}
+      \verb https://books.google.ch/books?id=0R2LkE3N7-oC
+      \endverb
+    \endentry
+    \entry{PhysRevLett.45.855}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a2113b8496d121daf611aacabe40a82a}{%
+           family={Gefen},
+           familyi={G\bibinitperiod},
+           given={Yuval},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d1efa9919078b1d84e99492d760dcc14}{%
+           family={Mandelbrot},
+           familyi={M\bibinitperiod},
+           given={Benoit\bibnamedelima B.},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=c72ba48954a54332345352bdec720724}{%
+           family={Aharony},
+           familyi={A\bibinitperiod},
+           given={Amnon},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{b35803c0fd8f065e88dae28c0cf26468}
+      \strng{fullhash}{b35803c0fd8f065e88dae28c0cf26468}
+      \strng{bibnamehash}{b35803c0fd8f065e88dae28c0cf26468}
+      \strng{authorbibnamehash}{b35803c0fd8f065e88dae28c0cf26468}
+      \strng{authornamehash}{b35803c0fd8f065e88dae28c0cf26468}
+      \strng{authorfullhash}{b35803c0fd8f065e88dae28c0cf26468}
       \field{sortinit}{4}
       \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1745-2481}
-      \field{journaltitle}{Nature Physics}
-      \field{number}{4}
-      \field{title}{Amorphous topological insulators constructed from random point sets}
-      \field{volume}{14}
-      \field{year}{2018}
-      \field{pages}{380\bibrangedash 385}
-      \range{pages}{6}
+      \field{issue}{11}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{9}
+      \field{title}{Critical Phenomena on Fractal Lattices}
+      \field{volume}{45}
+      \field{year}{1980}
+      \field{pages}{855\bibrangedash 858}
+      \range{pages}{4}
       \verb{doi}
-      \verb 10.1038/s41567-017-0024-5
+      \verb 10.1103/PhysRevLett.45.855
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1038/s41567-017-0024-5
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.45.855
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1038/s41567-017-0024-5
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.45.855
       \endverb
+    \endentry
+    \entry{fractalIsing1998}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3a76b6f8463fc82a5e89a698c1fb6543}{%
+           family={Carmona},
+           familyi={C\bibinitperiod},
+           given={José\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f1a6bade94b0f74525dac36974f943de}{%
+           family={Marconi},
+           familyi={M\bibinitperiod},
+           given={Umberto\bibnamedelimb Marini\bibnamedelima Bettolo},
+           giveni={U\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=c647fb78d49b95f5e52cfdb7a10c5c85}{%
+           family={Ruiz-Lorenzo},
+           familyi={R\bibinithyphendelim L\bibinitperiod},
+           given={Juan\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8a8e34a9030809fea8815e41f4ab8e89}{%
+           family={Tarancón},
+           familyi={T\bibinitperiod},
+           given={Alfonso},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{d1693f8997622b15182d1c5eccf78e13}
+      \strng{fullhash}{a090f086ed168d9c9374ead8a14b3564}
+      \strng{bibnamehash}{a090f086ed168d9c9374ead8a14b3564}
+      \strng{authorbibnamehash}{a090f086ed168d9c9374ead8a14b3564}
+      \strng{authornamehash}{d1693f8997622b15182d1c5eccf78e13}
+      \strng{authorfullhash}{a090f086ed168d9c9374ead8a14b3564}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{21}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{12}
+      \field{title}{Critical properties of the Ising model on Sierpinski fractals: A finite-size scaling-analysis approach}
+      \field{volume}{58}
+      \field{year}{1998}
+      \field{pages}{14387\bibrangedash 14396}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.58.14387
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.58.14387
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.58.14387
+      \endverb
+    \endentry
+    \entry{nakayama2013fractal}{book}{}
+      \name{author}{2}{}{%
+        {{hash=274d14b6528213a9c5d4cf6752acf619}{%
+           family={Nakayama},
+           familyi={N\bibinitperiod},
+           given={Tsuneyoshi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=024fad5e036dfaf018b176289a604128}{%
+           family={Yakubo},
+           familyi={Y\bibinitperiod},
+           given={Kousuke},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{6a3f1584fb97e6e3913b63a23a85a04c}
+      \strng{fullhash}{6a3f1584fb97e6e3913b63a23a85a04c}
+      \strng{bibnamehash}{6a3f1584fb97e6e3913b63a23a85a04c}
+      \strng{authorbibnamehash}{6a3f1584fb97e6e3913b63a23a85a04c}
+      \strng{authornamehash}{6a3f1584fb97e6e3913b63a23a85a04c}
+      \strng{authorfullhash}{6a3f1584fb97e6e3913b63a23a85a04c}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fractal concepts in condensed matter physics}
+      \field{volume}{140}
+      \field{year}{2013}
     \endentry
     \entry{2016:TomadinTransport1}{article}{}
       \name{author}{5}{}{%
@@ -2145,41 +2319,809 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevB.96.235438
       \endverb
     \endentry
-    \entry{BottIdx}{article}{}
-      \name{author}{2}{}{%
-        {{hash=1adc48fb215143b91fac1c37d72bb3cd}{%
-           family={Loring},
-           familyi={L\bibinitperiod},
-           given={T.\bibnamedelimi A.},
-           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=6fe91ce93ec3150a2a51092e35e37fab}{%
-           family={Hastings},
-           familyi={H\bibinitperiod},
-           given={M.\bibnamedelimi B.},
-           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+    \entry{plasmons}{article}{}
+      \name{author}{4}{}{%
+        {{hash=edc2a1b0b048b2042c4dbb462a50bbc2}{%
+           family={Westerhout},
+           familyi={W\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+        {{hash=dd3f21f3751d52e05903dc0da16f2112}{%
+           family={Veen},
+           familyi={V\bibinitperiod},
+           given={Edo},
+           giveni={E\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=fc3aea0815896f390fe3b1eaca1858b8}{%
+           family={Katsnelson},
+           familyi={K\bibinitperiod},
+           given={Mikhail\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=2b5e93d61191be2138b085aff056e97c}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Shengjun},
+           giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{26e0a3ef88b5b6d6ad50fcc647ff9ee1}
-      \strng{fullhash}{26e0a3ef88b5b6d6ad50fcc647ff9ee1}
-      \strng{bibnamehash}{26e0a3ef88b5b6d6ad50fcc647ff9ee1}
-      \strng{authorbibnamehash}{26e0a3ef88b5b6d6ad50fcc647ff9ee1}
-      \strng{authornamehash}{26e0a3ef88b5b6d6ad50fcc647ff9ee1}
-      \strng{authorfullhash}{26e0a3ef88b5b6d6ad50fcc647ff9ee1}
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{3f410ed2ec3e8650b59e2055f5581c15}
+      \strng{fullhash}{2392054c4bc3bb9c67a07dc3d9a0f46c}
+      \strng{bibnamehash}{2392054c4bc3bb9c67a07dc3d9a0f46c}
+      \strng{authorbibnamehash}{2392054c4bc3bb9c67a07dc3d9a0f46c}
+      \strng{authornamehash}{3f410ed2ec3e8650b59e2055f5581c15}
+      \strng{authorfullhash}{2392054c4bc3bb9c67a07dc3d9a0f46c}
       \field{sortinit}{4}
       \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{EPL (Europhysics Letters)}
-      \field{number}{6}
-      \field{title}{Disordered topological insulators via C * -algebras}
-      \field{volume}{92}
-      \field{year}{2010}
-      \field{pages}{67004}
+      \field{issue}{20}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{5}
+      \field{title}{Plasmon confinement in fractal quantum systems}
+      \field{volume}{97}
+      \field{year}{2018}
+      \field{pages}{205434}
       \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.97.205434
+      \endverb
       \verb{urlraw}
-      \verb http://stacks.iop.org/0295-5075/92/i=6/a=67004
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.97.205434
       \endverb
       \verb{url}
-      \verb http://stacks.iop.org/0295-5075/92/i=6/a=67004
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.97.205434
+      \endverb
+    \endentry
+    \entry{biblap1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7d940f6bc0077ac797078fca572cd030}{%
+           family={Pal},
+           familyi={P\bibinitperiod},
+           given={Biplab},
+           giveni={B\bibinitperiod}}}%
+        {{hash=39a1c9dfe17e8688dbe7f0989c637b1a}{%
+           family={Chakrabarti},
+           familyi={C\bibinitperiod},
+           given={Arunava},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{e54133b3aa0435b27b1dcae038d1529b}
+      \strng{fullhash}{e54133b3aa0435b27b1dcae038d1529b}
+      \strng{bibnamehash}{e54133b3aa0435b27b1dcae038d1529b}
+      \strng{authorbibnamehash}{e54133b3aa0435b27b1dcae038d1529b}
+      \strng{authornamehash}{e54133b3aa0435b27b1dcae038d1529b}
+      \strng{authorfullhash}{e54133b3aa0435b27b1dcae038d1529b}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{21}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{6}
+      \field{title}{Staggered and extreme localization of electron states in fractal space}
+      \field{volume}{85}
+      \field{year}{2012}
+      \field{pages}{214203}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.85.214203
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.85.214203
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.85.214203
+      \endverb
+    \endentry
+    \entry{biblap3}{article}{}
+      \name{author}{4}{}{%
+        {{hash=7d940f6bc0077ac797078fca572cd030}{%
+           family={Pal},
+           familyi={P\bibinitperiod},
+           given={Biplab},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a28b8fa500f8c212a425bbe2736f44b5}{%
+           family={Patra},
+           familyi={P\bibinitperiod},
+           given={Pinaki},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1b959d820eec392fc96ed6b231b5c908}{%
+           family={Saha},
+           familyi={S\bibinitperiod},
+           given={Jyoti\bibnamedelima Prasad},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=39a1c9dfe17e8688dbe7f0989c637b1a}{%
+           family={Chakrabarti},
+           familyi={C\bibinitperiod},
+           given={Arunava},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{9d79a4659275916a7ede9577eaca8f58}
+      \strng{fullhash}{4e6dd5474c4adb4cbe6268fc084c0ad4}
+      \strng{bibnamehash}{4e6dd5474c4adb4cbe6268fc084c0ad4}
+      \strng{authorbibnamehash}{4e6dd5474c4adb4cbe6268fc084c0ad4}
+      \strng{authornamehash}{9d79a4659275916a7ede9577eaca8f58}
+      \strng{authorfullhash}{4e6dd5474c4adb4cbe6268fc084c0ad4}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{2}
+      \field{title}{Engineering wave localization in a fractal waveguide network}
+      \field{volume}{87}
+      \field{year}{2013}
+      \field{pages}{023814}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.87.023814
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.87.023814
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.87.023814
+      \endverb
+    \endentry
+    \entry{2017:SachaRandFractal}{article}{}
+      \name{author}{2}{}{%
+        {{hash=64d3509930931c41f2dcd14069a1f17f}{%
+           family={Kosior},
+           familyi={K\bibinitperiod},
+           given={Arkadiusz},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2532deb181a07be2bd122c883f7a27bc}{%
+           family={Sacha},
+           familyi={S\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{32689d62b1b384a88490778b531982cc}
+      \strng{fullhash}{32689d62b1b384a88490778b531982cc}
+      \strng{bibnamehash}{32689d62b1b384a88490778b531982cc}
+      \strng{authorbibnamehash}{32689d62b1b384a88490778b531982cc}
+      \strng{authornamehash}{32689d62b1b384a88490778b531982cc}
+      \strng{authorfullhash}{32689d62b1b384a88490778b531982cc}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{10}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{3}
+      \field{title}{Localization in random fractal lattices}
+      \field{volume}{95}
+      \field{year}{2017}
+      \field{pages}{104206}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.95.104206
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.95.104206
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.95.104206
+      \endverb
+    \endentry
+    \entry{biblap2}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1c2b66c07d4dd882cc9d195f448a9fd5}{%
+           family={{Pal, B.}},
+           familyi={P\bibinitperiod}}}%
+        {{hash=70ee85712e352116ef19c51bc6008d5b}{%
+           family={{Chakrabarti, A.}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5178ca1666c4db9d66cf6bec1821a768}
+      \strng{fullhash}{5178ca1666c4db9d66cf6bec1821a768}
+      \strng{bibnamehash}{5178ca1666c4db9d66cf6bec1821a768}
+      \strng{authorbibnamehash}{5178ca1666c4db9d66cf6bec1821a768}
+      \strng{authornamehash}{5178ca1666c4db9d66cf6bec1821a768}
+      \strng{authorfullhash}{5178ca1666c4db9d66cf6bec1821a768}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Eur. Phys. J. B}
+      \field{number}{9}
+      \field{title}{Nature of electron states and magneto-transport in a graphene geometry with a fractal distribution of holes}
+      \field{volume}{85}
+      \field{year}{2012}
+      \field{pages}{307}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjb/e2012-30456-8
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1140/epjb/e2012-30456-8
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1140/epjb/e2012-30456-8
+      \endverb
+    \endentry
+    \entry{FIBSC}{article}{}
+      \name{author}{5}{}{%
+        {{hash=488a6ef5e7b016e93a7acc0d55d9cc96}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Ting\bibnamedelima Lee},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=a38457d6cf1981ea6f3e9443737520f6}{%
+           family={Dikken},
+           familyi={D\bibinitperiod},
+           given={Dirk\bibnamedelima Jan},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=74a837f23794d9db6872709ae19759f2}{%
+           family={Prangsma},
+           familyi={P\bibinitperiod},
+           given={Jord\bibnamedelima C},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=1e008ff7e36eecc06e4f8da4d9cdbea6}{%
+           family={Segerink},
+           familyi={S\bibinitperiod},
+           given={Frans},
+           giveni={F\bibinitperiod}}}%
+        {{hash=11f7fa35e1dfae6f40cf392763382979}{%
+           family={Herek},
+           familyi={H\bibinitperiod},
+           given={Jennifer\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5b5c8bc8d884057c9bf8d8220903e52}
+      \strng{fullhash}{f0857b574257bb86a633133d2834bb4e}
+      \strng{bibnamehash}{f0857b574257bb86a633133d2834bb4e}
+      \strng{authorbibnamehash}{f0857b574257bb86a633133d2834bb4e}
+      \strng{authornamehash}{f5b5c8bc8d884057c9bf8d8220903e52}
+      \strng{authorfullhash}{f0857b574257bb86a633133d2834bb4e}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New Journal of Physics}
+      \field{number}{9}
+      \field{title}{Characterization of Sierpinski carpet optical antenna at visible and near-infrared wavelengths}
+      \field{volume}{16}
+      \field{year}{2014}
+      \field{pages}{093024}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb http://stacks.iop.org/1367-2630/16/i=9/a=093024
+      \endverb
+      \verb{url}
+      \verb http://stacks.iop.org/1367-2630/16/i=9/a=093024
+      \endverb
+    \endentry
+    \entry{Kempkes2019}{article}{}
+      \name{author}{7}{}{%
+        {{hash=ddd4730ec15297cd6f1aca36dd99245e}{%
+           family={Kempkes},
+           familyi={K\bibinitperiod},
+           given={S.\bibnamedelimi N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=7610d550cd2875a98eb7476f6a1493b3}{%
+           family={Slot},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=c5fdb641417a780fb389d344776778d6}{%
+           family={Freeney},
+           familyi={F\bibinitperiod},
+           given={S.\bibnamedelimi E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=2888a7ce8a6457f6157c3422513f759a}{%
+           family={Zevenhuizen},
+           familyi={Z\bibinitperiod},
+           given={S.\bibnamedelimi J.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=bab139cf5de6b01aef5089a3290ba40f}{%
+           family={Vanmaekelbergh},
+           familyi={V\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e9e10196897bfbfb18e1f4ab2455ac15}{%
+           family={Swart},
+           familyi={S\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=167255c2cbce2e86a5a509669e672b0b}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi Morais},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4c26c6ba3e635e8c80523fe17c4514c}
+      \strng{fullhash}{1555789ec2b4c92b63ad03f0b06c1002}
+      \strng{bibnamehash}{1555789ec2b4c92b63ad03f0b06c1002}
+      \strng{authorbibnamehash}{1555789ec2b4c92b63ad03f0b06c1002}
+      \strng{authornamehash}{f4c26c6ba3e635e8c80523fe17c4514c}
+      \strng{authorfullhash}{1555789ec2b4c92b63ad03f0b06c1002}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1745-2481}
+      \field{journaltitle}{Nature Physics}
+      \field{number}{2}
+      \field{title}{Design and characterization of electrons in a fractal geometry}
+      \field{volume}{15}
+      \field{year}{2019}
+      \field{pages}{127\bibrangedash 131}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/s41567-018-0328-0
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s41567-018-0328-0
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s41567-018-0328-0
+      \endverb
+    \endentry
+    \entry{Shang2015}{article}{}
+      \name{author}{10}{}{%
+        {{hash=9dde75d51bdb42e4730b2b01bb6e6a8c}{%
+           family={Shang},
+           familyi={S\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8f56a0b17db885429cbb1844baa99e0b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yongfeng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=fb194450e9046854896c4ca5f2dc8d01}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+        {{hash=78c49b0b02d535d6d623e8d51eca714f}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Jingxin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1541f401e3257b31f3d4d0a71f076b0b}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xiong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=698f88be14d53c8fcddea53562c632b2}{%
+           family={Kuttner},
+           familyi={K\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f0e0a3691489d94d67f84293afa27455}{%
+           family={Hilt},
+           familyi={H\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=13bf41809394bc0d9bd4d656411c9ee5}{%
+           family={Shao},
+           familyi={S\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=46b5093aba206ee3bdb57df10bc4b8b5}{%
+           family={Gottfried},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi Michael},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6925c5dcdb9b5ed8f2a02432404549e7}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{555d4882cda2fadf53abcda8df151358}
+      \strng{fullhash}{33f04547311db6b8cf3be47e39c112f1}
+      \strng{bibnamehash}{33f04547311db6b8cf3be47e39c112f1}
+      \strng{authorbibnamehash}{33f04547311db6b8cf3be47e39c112f1}
+      \strng{authornamehash}{555d4882cda2fadf53abcda8df151358}
+      \strng{authorfullhash}{33f04547311db6b8cf3be47e39c112f1}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1755-4349}
+      \field{journaltitle}{Nature Chemistry}
+      \field{number}{5}
+      \field{title}{Assembling molecular Sierpinski triangle fractals}
+      \field{volume}{7}
+      \field{year}{2015}
+      \field{pages}{389\bibrangedash 393}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/nchem.2211
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/nchem.2211
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/nchem.2211
+      \endverb
+    \endentry
+    \entry{GHEZ19871291}{article}{}
+      \name{author}{5}{}{%
+        {{hash=99a0008fe7d11b8cc2d2d9f02f4e83ac}{%
+           family={Ghez},
+           familyi={G\bibinitperiod},
+           given={J.M.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e77256cc54241d5b19bedb0d276928c6}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yin\bibnamedelima Yu},
+           giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=56d9b4ede8e065ea3266ea483fc25cd9}{%
+           family={Rammal},
+           familyi={R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=79c9611c6a218616f4d8a699014cc5c0}{%
+           family={Pannetier},
+           familyi={P\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d4aaae94971ee266be454fc4ac3ecf34}{%
+           family={Bellissard},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4fb30bf6a3ba93b4677e111edf7b2b0f}
+      \strng{fullhash}{c8b16ac1754d7c0365bf0843a44ddd85}
+      \strng{bibnamehash}{c8b16ac1754d7c0365bf0843a44ddd85}
+      \strng{authorbibnamehash}{c8b16ac1754d7c0365bf0843a44ddd85}
+      \strng{authornamehash}{4fb30bf6a3ba93b4677e111edf7b2b0f}
+      \strng{authorfullhash}{c8b16ac1754d7c0365bf0843a44ddd85}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0038-1098}
+      \field{journaltitle}{Solid State Communications}
+      \field{number}{10}
+      \field{title}{Band spectrum for an electron on a Sierpinski gasket in a magnetic field}
+      \field{volume}{64}
+      \field{year}{1987}
+      \field{pages}{1291\bibrangedash 1294}
+      \range{pages}{4}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0038-1098(87)90628-4
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/0038109887906284
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/0038109887906284
+      \endverb
+    \endentry
+    \entry{PhysRevB.29.5504}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b9f76c795e92f6d26a6895e7e48582b2}{%
+           family={Alexander},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{b9f76c795e92f6d26a6895e7e48582b2}
+      \strng{fullhash}{b9f76c795e92f6d26a6895e7e48582b2}
+      \strng{bibnamehash}{b9f76c795e92f6d26a6895e7e48582b2}
+      \strng{authorbibnamehash}{b9f76c795e92f6d26a6895e7e48582b2}
+      \strng{authornamehash}{b9f76c795e92f6d26a6895e7e48582b2}
+      \strng{authorfullhash}{b9f76c795e92f6d26a6895e7e48582b2}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{10}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{5}
+      \field{title}{Some properties of the spectrum of the Sierpinski gasket in a magnetic field}
+      \field{volume}{29}
+      \field{year}{1984}
+      \field{pages}{5504\bibrangedash 5508}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.29.5504
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.29.5504
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.29.5504
+      \endverb
+    \endentry
+    \entry{PhysRevLett.49.1194}{article}{}
+      \name{author}{2}{}{%
+        {{hash=56d9b4ede8e065ea3266ea483fc25cd9}{%
+           family={Rammal},
+           familyi={R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a17a605d73b6984969e19a8684d1148a}{%
+           family={Toulouse},
+           familyi={T\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{aba10f3a1d8daa2d4f895a3e9a79b4e0}
+      \strng{fullhash}{aba10f3a1d8daa2d4f895a3e9a79b4e0}
+      \strng{bibnamehash}{aba10f3a1d8daa2d4f895a3e9a79b4e0}
+      \strng{authorbibnamehash}{aba10f3a1d8daa2d4f895a3e9a79b4e0}
+      \strng{authornamehash}{aba10f3a1d8daa2d4f895a3e9a79b4e0}
+      \strng{authorfullhash}{aba10f3a1d8daa2d4f895a3e9a79b4e0}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{16}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{10}
+      \field{title}{Spectrum of the Schrödinger Equation on a Self-Similar Structure}
+      \field{volume}{49}
+      \field{year}{1982}
+      \field{pages}{1194\bibrangedash 1197}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.49.1194
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.49.1194
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.49.1194
+      \endverb
+    \endentry
+    \entry{PhysRevB.60.10054}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b7000f98e3e67533f902a03c997ec2bb}{%
+           family={Lindquist},
+           familyi={L\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{hash=84232822b5841979fa85febda1359474}{%
+           family={Riklund},
+           familyi={R\bibinitperiod},
+           given={Rolf},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{29a8f50a4333147872489edaefabe806}
+      \strng{fullhash}{29a8f50a4333147872489edaefabe806}
+      \strng{bibnamehash}{29a8f50a4333147872489edaefabe806}
+      \strng{authorbibnamehash}{29a8f50a4333147872489edaefabe806}
+      \strng{authornamehash}{29a8f50a4333147872489edaefabe806}
+      \strng{authorfullhash}{29a8f50a4333147872489edaefabe806}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{14}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{10}
+      \field{title}{Effects of deterministic aperiodic and self-similar on-site potentials on the structure of the Hofstadter butterfly}
+      \field{volume}{60}
+      \field{year}{1999}
+      \field{pages}{10054\bibrangedash 10061}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.60.10054
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.60.10054
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.60.10054
+      \endverb
+    \endentry
+    \entry{2018:BHZ}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f8c49699c0437d4686f18926f428b406}{%
+           family={{Agarwala}},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=398e0423f7b22ef41a249b6ce6720540}{%
+           family={{Pai}},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bb7789949833238400effe1c7c8c9358}{%
+           family={{Shenoy}},
+           familyi={S\bibinitperiod},
+           given={V.\bibnamedelimi B.},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb6351dfc41580f30bd4ffa43191961b}
+      \strng{fullhash}{fb6351dfc41580f30bd4ffa43191961b}
+      \strng{bibnamehash}{fb6351dfc41580f30bd4ffa43191961b}
+      \strng{authorbibnamehash}{fb6351dfc41580f30bd4ffa43191961b}
+      \strng{authornamehash}{fb6351dfc41580f30bd4ffa43191961b}
+      \strng{authorfullhash}{fb6351dfc41580f30bd4ffa43191961b}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cond-mat.dis-nn}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{ArXiv e-prints}
+      \field{month}{3}
+      \field{title}{{Fractalized Metals}}
+      \field{year}{2018}
+      \verb{eprint}
+      \verb 1803.01404
+      \endverb
+      \keyw{Condensed Matter - Disordered Systems and Neural Networks,Condensed Matter - Mesoscale and Nanoscale Physics}
+    \endentry
+    \entry{PaiFractal2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d06c9c662b6d118f7403b9c569f60837}{%
+           family={Pai},
+           familyi={P\bibinitperiod},
+           given={Shriya},
+           giveni={S\bibinitperiod}}}%
+        {{hash=572f5e81a190d9b97d0b2c370dee3482}{%
+           family={Prem},
+           familyi={P\bibinitperiod},
+           given={Abhinav},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{47ca1f9434f4e533be433e88d769b1f7}
+      \strng{fullhash}{47ca1f9434f4e533be433e88d769b1f7}
+      \strng{bibnamehash}{47ca1f9434f4e533be433e88d769b1f7}
+      \strng{authorbibnamehash}{47ca1f9434f4e533be433e88d769b1f7}
+      \strng{authornamehash}{47ca1f9434f4e533be433e88d769b1f7}
+      \strng{authorfullhash}{47ca1f9434f4e533be433e88d769b1f7}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{15}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{10}
+      \field{title}{Topological states on fractal lattices}
+      \field{volume}{100}
+      \field{year}{2019}
+      \field{pages}{155135}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.100.155135
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.100.155135
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.100.155135
+      \endverb
+    \endentry
+    \entry{EdgesFremling2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d772ce0d93e0c19ebb1ee1eda1fa0959}{%
+           family={Fremling},
+           familyi={F\bibinitperiod},
+           given={Mikael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8452fc483f08500d307662b3add1b535}{%
+           family={Hooft},
+           familyi={H\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=d1d256c2abc7caac344dc518f70ce1f0}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Cristiane\bibnamedelima Morais},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=2293c25eb4c4dee701913659802659b4}{%
+           family={Fritz},
+           familyi={F\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{dd73a9a24f6e2c26853378c972f8bec9}
+      \strng{fullhash}{c0104a56268e6967803610b7237e1941}
+      \strng{bibnamehash}{c0104a56268e6967803610b7237e1941}
+      \strng{authorbibnamehash}{c0104a56268e6967803610b7237e1941}
+      \strng{authornamehash}{dd73a9a24f6e2c26853378c972f8bec9}
+      \strng{authorfullhash}{c0104a56268e6967803610b7237e1941}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. Research}
+      \field{month}{1}
+      \field{title}{Existence of robust edge currents in Sierpi\ifmmode \acute{n}\else ń\fi{}ski fractals}
+      \field{volume}{2}
+      \field{year}{2020}
+      \field{pages}{013044}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevResearch.2.013044
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevResearch.2.013044
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevResearch.2.013044
+      \endverb
+    \endentry
+    \entry{KatnelsonFractal2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9d01bb4907fa6cbbb7cb54f025afd075}{%
+           family={Iliasov},
+           familyi={I\bibinitperiod},
+           given={Askar\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=fc3aea0815896f390fe3b1eaca1858b8}{%
+           family={Katsnelson},
+           familyi={K\bibinitperiod},
+           given={Mikhail\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=2b5e93d61191be2138b085aff056e97c}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Shengjun},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{5d0203419df6bb3e0a3cc5d166d5b643}
+      \strng{fullhash}{5d0203419df6bb3e0a3cc5d166d5b643}
+      \strng{bibnamehash}{5d0203419df6bb3e0a3cc5d166d5b643}
+      \strng{authorbibnamehash}{5d0203419df6bb3e0a3cc5d166d5b643}
+      \strng{authornamehash}{5d0203419df6bb3e0a3cc5d166d5b643}
+      \strng{authorfullhash}{5d0203419df6bb3e0a3cc5d166d5b643}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{1}
+      \field{title}{Hall conductivity of a Sierpi\ifmmode \acute{n}\else ń\fi{}ski carpet}
+      \field{volume}{101}
+      \field{year}{2020}
+      \field{pages}{045413}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.101.045413
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.101.045413
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.101.045413
       \endverb
     \endentry
     \entry{1976:Hofstadter}{article}{}
@@ -2199,8 +3141,8 @@
       \strng{authorbibnamehash}{c6941e617c7458ca4f6250cec8f9b702}
       \strng{authornamehash}{c6941e617c7458ca4f6250cec8f9b702}
       \strng{authorfullhash}{c6941e617c7458ca4f6250cec8f9b702}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{6}
@@ -2219,6 +3161,60 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevB.14.2239
+      \endverb
+    \endentry
+    \entry{PhysRevB.28.3110}{article}{}
+      \name{author}{4}{}{%
+        {{hash=777a59fea7306fd205ac98f0595b4a21}{%
+           family={Domany},
+           familyi={D\bibinitperiod},
+           given={Eytan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1ce10dbfc283dcbda4a1a977621029da}{%
+           family={Alexander},
+           familyi={A\bibinitperiod},
+           given={Shlomo},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4257a317eea085211fa460741443ef5b}{%
+           family={Bensimon},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1317f7ff4e0b4a73668c1eab95986be9}{%
+           family={Kadanoff},
+           familyi={K\bibinitperiod},
+           given={Leo\bibnamedelima P.},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{8e138ddf801b8bbfb5c24c431f18e5d1}
+      \strng{fullhash}{db40cc2fdacecd139e5aeb05725ddf69}
+      \strng{bibnamehash}{db40cc2fdacecd139e5aeb05725ddf69}
+      \strng{authorbibnamehash}{db40cc2fdacecd139e5aeb05725ddf69}
+      \strng{authornamehash}{8e138ddf801b8bbfb5c24c431f18e5d1}
+      \strng{authorfullhash}{db40cc2fdacecd139e5aeb05725ddf69}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{9}
+      \field{title}{Solutions to the Schrödinger equation on some fractal lattices}
+      \field{volume}{28}
+      \field{year}{1983}
+      \field{pages}{3110\bibrangedash 3123}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.28.3110
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.28.3110
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.28.3110
       \endverb
     \endentry
     \entry{supp1}{article}{}
@@ -2248,8 +3244,8 @@
       \strng{authorbibnamehash}{1b619964ad6702620d382828e0dc7fc9}
       \strng{authornamehash}{1b619964ad6702620d382828e0dc7fc9}
       \strng{authorfullhash}{1b619964ad6702620d382828e0dc7fc9}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{3}
@@ -2287,8 +3283,8 @@
       \strng{authorbibnamehash}{7f94c1d29138b65ec2b26560e79faf0f}
       \strng{authornamehash}{7f94c1d29138b65ec2b26560e79faf0f}
       \strng{authorfullhash}{7f94c1d29138b65ec2b26560e79faf0f}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{18}
@@ -2307,6 +3303,132 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevB.53.12035
+      \endverb
+    \endentry
+    \entry{KITAEV20062}{article}{}
+      \name{author}{1}{}{%
+        {{hash=59949d44a3903dfabb88bff3220ff2e0}{%
+           family={Kitaev},
+           familyi={K\bibinitperiod},
+           given={Alexei},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{59949d44a3903dfabb88bff3220ff2e0}
+      \strng{fullhash}{59949d44a3903dfabb88bff3220ff2e0}
+      \strng{bibnamehash}{59949d44a3903dfabb88bff3220ff2e0}
+      \strng{authorbibnamehash}{59949d44a3903dfabb88bff3220ff2e0}
+      \strng{authornamehash}{59949d44a3903dfabb88bff3220ff2e0}
+      \strng{authorfullhash}{59949d44a3903dfabb88bff3220ff2e0}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0003-4916}
+      \field{journaltitle}{Annals of Physics}
+      \field{note}{January Special Issue}
+      \field{number}{1}
+      \field{title}{Anyons in an exactly solved model and beyond}
+      \field{volume}{321}
+      \field{year}{2006}
+      \field{pages}{2\bibrangedash 111}
+      \range{pages}{110}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aop.2005.10.005
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0003491605002381
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0003491605002381
+      \endverb
+    \endentry
+    \entry{PhysRevLett.52.2304}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e726ba9c2241a1ee6d20d0b83f01394f}{%
+           family={Laughlin},
+           familyi={L\bibinitperiod},
+           given={R.\bibnamedelimi B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{e726ba9c2241a1ee6d20d0b83f01394f}
+      \strng{fullhash}{e726ba9c2241a1ee6d20d0b83f01394f}
+      \strng{bibnamehash}{e726ba9c2241a1ee6d20d0b83f01394f}
+      \strng{authorbibnamehash}{e726ba9c2241a1ee6d20d0b83f01394f}
+      \strng{authornamehash}{e726ba9c2241a1ee6d20d0b83f01394f}
+      \strng{authorfullhash}{e726ba9c2241a1ee6d20d0b83f01394f}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{25}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{6}
+      \field{title}{Levitation of Extended-State Bands in a Strong Magnetic Field}
+      \field{volume}{52}
+      \field{year}{1984}
+      \field{pages}{2304\bibrangedash 2304}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.52.2304
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.52.2304
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.52.2304
+      \endverb
+    \endentry
+    \entry{onoda}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1fbde5ac064433ea81d44b4a35cdddca}{%
+           family={Onoda},
+           familyi={O\bibinitperiod},
+           given={Masaru},
+           giveni={M\bibinitperiod}}}%
+        {{hash=40dcd1145a21f8560a2ccb9c58909dba}{%
+           family={Avishai},
+           familyi={A\bibinitperiod},
+           given={Yshai},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=8a79cfba4a53990b92459a6435aab2ca}{%
+           family={Nagaosa},
+           familyi={N\bibinitperiod},
+           given={Naoto},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{e529a8c1062697e4533f5cdaf4618a2a}
+      \strng{fullhash}{e529a8c1062697e4533f5cdaf4618a2a}
+      \strng{bibnamehash}{e529a8c1062697e4533f5cdaf4618a2a}
+      \strng{authorbibnamehash}{e529a8c1062697e4533f5cdaf4618a2a}
+      \strng{authornamehash}{e529a8c1062697e4533f5cdaf4618a2a}
+      \strng{authorfullhash}{e529a8c1062697e4533f5cdaf4618a2a}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{7}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{2}
+      \field{title}{Localization in a Quantum Spin Hall System}
+      \field{volume}{98}
+      \field{year}{2007}
+      \field{pages}{076802}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.98.076802
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.98.076802
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.98.076802
       \endverb
     \endentry
     \entry{2010:ProdanDisordCI}{article}{}
@@ -2336,8 +3458,8 @@
       \strng{authorbibnamehash}{761d9d71adb303b354627fd8c19cac5f}
       \strng{authornamehash}{761d9d71adb303b354627fd8c19cac5f}
       \strng{authorfullhash}{761d9d71adb303b354627fd8c19cac5f}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{11}
@@ -2372,8 +3494,8 @@
       \strng{authorbibnamehash}{d06619865b27dd6bae18e036deb780f9}
       \strng{authornamehash}{d06619865b27dd6bae18e036deb780f9}
       \strng{authorfullhash}{d06619865b27dd6bae18e036deb780f9}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Physics A: Mathematical and Theoretical}
@@ -2390,153 +3512,243 @@
       \verb http://stacks.iop.org/1751-8121/44/i=11/a=113001
       \endverb
     \endentry
-    \entry{KatnelsonLevels2019}{article}{}
-      \name{author}{3}{}{%
-        {{hash=9d01bb4907fa6cbbb7cb54f025afd075}{%
-           family={Iliasov},
-           familyi={I\bibinitperiod},
-           given={Askar\bibnamedelima A.},
-           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=fc3aea0815896f390fe3b1eaca1858b8}{%
-           family={Katsnelson},
-           familyi={K\bibinitperiod},
-           given={Mikhail\bibnamedelima I.},
-           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
-        {{hash=2b5e93d61191be2138b085aff056e97c}{%
-           family={Yuan},
-           familyi={Y\bibinitperiod},
-           given={Shengjun},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{5d0203419df6bb3e0a3cc5d166d5b643}
-      \strng{fullhash}{5d0203419df6bb3e0a3cc5d166d5b643}
-      \strng{bibnamehash}{5d0203419df6bb3e0a3cc5d166d5b643}
-      \strng{authorbibnamehash}{5d0203419df6bb3e0a3cc5d166d5b643}
-      \strng{authornamehash}{5d0203419df6bb3e0a3cc5d166d5b643}
-      \strng{authorfullhash}{5d0203419df6bb3e0a3cc5d166d5b643}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{7}
-      \field{journaltitle}{Phys. Rev. B}
-      \field{month}{2}
-      \field{title}{Power-law energy level spacing distributions in fractals}
-      \field{volume}{99}
-      \field{year}{2019}
-      \field{pages}{075402}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevB.99.075402
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.99.075402
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.99.075402
-      \endverb
-    \endentry
-    \entry{EdgesFremling2020}{article}{}
+    \entry{Slager2013}{article}{}
       \name{author}{4}{}{%
-        {{hash=d772ce0d93e0c19ebb1ee1eda1fa0959}{%
-           family={Fremling},
-           familyi={F\bibinitperiod},
-           given={Mikael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=8452fc483f08500d307662b3add1b535}{%
-           family={Hooft},
-           familyi={H\bibinitperiod},
-           given={Michal},
-           giveni={M\bibinitperiod},
-           prefix={van},
-           prefixi={v\bibinitperiod}}}%
-        {{hash=d1d256c2abc7caac344dc518f70ce1f0}{%
-           family={Smith},
+        {{hash=eba73ce6c7025dd5cdc15a387b180c06}{%
+           family={Slager},
            familyi={S\bibinitperiod},
-           given={Cristiane\bibnamedelima Morais},
-           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=2293c25eb4c4dee701913659802659b4}{%
-           family={Fritz},
-           familyi={F\bibinitperiod},
-           given={Lars},
-           giveni={L\bibinitperiod}}}%
+           given={Robert-Jan},
+           giveni={R\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=7e3788d263a4d682a51e38591b794fbf}{%
+           family={Mesaros},
+           familyi={M\bibinitperiod},
+           given={Andrej},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2752627e146aab8346644edc5565f127}{%
+           family={Juricic},
+           familyi={J\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+        {{hash=127413ab3ea48923b80fac77d07a851f}{%
+           family={Zaanen},
+           familyi={Z\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{dd73a9a24f6e2c26853378c972f8bec9}
-      \strng{fullhash}{c0104a56268e6967803610b7237e1941}
-      \strng{bibnamehash}{c0104a56268e6967803610b7237e1941}
-      \strng{authorbibnamehash}{c0104a56268e6967803610b7237e1941}
-      \strng{authornamehash}{dd73a9a24f6e2c26853378c972f8bec9}
-      \strng{authorfullhash}{c0104a56268e6967803610b7237e1941}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \strng{namehash}{d974c4107e0fe1f42c84bdca77a40707}
+      \strng{fullhash}{9463c2b423a31808f5be57177c06e40c}
+      \strng{bibnamehash}{9463c2b423a31808f5be57177c06e40c}
+      \strng{authorbibnamehash}{9463c2b423a31808f5be57177c06e40c}
+      \strng{authornamehash}{d974c4107e0fe1f42c84bdca77a40707}
+      \strng{authorfullhash}{9463c2b423a31808f5be57177c06e40c}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issue}{1}
-      \field{journaltitle}{Phys. Rev. Research}
-      \field{month}{1}
-      \field{title}{Existence of robust edge currents in Sierpi\ifmmode \acute{n}\else ń\fi{}ski fractals}
-      \field{volume}{2}
-      \field{year}{2020}
-      \field{pages}{013044}
-      \range{pages}{1}
+      \field{issn}{1745-2481}
+      \field{journaltitle}{Nature Physics}
+      \field{number}{2}
+      \field{title}{The space group classification of topological band-insulators}
+      \field{volume}{9}
+      \field{year}{2013}
+      \field{pages}{98\bibrangedash 102}
+      \range{pages}{5}
       \verb{doi}
-      \verb 10.1103/PhysRevResearch.2.013044
+      \verb 10.1038/nphys2513
       \endverb
       \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevResearch.2.013044
+      \verb https://doi.org/10.1038/nphys2513
       \endverb
       \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevResearch.2.013044
+      \verb https://doi.org/10.1038/nphys2513
       \endverb
     \endentry
-    \entry{PaiFractal2019}{article}{}
+    \entry{PhysRevB.90.165114}{article}{}
       \name{author}{2}{}{%
-        {{hash=d06c9c662b6d118f7403b9c569f60837}{%
-           family={Pai},
-           familyi={P\bibinitperiod},
-           given={Shriya},
-           giveni={S\bibinitperiod}}}%
-        {{hash=572f5e81a190d9b97d0b2c370dee3482}{%
-           family={Prem},
-           familyi={P\bibinitperiod},
-           given={Abhinav},
-           giveni={A\bibinitperiod}}}%
+        {{hash=05bcebec3f6b42125c2497d4f9d3277f}{%
+           family={Shiozaki},
+           familyi={S\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod}}}%
+        {{hash=226e1696f5c6e1223240485037177cf9}{%
+           family={Sato},
+           familyi={S\bibinitperiod},
+           given={Masatoshi},
+           giveni={M\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {American Physical Society}%
       }
-      \strng{namehash}{47ca1f9434f4e533be433e88d769b1f7}
-      \strng{fullhash}{47ca1f9434f4e533be433e88d769b1f7}
-      \strng{bibnamehash}{47ca1f9434f4e533be433e88d769b1f7}
-      \strng{authorbibnamehash}{47ca1f9434f4e533be433e88d769b1f7}
-      \strng{authornamehash}{47ca1f9434f4e533be433e88d769b1f7}
-      \strng{authorfullhash}{47ca1f9434f4e533be433e88d769b1f7}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \strng{namehash}{a9b1c50e6e8e09f43c0eb9b88092c933}
+      \strng{fullhash}{a9b1c50e6e8e09f43c0eb9b88092c933}
+      \strng{bibnamehash}{a9b1c50e6e8e09f43c0eb9b88092c933}
+      \strng{authorbibnamehash}{a9b1c50e6e8e09f43c0eb9b88092c933}
+      \strng{authornamehash}{a9b1c50e6e8e09f43c0eb9b88092c933}
+      \strng{authorfullhash}{a9b1c50e6e8e09f43c0eb9b88092c933}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issue}{15}
+      \field{issue}{16}
       \field{journaltitle}{Phys. Rev. B}
       \field{month}{10}
-      \field{title}{Topological states on fractal lattices}
-      \field{volume}{100}
-      \field{year}{2019}
-      \field{pages}{155135}
+      \field{title}{Topology of crystalline insulators and superconductors}
+      \field{volume}{90}
+      \field{year}{2014}
+      \field{pages}{165114}
       \range{pages}{1}
       \verb{doi}
-      \verb 10.1103/PhysRevB.100.155135
+      \verb 10.1103/PhysRevB.90.165114
       \endverb
       \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.100.155135
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.90.165114
       \endverb
       \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.100.155135
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.90.165114
+      \endverb
+    \endentry
+    \entry{PhysRevB.93.195413}{article}{}
+      \name{author}{3}{}{%
+        {{hash=05bcebec3f6b42125c2497d4f9d3277f}{%
+           family={Shiozaki},
+           familyi={S\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod}}}%
+        {{hash=226e1696f5c6e1223240485037177cf9}{%
+           family={Sato},
+           familyi={S\bibinitperiod},
+           given={Masatoshi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c6563665c7010455d7f9fcd79e48be57}{%
+           family={Gomi},
+           familyi={G\bibinitperiod},
+           given={Kiyonori},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{fc437f03b94d788d7d66a7edbd334a53}
+      \strng{fullhash}{fc437f03b94d788d7d66a7edbd334a53}
+      \strng{bibnamehash}{fc437f03b94d788d7d66a7edbd334a53}
+      \strng{authorbibnamehash}{fc437f03b94d788d7d66a7edbd334a53}
+      \strng{authornamehash}{fc437f03b94d788d7d66a7edbd334a53}
+      \strng{authorfullhash}{fc437f03b94d788d7d66a7edbd334a53}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{19}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{5}
+      \field{title}{Topology of nonsymmorphic crystalline insulators and superconductors}
+      \field{volume}{93}
+      \field{year}{2016}
+      \field{pages}{195413}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.93.195413
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.93.195413
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.93.195413
+      \endverb
+    \endentry
+    \entry{PhysRevB.95.235425}{article}{}
+      \name{author}{3}{}{%
+        {{hash=05bcebec3f6b42125c2497d4f9d3277f}{%
+           family={Shiozaki},
+           familyi={S\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod}}}%
+        {{hash=226e1696f5c6e1223240485037177cf9}{%
+           family={Sato},
+           familyi={S\bibinitperiod},
+           given={Masatoshi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c6563665c7010455d7f9fcd79e48be57}{%
+           family={Gomi},
+           familyi={G\bibinitperiod},
+           given={Kiyonori},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{fc437f03b94d788d7d66a7edbd334a53}
+      \strng{fullhash}{fc437f03b94d788d7d66a7edbd334a53}
+      \strng{bibnamehash}{fc437f03b94d788d7d66a7edbd334a53}
+      \strng{authorbibnamehash}{fc437f03b94d788d7d66a7edbd334a53}
+      \strng{authornamehash}{fc437f03b94d788d7d66a7edbd334a53}
+      \strng{authorfullhash}{fc437f03b94d788d7d66a7edbd334a53}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{23}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{6}
+      \field{title}{Topological crystalline materials: General formulation, module structure, and wallpaper groups}
+      \field{volume}{95}
+      \field{year}{2017}
+      \field{pages}{235425}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.95.235425
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.95.235425
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.95.235425
+      \endverb
+    \endentry
+    \entry{PhysRevB.93.045429}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bd33cfb006b137c86ecdf3536b4d18fe}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Xiao-Yu},
+           giveni={X\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=11872e66e45fff2a5487f4ccb0a018e3}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Chao-Xing},
+           giveni={C\bibinithyphendelim X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{7a5c11aa208577904408950d63c7270c}
+      \strng{fullhash}{7a5c11aa208577904408950d63c7270c}
+      \strng{bibnamehash}{7a5c11aa208577904408950d63c7270c}
+      \strng{authorbibnamehash}{7a5c11aa208577904408950d63c7270c}
+      \strng{authornamehash}{7a5c11aa208577904408950d63c7270c}
+      \strng{authorfullhash}{7a5c11aa208577904408950d63c7270c}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{1}
+      \field{title}{Classification of topological crystalline insulators based on representation theory}
+      \field{volume}{93}
+      \field{year}{2016}
+      \field{pages}{045429}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.93.045429
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.93.045429
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.93.045429
       \endverb
     \endentry
     \entry{FuTCI2011}{article}{}
@@ -2556,8 +3768,8 @@
       \strng{authorbibnamehash}{159de599cf141a3147da71ab6973e85c}
       \strng{authornamehash}{159de599cf141a3147da71ab6973e85c}
       \strng{authorfullhash}{159de599cf141a3147da71ab6973e85c}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{10}
@@ -2617,8 +3829,8 @@
       \strng{authorbibnamehash}{424bcdf1b365c38e16c2f8b25ad1d83c}
       \strng{authornamehash}{6e80a38a5c5d992746d1b56d9169a8c1}
       \strng{authorfullhash}{424bcdf1b365c38e16c2f8b25ad1d83c}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2041-1723}
@@ -2637,245 +3849,6 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1038/ncomms1969
-      \endverb
-    \endentry
-    \entry{Slager2013}{article}{}
-      \name{author}{4}{}{%
-        {{hash=eba73ce6c7025dd5cdc15a387b180c06}{%
-           family={Slager},
-           familyi={S\bibinitperiod},
-           given={Robert-Jan},
-           giveni={R\bibinithyphendelim J\bibinitperiod}}}%
-        {{hash=7e3788d263a4d682a51e38591b794fbf}{%
-           family={Mesaros},
-           familyi={M\bibinitperiod},
-           given={Andrej},
-           giveni={A\bibinitperiod}}}%
-        {{hash=2752627e146aab8346644edc5565f127}{%
-           family={Juricic},
-           familyi={J\bibinitperiod},
-           given={Vladimir},
-           giveni={V\bibinitperiod}}}%
-        {{hash=127413ab3ea48923b80fac77d07a851f}{%
-           family={Zaanen},
-           familyi={Z\bibinitperiod},
-           given={Jan},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{d974c4107e0fe1f42c84bdca77a40707}
-      \strng{fullhash}{9463c2b423a31808f5be57177c06e40c}
-      \strng{bibnamehash}{9463c2b423a31808f5be57177c06e40c}
-      \strng{authorbibnamehash}{9463c2b423a31808f5be57177c06e40c}
-      \strng{authornamehash}{d974c4107e0fe1f42c84bdca77a40707}
-      \strng{authorfullhash}{9463c2b423a31808f5be57177c06e40c}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1745-2481}
-      \field{journaltitle}{Nature Physics}
-      \field{number}{2}
-      \field{title}{The space group classification of topological band-insulators}
-      \field{volume}{9}
-      \field{year}{2013}
-      \field{pages}{98\bibrangedash 102}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.1038/nphys2513
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1038/nphys2513
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1038/nphys2513
-      \endverb
-    \endentry
-    \entry{PhysRevB.90.165114}{article}{}
-      \name{author}{2}{}{%
-        {{hash=05bcebec3f6b42125c2497d4f9d3277f}{%
-           family={Shiozaki},
-           familyi={S\bibinitperiod},
-           given={Ken},
-           giveni={K\bibinitperiod}}}%
-        {{hash=226e1696f5c6e1223240485037177cf9}{%
-           family={Sato},
-           familyi={S\bibinitperiod},
-           given={Masatoshi},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{a9b1c50e6e8e09f43c0eb9b88092c933}
-      \strng{fullhash}{a9b1c50e6e8e09f43c0eb9b88092c933}
-      \strng{bibnamehash}{a9b1c50e6e8e09f43c0eb9b88092c933}
-      \strng{authorbibnamehash}{a9b1c50e6e8e09f43c0eb9b88092c933}
-      \strng{authornamehash}{a9b1c50e6e8e09f43c0eb9b88092c933}
-      \strng{authorfullhash}{a9b1c50e6e8e09f43c0eb9b88092c933}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{16}
-      \field{journaltitle}{Phys. Rev. B}
-      \field{month}{10}
-      \field{title}{Topology of crystalline insulators and superconductors}
-      \field{volume}{90}
-      \field{year}{2014}
-      \field{pages}{165114}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevB.90.165114
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.90.165114
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.90.165114
-      \endverb
-    \endentry
-    \entry{PhysRevB.93.195413}{article}{}
-      \name{author}{3}{}{%
-        {{hash=05bcebec3f6b42125c2497d4f9d3277f}{%
-           family={Shiozaki},
-           familyi={S\bibinitperiod},
-           given={Ken},
-           giveni={K\bibinitperiod}}}%
-        {{hash=226e1696f5c6e1223240485037177cf9}{%
-           family={Sato},
-           familyi={S\bibinitperiod},
-           given={Masatoshi},
-           giveni={M\bibinitperiod}}}%
-        {{hash=c6563665c7010455d7f9fcd79e48be57}{%
-           family={Gomi},
-           familyi={G\bibinitperiod},
-           given={Kiyonori},
-           giveni={K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{fc437f03b94d788d7d66a7edbd334a53}
-      \strng{fullhash}{fc437f03b94d788d7d66a7edbd334a53}
-      \strng{bibnamehash}{fc437f03b94d788d7d66a7edbd334a53}
-      \strng{authorbibnamehash}{fc437f03b94d788d7d66a7edbd334a53}
-      \strng{authornamehash}{fc437f03b94d788d7d66a7edbd334a53}
-      \strng{authorfullhash}{fc437f03b94d788d7d66a7edbd334a53}
-      \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{19}
-      \field{journaltitle}{Phys. Rev. B}
-      \field{month}{5}
-      \field{title}{Topology of nonsymmorphic crystalline insulators and superconductors}
-      \field{volume}{93}
-      \field{year}{2016}
-      \field{pages}{195413}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevB.93.195413
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.93.195413
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.93.195413
-      \endverb
-    \endentry
-    \entry{PhysRevB.95.235425}{article}{}
-      \name{author}{3}{}{%
-        {{hash=05bcebec3f6b42125c2497d4f9d3277f}{%
-           family={Shiozaki},
-           familyi={S\bibinitperiod},
-           given={Ken},
-           giveni={K\bibinitperiod}}}%
-        {{hash=226e1696f5c6e1223240485037177cf9}{%
-           family={Sato},
-           familyi={S\bibinitperiod},
-           given={Masatoshi},
-           giveni={M\bibinitperiod}}}%
-        {{hash=c6563665c7010455d7f9fcd79e48be57}{%
-           family={Gomi},
-           familyi={G\bibinitperiod},
-           given={Kiyonori},
-           giveni={K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{fc437f03b94d788d7d66a7edbd334a53}
-      \strng{fullhash}{fc437f03b94d788d7d66a7edbd334a53}
-      \strng{bibnamehash}{fc437f03b94d788d7d66a7edbd334a53}
-      \strng{authorbibnamehash}{fc437f03b94d788d7d66a7edbd334a53}
-      \strng{authornamehash}{fc437f03b94d788d7d66a7edbd334a53}
-      \strng{authorfullhash}{fc437f03b94d788d7d66a7edbd334a53}
-      \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{23}
-      \field{journaltitle}{Phys. Rev. B}
-      \field{month}{6}
-      \field{title}{Topological crystalline materials: General formulation, module structure, and wallpaper groups}
-      \field{volume}{95}
-      \field{year}{2017}
-      \field{pages}{235425}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevB.95.235425
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.95.235425
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.95.235425
-      \endverb
-    \endentry
-    \entry{PhysRevB.93.045429}{article}{}
-      \name{author}{2}{}{%
-        {{hash=bd33cfb006b137c86ecdf3536b4d18fe}{%
-           family={Dong},
-           familyi={D\bibinitperiod},
-           given={Xiao-Yu},
-           giveni={X\bibinithyphendelim Y\bibinitperiod}}}%
-        {{hash=11872e66e45fff2a5487f4ccb0a018e3}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Chao-Xing},
-           giveni={C\bibinithyphendelim X\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{7a5c11aa208577904408950d63c7270c}
-      \strng{fullhash}{7a5c11aa208577904408950d63c7270c}
-      \strng{bibnamehash}{7a5c11aa208577904408950d63c7270c}
-      \strng{authorbibnamehash}{7a5c11aa208577904408950d63c7270c}
-      \strng{authornamehash}{7a5c11aa208577904408950d63c7270c}
-      \strng{authorfullhash}{7a5c11aa208577904408950d63c7270c}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{4}
-      \field{journaltitle}{Phys. Rev. B}
-      \field{month}{1}
-      \field{title}{Classification of topological crystalline insulators based on representation theory}
-      \field{volume}{93}
-      \field{year}{2016}
-      \field{pages}{045429}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevB.93.045429
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.93.045429
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.93.045429
       \endverb
     \endentry
     \entry{Benalcazar61}{article}{}
@@ -2905,8 +3878,9 @@
       \strng{authorbibnamehash}{dcc555d680ffd37c30b5114213c5d681}
       \strng{authornamehash}{dcc555d680ffd37c30b5114213c5d681}
       \strng{authorfullhash}{dcc555d680ffd37c30b5114213c5d681}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0036-8075}
@@ -2969,8 +3943,8 @@
       \strng{authorbibnamehash}{e9d91bf270eb7cd0d03d6fb1f7fd824d}
       \strng{authornamehash}{6e8e2d9ee0c18138abcfdbcf21a8adf6}
       \strng{authorfullhash}{e9d91bf270eb7cd0d03d6fb1f7fd824d}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{24}
@@ -3038,8 +4012,8 @@
       \strng{authorbibnamehash}{4123dcdd365f84907eed8a14f5aa871c}
       \strng{authornamehash}{689112c9856370574c059746dfce1b45}
       \strng{authorfullhash}{4123dcdd365f84907eed8a14f5aa871c}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Three-dimensional topological (crystalline) insulators are materials with an insulating bulk but conducting surface states that are topologically protected by time-reversal (or spatial) symmetries. We extend the notion of three-dimensional topological insulators to systems that host no gapless surface states but exhibit topologically protected gapless hinge states. Their topological character is protected by spatiotemporal symmetries of which we present two cases: (i) Chiral higher-order topological insulators protected by the combination of time-reversal and a fourfold rotation symmetry. Their hinge states are chiral modes, and the bulk topology is Z2-classified. (ii) Helical higher-order topological insulators protected by time-reversal and mirror symmetries. Their hinge states come in Kramers pairs, and the bulk topology is Z-classified. We provide the topological invariants for both cases. Furthermore, we show that SnTe as well as surface-modified Bi2TeI, BiSe, and BiTe are helical higher-order topological insulators and propose a realistic experimental setup to detect the hinge states.}
@@ -3110,8 +4084,8 @@
       \strng{authorbibnamehash}{3a62eb9d5180e328293e5a0d12bde6f6}
       \strng{authornamehash}{44b11786b25b85bebc4c53cc1b219f33}
       \strng{authorfullhash}{3a62eb9d5180e328293e5a0d12bde6f6}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1476-4687}
@@ -3130,6 +4104,445 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1038/nature23268
+      \endverb
+    \endentry
+    \entry{PhysRevX.9.031003}{article}{}
+      \name{author}{3}{}{%
+        {{hash=19b9cb7970b7f0d7de409f37b0106c53}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Shang},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8a894f8e0a89a2d488e10197dc7237eb}{%
+           family={Vishwanath},
+           familyi={V\bibinitperiod},
+           given={Ashvin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=85efcbb5f7ad4cf6bc321152c64c022f}{%
+           family={Khalaf},
+           familyi={K\bibinitperiod},
+           given={Eslam},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{f5f93efc233a5581637063aeeeddf38a}
+      \strng{fullhash}{f5f93efc233a5581637063aeeeddf38a}
+      \strng{bibnamehash}{f5f93efc233a5581637063aeeeddf38a}
+      \strng{authorbibnamehash}{f5f93efc233a5581637063aeeeddf38a}
+      \strng{authornamehash}{f5f93efc233a5581637063aeeeddf38a}
+      \strng{authorfullhash}{f5f93efc233a5581637063aeeeddf38a}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. X}
+      \field{month}{7}
+      \field{title}{Shift Insulators: Rotation-Protected Two-Dimensional Topological Crystalline Insulators}
+      \field{volume}{9}
+      \field{year}{2019}
+      \field{pages}{031003}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevX.9.031003
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevX.9.031003
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevX.9.031003
+      \endverb
+    \endentry
+    \entry{Fangeaat2374}{article}{}
+      \name{author}{2}{}{%
+        {{hash=60a57881ddf3e55a752ce8d767f9f46a}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod}}}%
+        {{hash=159de599cf141a3147da71ab6973e85c}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{80e51cc6415d006c041fe93d1a2a88e6}
+      \strng{fullhash}{80e51cc6415d006c041fe93d1a2a88e6}
+      \strng{bibnamehash}{80e51cc6415d006c041fe93d1a2a88e6}
+      \strng{authorbibnamehash}{80e51cc6415d006c041fe93d1a2a88e6}
+      \strng{authornamehash}{80e51cc6415d006c041fe93d1a2a88e6}
+      \strng{authorfullhash}{80e51cc6415d006c041fe93d1a2a88e6}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science Advances}
+      \field{number}{12}
+      \field{title}{New classes of topological crystalline insulators having surface rotation anomaly}
+      \field{volume}{5}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1126/sciadv.aat2374
+      \endverb
+      \verb{eprint}
+      \verb https://advances.sciencemag.org/content/5/12/eaat2374.full.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://advances.sciencemag.org/content/5/12/eaat2374
+      \endverb
+      \verb{url}
+      \verb https://advances.sciencemag.org/content/5/12/eaat2374
+      \endverb
+    \endentry
+    \entry{Hsu2016}{article}{}
+      \name{author}{11}{}{%
+        {{hash=137299ad38405814d2813a349ca38a3a}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={Chia-Hsiu},
+           giveni={C\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=f9e1cd61bb7d924dca7df871bdc2f795}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Zhi-Quan},
+           giveni={Z\bibinithyphendelim Q\bibinitperiod}}}%
+        {{hash=c3976b3b13933702d66853f5622c6f75}{%
+           family={Crisostomo},
+           familyi={C\bibinitperiod},
+           given={Christian\bibnamedelima P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=75d97d74d91dd59f689a90a52d5e7012}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Liang-Zi},
+           giveni={L\bibinithyphendelim Z\bibinitperiod}}}%
+        {{hash=9230f20c8846846040ebd24278675de4}{%
+           family={Chuang},
+           familyi={C\bibinitperiod},
+           given={Feng-Chuan},
+           giveni={F\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=20898e9cca59be6484389432ae8527a7}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yu-Tzu},
+           giveni={Y\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=fc9949e92b512f17c9355eb107e881cd}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Baokai},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6aedecb7629afe20fb43c92b87228c5f}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={Chuang-Han},
+           giveni={C\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=be36095defec5a325ab048e0e66f3e21}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Chi-Cheng},
+           giveni={C\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=c17222fdb1308f6ad652669224cbaef3}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Hsin},
+           giveni={H\bibinitperiod}}}%
+        {{hash=43cb5d01f47ded1b65cc31849f0a2bac}{%
+           family={Bansil},
+           familyi={B\bibinitperiod},
+           given={Arun},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b6780abb12ad7760f5da5feca88e0e1}
+      \strng{fullhash}{e28c9d7fc77d349374c2b8ea57b3bd60}
+      \strng{bibnamehash}{e28c9d7fc77d349374c2b8ea57b3bd60}
+      \strng{authorbibnamehash}{e28c9d7fc77d349374c2b8ea57b3bd60}
+      \strng{authornamehash}{8b6780abb12ad7760f5da5feca88e0e1}
+      \strng{authorfullhash}{e28c9d7fc77d349374c2b8ea57b3bd60}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Two-dimensional Topological Crystalline Insulator Phase in Sb/Bi Planar Honeycomb with Tunable Dirac Gap}
+      \field{volume}{6}
+      \field{year}{2016}
+      \field{pages}{18993}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/srep18993
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/srep18993
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/srep18993
+      \endverb
+    \endentry
+    \entry{C7CP04679K}{article}{}
+      \name{author}{8}{}{%
+        {{hash=33821caa712b5133aa63721b6e45e130}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Yi-zhen},
+           giveni={Y\bibinithyphendelim z\bibinitperiod}}}%
+        {{hash=93327b344a4da4e49c4738e919422dc1}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Wei-xiao},
+           giveni={W\bibinithyphendelim x\bibinitperiod}}}%
+        {{hash=fcf1108f720e9d239fdeeec67bcad792}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Chang-wen},
+           giveni={C\bibinithyphendelim w\bibinitperiod}}}%
+        {{hash=456dd6a18b8241b9d36da968a7c4d624}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ping},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a297ff29c80c62b0332123e041dd2dcc}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shu-feng},
+           giveni={S\bibinithyphendelim f\bibinitperiod}}}%
+        {{hash=0901b7f0e454554a6dbd51e06a1b398a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Pei-ji},
+           giveni={P\bibinithyphendelim j\bibinitperiod}}}%
+        {{hash=6b06cdeb1fe12b66c1b0368a37c04a46}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Sheng-shi},
+           giveni={S\bibinithyphendelim s\bibinitperiod}}}%
+        {{hash=a88eb72f5731d88777cf110be3e9397f}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Shi-shen},
+           giveni={S\bibinithyphendelim s\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society of Chemistry}%
+      }
+      \strng{namehash}{3245872a2258c7be83f1ef952d8d4fcd}
+      \strng{fullhash}{8c1a2c08f2153695655f099ba01682f5}
+      \strng{bibnamehash}{8c1a2c08f2153695655f099ba01682f5}
+      \strng{authorbibnamehash}{8c1a2c08f2153695655f099ba01682f5}
+      \strng{authornamehash}{3245872a2258c7be83f1ef952d8d4fcd}
+      \strng{authorfullhash}{8c1a2c08f2153695655f099ba01682f5}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{43}
+      \field{journaltitle}{Phys. Chem. Chem. Phys.}
+      \field{title}{Prediction of topological crystalline insulators and topological phase transitions in two-dimensional PbTe films}
+      \field{volume}{19}
+      \field{year}{2017}
+      \field{pages}{29647\bibrangedash 29652}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1039/C7CP04679K
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1039/C7CP04679K
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1039/C7CP04679K
+      \endverb
+    \endentry
+    \entry{Thouless_1984}{article}{}
+      \name{author}{1}{}{%
+        {{hash=519fb52f442999f67395a2149283b508}{%
+           family={Thouless},
+           familyi={T\bibinitperiod},
+           given={D\bibnamedelima J},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{519fb52f442999f67395a2149283b508}
+      \strng{fullhash}{519fb52f442999f67395a2149283b508}
+      \strng{bibnamehash}{519fb52f442999f67395a2149283b508}
+      \strng{authorbibnamehash}{519fb52f442999f67395a2149283b508}
+      \strng{authornamehash}{519fb52f442999f67395a2149283b508}
+      \strng{authorfullhash}{519fb52f442999f67395a2149283b508}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics C: Solid State Physics}
+      \field{month}{4}
+      \field{number}{12}
+      \field{title}{Wannier functions for magnetic sub-bands}
+      \field{volume}{17}
+      \field{year}{1984}
+      \field{pages}{L325\bibrangedash L327}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/0022-3719/17/12/003
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088%2F0022-3719%2F17%2F12%2F003
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088%2F0022-3719%2F17%2F12%2F003
+      \endverb
+    \endentry
+    \entry{PhysRevB.74.235111}{article}{}
+      \name{author}{2}{}{%
+        {{hash=93e5c8a94cce9b911a668cfa8ad9c818}{%
+           family={Thonhauser},
+           familyi={T\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6cf0349c9e37966090a18d7b10ada26c}{%
+           family={Vanderbilt},
+           familyi={V\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{64f140645782fbe63ff064d25007880a}
+      \strng{fullhash}{64f140645782fbe63ff064d25007880a}
+      \strng{bibnamehash}{64f140645782fbe63ff064d25007880a}
+      \strng{authorbibnamehash}{64f140645782fbe63ff064d25007880a}
+      \strng{authornamehash}{64f140645782fbe63ff064d25007880a}
+      \strng{authorfullhash}{64f140645782fbe63ff064d25007880a}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{23}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{12}
+      \field{title}{Insulator/Chern-insulator transition in the Haldane model}
+      \field{volume}{74}
+      \field{year}{2006}
+      \field{pages}{235111}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.74.235111
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.74.235111
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.74.235111
+      \endverb
+    \endentry
+    \entry{PhysRevLett.98.046402}{article}{}
+      \name{author}{5}{}{%
+        {{hash=84787fff0649dcd9b495500e1b3b85d4}{%
+           family={Brouder},
+           familyi={B\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=051fc58be5034a61b12eb252db32b691}{%
+           family={Panati},
+           familyi={P\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5c924be21ea1fe298d10d8b078f20932}{%
+           family={Calandra},
+           familyi={C\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6512a2d8cfbd0496a598b4c559758a11}{%
+           family={Mourougane},
+           familyi={M\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod}}}%
+        {{hash=789148b9644893e2b07e550eec09d89c}{%
+           family={Marzari},
+           familyi={M\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{dbfc86f6cf7df4d3d98efc4c3d71c544}
+      \strng{fullhash}{cf0b6388c5146661e4b73ddbc9e8f459}
+      \strng{bibnamehash}{cf0b6388c5146661e4b73ddbc9e8f459}
+      \strng{authorbibnamehash}{cf0b6388c5146661e4b73ddbc9e8f459}
+      \strng{authornamehash}{dbfc86f6cf7df4d3d98efc4c3d71c544}
+      \strng{authorfullhash}{cf0b6388c5146661e4b73ddbc9e8f459}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{1}
+      \field{title}{Exponential Localization of Wannier Functions in Insulators}
+      \field{volume}{98}
+      \field{year}{2007}
+      \field{pages}{046402}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.98.046402
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.98.046402
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.98.046402
+      \endverb
+    \endentry
+    \entry{PhysRevB.83.035108}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ab637e0296c0ee23563ffd1a3a00bfaa}{%
+           family={Soluyanov},
+           familyi={S\bibinitperiod},
+           given={Alexey\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=6cf0349c9e37966090a18d7b10ada26c}{%
+           family={Vanderbilt},
+           familyi={V\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{511c0aac776dd5b06a62c7e18be46beb}
+      \strng{fullhash}{511c0aac776dd5b06a62c7e18be46beb}
+      \strng{bibnamehash}{511c0aac776dd5b06a62c7e18be46beb}
+      \strng{authorbibnamehash}{511c0aac776dd5b06a62c7e18be46beb}
+      \strng{authornamehash}{511c0aac776dd5b06a62c7e18be46beb}
+      \strng{authorfullhash}{511c0aac776dd5b06a62c7e18be46beb}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{1}
+      \field{title}{Wannier representation of ${\mathbb{Z}}_{2}$ topological insulators}
+      \field{volume}{83}
+      \field{year}{2011}
+      \field{pages}{035108}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.83.035108
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.83.035108
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.83.035108
       \endverb
     \endentry
     \entry{PhysRevLett.121.126402}{article}{}
@@ -3159,8 +4572,8 @@
       \strng{authorbibnamehash}{5ebee2182f53225121b78e9e8cdb6fce}
       \strng{authornamehash}{5ebee2182f53225121b78e9e8cdb6fce}
       \strng{authorfullhash}{5ebee2182f53225121b78e9e8cdb6fce}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{12}
@@ -3181,18 +4594,163 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.121.126402
       \endverb
     \endentry
-    \entry{PhysRevB.101.115140}{article}{}
+    \entry{Po2017}{article}{}
       \name{author}{3}{}{%
-        {{hash=344d418d283a99d8e4f645001babc8dd}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={Penghao},
-           giveni={P\bibinitperiod}}}%
-        {{hash=4a4c5ea7900bcdfdc0ccb32a7af23b1e}{%
-           family={Loehr},
-           familyi={L\bibinitperiod},
-           given={Kieran},
-           giveni={K\bibinitperiod}}}%
+        {{hash=33d969c7a6af2c0ba8b2ed780c38245a}{%
+           family={Po},
+           familyi={P\bibinitperiod},
+           given={Hoi\bibnamedelima Chun},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=8a894f8e0a89a2d488e10197dc7237eb}{%
+           family={Vishwanath},
+           familyi={V\bibinitperiod},
+           given={Ashvin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c820fb2761c62d031b8c3a9ad6c87e41}{%
+           family={Watanabe},
+           familyi={W\bibinitperiod},
+           given={Haruki},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{1951cb8a242a9398ff88915eeb8730f9}
+      \strng{fullhash}{1951cb8a242a9398ff88915eeb8730f9}
+      \strng{bibnamehash}{1951cb8a242a9398ff88915eeb8730f9}
+      \strng{authorbibnamehash}{1951cb8a242a9398ff88915eeb8730f9}
+      \strng{authornamehash}{1951cb8a242a9398ff88915eeb8730f9}
+      \strng{authorfullhash}{1951cb8a242a9398ff88915eeb8730f9}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nature Communications}
+      \field{month}{6}
+      \field{number}{1}
+      \field{title}{Symmetry-based indicators of band topology in the 230 space groups}
+      \field{volume}{8}
+      \field{year}{2017}
+      \field{pages}{50}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41467-017-00133-2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s41467-017-00133-2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s41467-017-00133-2
+      \endverb
+    \endentry
+    \entry{PhysRevResearch.1.013012}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ac095b9d423ee4ba8a71041f00531473}{%
+           family={Ono},
+           familyi={O\bibinitperiod},
+           given={Seishiro},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ff0c5933696a8ee321ab0e1c527a774b}{%
+           family={Yanase},
+           familyi={Y\bibinitperiod},
+           given={Youichi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c820fb2761c62d031b8c3a9ad6c87e41}{%
+           family={Watanabe},
+           familyi={W\bibinitperiod},
+           given={Haruki},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{7a3ec6b7191e374dd3ca0279f6447952}
+      \strng{fullhash}{7a3ec6b7191e374dd3ca0279f6447952}
+      \strng{bibnamehash}{7a3ec6b7191e374dd3ca0279f6447952}
+      \strng{authorbibnamehash}{7a3ec6b7191e374dd3ca0279f6447952}
+      \strng{authornamehash}{7a3ec6b7191e374dd3ca0279f6447952}
+      \strng{authorfullhash}{7a3ec6b7191e374dd3ca0279f6447952}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. Research}
+      \field{month}{8}
+      \field{title}{Symmetry indicators for topological superconductors}
+      \field{volume}{1}
+      \field{year}{2019}
+      \field{pages}{013012}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevResearch.1.013012
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevResearch.1.013012
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevResearch.1.013012
+      \endverb
+    \endentry
+    \entry{PhysRevB.89.155114}{article}{}
+      \name{author}{3}{}{%
+        {{hash=cf2d753309c183891f5c09462f349414}{%
+           family={Alexandradinata},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=35f461711266e6d82cf27944c0751936}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Xi},
+           giveni={X\bibinitperiod}}}%
+        {{hash=8016f8821f21d07f0089bb3ab683a3be}{%
+           family={Bernevig},
+           familyi={B\bibinitperiod},
+           given={B.\bibnamedelimi Andrei},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{c225e4a7663030eefa7d71b0c123e277}
+      \strng{fullhash}{c225e4a7663030eefa7d71b0c123e277}
+      \strng{bibnamehash}{c225e4a7663030eefa7d71b0c123e277}
+      \strng{authorbibnamehash}{c225e4a7663030eefa7d71b0c123e277}
+      \strng{authornamehash}{c225e4a7663030eefa7d71b0c123e277}
+      \strng{authorfullhash}{c225e4a7663030eefa7d71b0c123e277}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{15}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{4}
+      \field{title}{Wilson-loop characterization of inversion-symmetric topological insulators}
+      \field{volume}{89}
+      \field{year}{2014}
+      \field{pages}{155114}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.89.155114
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.89.155114
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.89.155114
+      \endverb
+    \endentry
+    \entry{Benalcazar17}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fd1de1c323d7c099a1eeb623bfda9ba5}{%
+           family={Benalcazar},
+           familyi={B\bibinitperiod},
+           given={Wladimir\bibnamedelima A.},
+           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8016f8821f21d07f0089bb3ab683a3be}{%
+           family={Bernevig},
+           familyi={B\bibinitperiod},
+           given={B.\bibnamedelimi Andrei},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
         {{hash=963e05e74e6c18075e45849051373b1e}{%
            family={Hughes},
            familyi={H\bibinitperiod},
@@ -3200,34 +4758,38 @@
            giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {American Physical Society}%
+        {American Association for the Advancement of Science}%
       }
-      \strng{namehash}{c9f9d0a38d43f71d3aafa07775055ace}
-      \strng{fullhash}{c9f9d0a38d43f71d3aafa07775055ace}
-      \strng{bibnamehash}{c9f9d0a38d43f71d3aafa07775055ace}
-      \strng{authorbibnamehash}{c9f9d0a38d43f71d3aafa07775055ace}
-      \strng{authornamehash}{c9f9d0a38d43f71d3aafa07775055ace}
-      \strng{authorfullhash}{c9f9d0a38d43f71d3aafa07775055ace}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \strng{namehash}{dcc555d680ffd37c30b5114213c5d681}
+      \strng{fullhash}{dcc555d680ffd37c30b5114213c5d681}
+      \strng{bibnamehash}{dcc555d680ffd37c30b5114213c5d681}
+      \strng{authorbibnamehash}{dcc555d680ffd37c30b5114213c5d681}
+      \strng{authornamehash}{dcc555d680ffd37c30b5114213c5d681}
+      \strng{authorfullhash}{dcc555d680ffd37c30b5114213c5d681}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issue}{11}
-      \field{journaltitle}{Phys. Rev. B}
-      \field{month}{3}
-      \field{title}{Identifying ${C}_{n}$-symmetric higher-order topology and fractional corner charge using entanglement spectra}
-      \field{volume}{101}
-      \field{year}{2020}
-      \field{pages}{115140}
-      \range{pages}{1}
+      \field{issn}{0036-8075}
+      \field{journaltitle}{Science}
+      \field{number}{6346}
+      \field{title}{Quantized electric multipole insulators}
+      \field{volume}{357}
+      \field{year}{2017}
+      \field{pages}{61\bibrangedash 66}
+      \range{pages}{6}
       \verb{doi}
-      \verb 10.1103/PhysRevB.101.115140
+      \verb 10.1126/science.aah6442
+      \endverb
+      \verb{eprint}
+      \verb https://science.sciencemag.org/content/357/6346/61.full.pdf
       \endverb
       \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.101.115140
+      \verb https://science.sciencemag.org/content/357/6346/61
       \endverb
       \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.101.115140
+      \verb https://science.sciencemag.org/content/357/6346/61
       \endverb
     \endentry
     \entry{GDY12019}{article}{}
@@ -3278,8 +4840,8 @@
       \strng{authornamehash}{cb0e1f34f8e273e48a10ab69bdb071e2}
       \strng{authorfullhash}{a281216329659cb05acc266a11cb3398}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{25}
@@ -3329,8 +4891,8 @@
       \strng{authorbibnamehash}{9ebb50c3290f50e4d2c4cbf1690a8a96}
       \strng{authornamehash}{cf519e43c52f579b6f2b4a2d68eb9b60}
       \strng{authorfullhash}{9ebb50c3290f50e4d2c4cbf1690a8a96}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2397-4648}
@@ -3349,6 +4911,189 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1038/s41535-019-0206-8
+      \endverb
+    \endentry
+    \entry{Aroyo2011183}{article}{}
+      \name{author}{6}{}{%
+        {{hash=7e032ad189c167175e57d1f35afd3b14}{%
+           family={Aroyo},
+           familyi={A\bibinitperiod},
+           given={M.I.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=817f7063aa6abe174ed730ec79392f4e}{%
+           family={Perez-Mato},
+           familyi={P\bibinithyphendelim M\bibinitperiod},
+           given={J.M.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3a5e40aede2ab10d521568ff46654c09}{%
+           family={Orobengoa},
+           familyi={O\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=919d98e9d58bf87cdae25a9e874988f5}{%
+           family={Tasci},
+           familyi={T\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=939c35c9c40560f2fca5a340989ae524}{%
+           family={De\bibnamedelima La\bibnamedelima Flor},
+           familyi={D\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=28ba33ad8a4388dafde23e446e9a1803}{%
+           family={Kirov},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5cb955877b6fcaeed3a240e856f96545}
+      \strng{fullhash}{eb430e3749100618fa7fc799c9b152da}
+      \strng{bibnamehash}{eb430e3749100618fa7fc799c9b152da}
+      \strng{authorbibnamehash}{eb430e3749100618fa7fc799c9b152da}
+      \strng{authornamehash}{5cb955877b6fcaeed3a240e856f96545}
+      \strng{authorfullhash}{eb430e3749100618fa7fc799c9b152da}
+      \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulgarian Chemical Communications}
+      \field{number}{2}
+      \field{title}{Crystallography online: Bilbao crystallographic server}
+      \field{volume}{43}
+      \field{year}{2011}
+      \field{pages}{183\bibrangedash 197}
+      \range{pages}{15}
+    \endentry
+    \entry{Bilbao1}{article}{}
+      \name{author}{5}{}{%
+        {{hash=5953cce5cd2bf5781b42177221234bd2}{%
+           family={Aroyo},
+           familyi={A\bibinitperiod},
+           given={Mois\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=919face6563137da715c94e4f6620658}{%
+           family={Kirov},
+           familyi={K\bibinitperiod},
+           given={Asen},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5c1346384050fa35a286dab8e08266a8}{%
+           family={Capillas},
+           familyi={C\bibinitperiod},
+           given={Cesar},
+           giveni={C\bibinitperiod}}}%
+        {{hash=817f7063aa6abe174ed730ec79392f4e}{%
+           family={Perez-Mato},
+           familyi={P\bibinithyphendelim M\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6063cdb8ce063722fe1aebd156169ba1}{%
+           family={Wondratschek},
+           familyi={W\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{329a8dfffe739ecf5a953d3b77cbce44}
+      \strng{fullhash}{48c3c2b15e5154028febc260544f1635}
+      \strng{bibnamehash}{48c3c2b15e5154028febc260544f1635}
+      \strng{authorbibnamehash}{48c3c2b15e5154028febc260544f1635}
+      \strng{authornamehash}{329a8dfffe739ecf5a953d3b77cbce44}
+      \strng{authorfullhash}{48c3c2b15e5154028febc260544f1635}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Crystallographica Section A}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{{Bilbao Crystallographic Server. II. Representations of crystallographic point groups and space groups}}
+      \field{volume}{62}
+      \field{year}{2006}
+      \field{pages}{115\bibrangedash 128}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1107/S0108767305040286
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1107/S0108767305040286
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1107/S0108767305040286
+      \endverb
+    \endentry
+    \entry{Vergniory17}{article}{}
+      \name{author}{8}{}{%
+        {{hash=fe295ff9d0ef4ada24073832cd174c46}{%
+           family={Vergniory},
+           familyi={V\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=0be02be715e255e8a130c5a8e98b3cb7}{%
+           family={Elcoro},
+           familyi={E\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=39a93871f0e3530cbd22074eb6beed74}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhijun},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=51467cdaff9bbb09b9446484741aba15}{%
+           family={Cano},
+           familyi={C\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod}}}%
+        {{hash=446dfe42533ad626accd915b9acf9884}{%
+           family={Felser},
+           familyi={F\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7e032ad189c167175e57d1f35afd3b14}{%
+           family={Aroyo},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=8016f8821f21d07f0089bb3ab683a3be}{%
+           family={Bernevig},
+           familyi={B\bibinitperiod},
+           given={B.\bibnamedelimi Andrei},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1a8c6a69873339e257d6157b7053ece7}{%
+           family={Bradlyn},
+           familyi={B\bibinitperiod},
+           given={Barry},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{7ab1cad7c5d3e0ead4f97d686d0d6c5e}
+      \strng{fullhash}{68e5d2979cd2212c2aa3181f00a0d009}
+      \strng{bibnamehash}{68e5d2979cd2212c2aa3181f00a0d009}
+      \strng{authorbibnamehash}{68e5d2979cd2212c2aa3181f00a0d009}
+      \strng{authornamehash}{7ab1cad7c5d3e0ead4f97d686d0d6c5e}
+      \strng{authorfullhash}{68e5d2979cd2212c2aa3181f00a0d009}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev. E}
+      \field{month}{8}
+      \field{title}{Graph theory data for topological quantum chemistry}
+      \field{volume}{96}
+      \field{year}{2017}
+      \field{pages}{023310}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevE.96.023310
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevE.96.023310
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevE.96.023310
       \endverb
     \endentry
     \entry{BenderPT1998}{article}{}
@@ -3373,8 +5118,8 @@
       \strng{authorbibnamehash}{8d78e5d8dcc42ba100bc9e624695f2a0}
       \strng{authornamehash}{8d78e5d8dcc42ba100bc9e624695f2a0}
       \strng{authorfullhash}{8d78e5d8dcc42ba100bc9e624695f2a0}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{24}
@@ -3422,8 +5167,8 @@
       \strng{authorbibnamehash}{a7eeaf7924ee95a14bb093b10abd51d2}
       \strng{authornamehash}{a7eeaf7924ee95a14bb093b10abd51d2}
       \strng{authorfullhash}{a7eeaf7924ee95a14bb093b10abd51d2}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{5}
@@ -3466,8 +5211,8 @@
       \strng{authorbibnamehash}{d2594ddf6430f8d018f8b620995e2f07}
       \strng{authornamehash}{d2594ddf6430f8d018f8b620995e2f07}
       \strng{authorfullhash}{d2594ddf6430f8d018f8b620995e2f07}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9789401005142}
@@ -3513,8 +5258,8 @@
       \strng{authorbibnamehash}{9f59de63137fb798c3763f56786ab6eb}
       \strng{authornamehash}{9f59de63137fb798c3763f56786ab6eb}
       \strng{authorfullhash}{9f59de63137fb798c3763f56786ab6eb}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{14}
@@ -3577,8 +5322,8 @@
       \strng{authorbibnamehash}{858d9bde7087985ab61275ac9d0875fe}
       \strng{authornamehash}{bc4f664e1e3aa81d78c64df3b66348da}
       \strng{authorfullhash}{858d9bde7087985ab61275ac9d0875fe}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{3}
@@ -3626,8 +5371,8 @@
       \strng{authorbibnamehash}{57ffe8256cb643b9e9aae52ca503d7d0}
       \strng{authornamehash}{57ffe8256cb643b9e9aae52ca503d7d0}
       \strng{authorfullhash}{57ffe8256cb643b9e9aae52ca503d7d0}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{12}
@@ -3648,64 +5393,81 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevB.99.125103
       \endverb
     \endentry
-    \entry{MarziariWF2012}{article}{}
-      \name{author}{5}{}{%
-        {{hash=789148b9644893e2b07e550eec09d89c}{%
-           family={Marzari},
-           familyi={M\bibinitperiod},
-           given={Nicola},
-           giveni={N\bibinitperiod}}}%
-        {{hash=082ec900b9a7eeb23474b62c689e115c}{%
-           family={Mostofi},
-           familyi={M\bibinitperiod},
-           given={Arash\bibnamedelima A.},
-           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=549cf66eb3a8d0451f9d9eb7be536aea}{%
-           family={Yates},
+    \entry{Shunyu2018prl}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5c1b62cbd4e181d818b927549813cf73}{%
+           family={Yao},
            familyi={Y\bibinitperiod},
-           given={Jonathan\bibnamedelima R.},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=5995097ecc75665dbd4f30aa35f7d307}{%
-           family={Souza},
-           familyi={S\bibinitperiod},
-           given={Ivo},
-           giveni={I\bibinitperiod}}}%
-        {{hash=6cf0349c9e37966090a18d7b10ada26c}{%
-           family={Vanderbilt},
-           familyi={V\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
+           given={Shunyu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=10ab780c0050bfdb77a41a04becba9aa}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhong},
+           giveni={Z\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {American Physical Society}%
       }
-      \strng{namehash}{629644cd2723305af641b11b2ecb41be}
-      \strng{fullhash}{58d3fb8528722098fc085a8e39bd9a92}
-      \strng{bibnamehash}{58d3fb8528722098fc085a8e39bd9a92}
-      \strng{authorbibnamehash}{58d3fb8528722098fc085a8e39bd9a92}
-      \strng{authornamehash}{629644cd2723305af641b11b2ecb41be}
-      \strng{authorfullhash}{58d3fb8528722098fc085a8e39bd9a92}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \strng{namehash}{1f4c0596ad4522baf40025d4aa191ed7}
+      \strng{fullhash}{1f4c0596ad4522baf40025d4aa191ed7}
+      \strng{bibnamehash}{1f4c0596ad4522baf40025d4aa191ed7}
+      \strng{authorbibnamehash}{1f4c0596ad4522baf40025d4aa191ed7}
+      \strng{authornamehash}{1f4c0596ad4522baf40025d4aa191ed7}
+      \strng{authorfullhash}{1f4c0596ad4522baf40025d4aa191ed7}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issue}{4}
-      \field{journaltitle}{Rev. Mod. Phys.}
-      \field{month}{10}
-      \field{title}{Maximally localized Wannier functions: Theory and applications}
-      \field{volume}{84}
-      \field{year}{2012}
-      \field{pages}{1419\bibrangedash 1475}
-      \range{pages}{57}
+      \field{issue}{8}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{8}
+      \field{title}{Edge States and Topological Invariants of Non-Hermitian Systems}
+      \field{volume}{121}
+      \field{year}{2018}
+      \field{pages}{086803}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1103/RevModPhys.84.1419
+      \verb 10.1103/PhysRevLett.121.086803
       \endverb
       \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/RevModPhys.84.1419
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.121.086803
       \endverb
       \verb{url}
-      \verb https://link.aps.org/doi/10.1103/RevModPhys.84.1419
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.121.086803
       \endverb
+    \endentry
+    \entry{song2019non}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0f9c80f21ac9c39660b31815b6f31282}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5c1b62cbd4e181d818b927549813cf73}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Shunyu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=10ab780c0050bfdb77a41a04becba9aa}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhong},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{fbe32cf9f5423fb93ae7492b26a3e293}
+      \strng{fullhash}{fbe32cf9f5423fb93ae7492b26a3e293}
+      \strng{bibnamehash}{fbe32cf9f5423fb93ae7492b26a3e293}
+      \strng{authorbibnamehash}{fbe32cf9f5423fb93ae7492b26a3e293}
+      \strng{authornamehash}{fbe32cf9f5423fb93ae7492b26a3e293}
+      \strng{authorfullhash}{fbe32cf9f5423fb93ae7492b26a3e293}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1904.08432}
+      \field{title}{Non-Hermitian skin effect and chiral damping in open quantum systems}
+      \field{year}{2019}
     \endentry
     \entry{dresselhaus2007group}{book}{}
       \name{author}{3}{}{%
@@ -3734,8 +5496,8 @@
       \strng{authorbibnamehash}{35df04a847314a497b59add821a8c582}
       \strng{authornamehash}{35df04a847314a497b59add821a8c582}
       \strng{authorfullhash}{35df04a847314a497b59add821a8c582}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9783540328995}
@@ -3749,8 +5511,62 @@
       \verb https://books.google.ch/books?id=SPiqKWk%5C_h2sC
       \endverb
     \endentry
+    \entry{PhysRev.52.191}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1fb4a7c90919ccaedcaa3227989f29d7}{%
+           family={Wannier},
+           familyi={W\bibinitperiod},
+           given={Gregory\bibnamedelima H.},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{1fb4a7c90919ccaedcaa3227989f29d7}
+      \strng{fullhash}{1fb4a7c90919ccaedcaa3227989f29d7}
+      \strng{bibnamehash}{1fb4a7c90919ccaedcaa3227989f29d7}
+      \strng{authorbibnamehash}{1fb4a7c90919ccaedcaa3227989f29d7}
+      \strng{authornamehash}{1fb4a7c90919ccaedcaa3227989f29d7}
+      \strng{authorfullhash}{1fb4a7c90919ccaedcaa3227989f29d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev.}
+      \field{month}{8}
+      \field{title}{The Structure of Electronic Excitation Levels in Insulating Crystals}
+      \field{volume}{52}
+      \field{year}{1937}
+      \field{pages}{191\bibrangedash 197}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1103/PhysRev.52.191
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.52.191
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.52.191
+      \endverb
+    \endentry
   \enddatalist
+  \missing{Alex:CM}
+  \missing{BABHughesBenalcazar17}
+  \missing{Chadi}
+  \missing{Hughes:inv}
+  \missing{Liu:Allen}
+  \missing{Murakami:BiQSH}
   \missing{Nakahara}
+  \missing{Peschel}
+  \missing{Ryu:EE}
+  \missing{Sb:nontriv}
+  \missing{Slater:Koster}
+  \missing{Vish:inv}
+  \missing{bilbao-server}
+  \missing{elcoro2017}
+  \missing{irrep-github}
+  \missing{stable:bi111}
 \endrefsection
 
 \refsection{1}

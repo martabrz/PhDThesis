@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.12)  31 MAR 2020 19:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.12)  4 MAY 2020 16:28
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -123,11 +123,11 @@ Class scrreprt Info: You've used standard option `abstractoff'.
 (scrreprt)           If you'd like to set the option with \KOMAoptions,
 (scrreprt)           you'd have to use `abstract=false' there
 (scrreprt)           instead of `abstractoff', too.
-Class scrreprt Info: File `scrsize10pt.clo' used to setup font sizes on input l
+Class scrreprt Info: File `scrsize11pt.clo' used to setup font sizes on input l
 ine 2373.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrsize10pt.clo
-File: scrsize10pt.clo 2019/02/01 v3.26b KOMA-Script font size class option (10p
+(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2019/02/01 v3.26b KOMA-Script font size class option (11p
 t)
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/typearea.sty
@@ -138,27 +138,22 @@ Package: typearea 2019/02/01 v3.26b KOMA-Script package (type area)
 \ta@vblk=\skip44
 \ta@temp=\skip45
 \footheight=\skip46
-Package typearea Info: With paper sizes other than (almost) `A4' predefined
-(typearea)             DIV values do not exist. Using DIV calculation for good
-(typearea)             line width (unless using `version=3.24` or prior).
-
-DIV calculation for typearea with good linewidth.
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 10
 (typearea)             BCOR = 15.649pt
-(typearea)             \paperwidth      = 483.69684pt
-(typearea)              \textwidth      = 327.6335pt
-(typearea)              DIV departure   = 1%
-(typearea)              \evensidemargin = 21.33957pt
-(typearea)              \oddsidemargin  = -9.81621pt
-(typearea)             \paperheight     = 682.86613pt
-(typearea)              \textheight     = 490.0pt
-(typearea)              \topmargin      = -36.98338pt
-(typearea)              \headheight     = 15.0pt
-(typearea)              \headsep        = 18.0pt
-(typearea)              \topskip        = 10.0pt
-(typearea)              \footskip       = 42.0pt
-(typearea)              \baselineskip   = 12.0pt
+(typearea)             \paperwidth      = 597.50787pt
+(typearea)              \textwidth      = 407.30122pt
+(typearea)              DIV departure   = -3%
+(typearea)              \evensidemargin = 44.10178pt
+(typearea)              \oddsidemargin  = 1.5649pt
+(typearea)             \paperheight     = 845.04675pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16533pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
 (typearea)              on input line 1715.
 )
 \c@part=\count81
@@ -214,7 +209,8 @@ Package tocbasic Info: omitting babel extension for `lot'
 \c@table=\count89
 Class scrreprt Info: Redefining `\numberline' on input line 6799.
 \bibindent=\dimen102
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/etex-pkg/etex.sty
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/etex-pkg/etex.sty
 Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
 \et@xins=\count90
 )
@@ -1753,7 +1749,7 @@ thesis
 
 
 Package classicthesis Warning: Text area setup only provided for paper sizes: l
-etter, a5, b5, a4. You are using paper=17cm:24cm.
+etter, a5, b5, a4. You are using paper=21cm:29.7cm.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/mathpazo.sty
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
@@ -1961,18 +1957,18 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 679.
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = areaset
 (typearea)             BCOR = 15.649pt
-(typearea)             \paperwidth      = 483.69684pt
+(typearea)             \paperwidth      = 597.50787pt
 (typearea)              \textwidth      = 330.05214pt
-(typearea)              \evensidemargin = 19.72714pt
-(typearea)              \oddsidemargin  = -10.62242pt
-(typearea)             \paperheight     = 682.86613pt
-(typearea)              \textheight     = 501.03317pt
-(typearea)              \topmargin      = -22.65901pt
-(typearea)              \headheight     = 15.0pt
-(typearea)              \headsep        = 18.0pt
-(typearea)              \topskip        = 10.0pt
-(typearea)              \footskip       = 42.0pt
-(typearea)              \baselineskip   = 12.0pt
+(typearea)              \evensidemargin = 95.60117pt
+(typearea)              \oddsidemargin  = 27.31459pt
+(typearea)             \paperheight     = 845.04675pt
+(typearea)              \textheight     = 497.68317pt
+(typearea)              \topmargin      = 31.4012pt
+(typearea)              \headheight     = 15.95pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.60002pt
+(typearea)              \baselineskip   = 13.6pt
 (typearea)              on input line 150.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/bookmark.sty
@@ -2039,7 +2035,7 @@ File: siunitx-version-1.cfg 2017/11/26 v2.7k siunitx: Version 1 settings
 )
 Package scrkbase Info: You've told me to redefine the font selection of the
 (scrkbase)             element `dictumtext' that is an alias of element
-(scrkbase)             `dictum' on input line 227.
+(scrkbase)             `dictum' on input line 228.
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
@@ -2094,14 +2090,8 @@ File: polish.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 (./frontbackmatter/titlepage.aux) (./frontbackmatter/titleback.aux)
 (./frontbackmatter/abstract.aux) (./frontbackmatter/acknowledgments.aux)
 (./frontbackmatter/contents.aux) (./chapters/Introduction/main.aux)
-(./chapters/Chapter1/main.aux) (./chapters/Chapter2/main.aux
-
-LaTeX Warning: Label `fig:flux_distr' multiply defined.
-
-
-LaTeX Warning: Label `fig:flux_distr@cref' multiply defined.
-
-) (./chapters/Chapter3/main.aux) (./chapters/Chapter4/main.aux)
+(./chapters/Chapter1/main.aux) (./chapters/Chapter2/main.aux)
+(./chapters/Chapter3/main.aux) (./chapters/Chapter4/main.aux)
 (./chapters/Conclusion/main.aux) (./chapters/Appendix/main.aux)
 (./frontbackmatter/bibliography.aux) (./frontbackmatter/cv.aux)
 (./frontbackmatter/publications.aux))
@@ -2140,7 +2130,112 @@ Package biblatex Info: ... file 'build/thesis.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
+(biblatex)                Alex:CM
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                BABHughesBenalcazar17
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Chadi
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Hughes:inv
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Liu:Allen
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Murakami:BiQSH
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
 (biblatex)                Nakahara
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Peschel
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Ryu:EE
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Sb:nontriv
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Slater:Koster
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Vish:inv
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                bilbao-server
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                elcoro2017
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                irrep-github
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                stable:bi111
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2241,23 +2336,23 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(85.35826pt, 327.2067pt, 71.13188pt)
-* v-part:(T,H,B)=(71.13188pt, 540.60237pt, 71.13188pt)
-* \paperwidth=483.69684pt
-* \paperheight=682.86613pt
-* \textwidth=327.2067pt
-* \textheight=540.60237pt
+* h-part:(L,W,R)=(85.35826pt, 441.01773pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78299pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04675pt
+* \textwidth=441.01773pt
+* \textheight=702.78299pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=-1.1381pt
-* \topmargin=-34.1381pt
-* \headheight=15.0pt
-* \headsep=18.0pt
-* \topskip=10.0pt
+* \topmargin=-37.48811pt
+* \headheight=15.95pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
 * \footskip=19.0pt
-* \marginparwidth=68.99785pt
+* \marginparwidth=125.90337pt
 * \marginparsep=12.8401pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -2387,21 +2482,13 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 11
 .
  (./build/thesis.toc
 Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/pplj/m/sc/10'.
+(microtype)             in font `T1/pplj/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-
-Overfull \hbox (12.89624pt too wide) in paragraph at lines 21--21
- [][] []\T1/pplj/m/n/10 (-20) Real-space meth-ods for com-put-ing topo-log-i-ca
-l in-vari-ants []  
- []
+ [11
 
 
-Overfull \hbox (12.90894pt too wide) in paragraph at lines 42--42
- [][] []\T1/pplj/m/n/10 (-20) Group the-ory: rep-re-sen-ta-tions and char-ac-te
-r ta-ble []  
- []
 
-)
+])
 \tf@toc=\write5
 \openout5 = `build/thesis.toc'.
 
@@ -2410,88 +2497,189 @@ r ta-ble []
 1: chapter
 1: chapter
 1: section
-[11
+[12]
+Package tocbasic Info: character protrusion at lof deactivated on input line 31
+.
+ (./build/thesis.lof
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 21.
+ [13
+
+] [14])
+\tf@lof=\write6
+\openout6 = `build/thesis.lof'.
+
+Package tocbasic Info: character protrusion at lot deactivated on input line 42
+.
+ (./build/thesis.lot
+Overfull \hbox (144.09596pt too wide) in paragraph at lines 19--19
+ [][] []\T1/pplj/m/n/10.95 (-20) Tight-binding pa-ram-e-ters for Bi and Sb take
+n from Refs. [[]], [[]]$[]$, [[]]$[]$. 
+ []
 
 
+LaTeX Warning: Reference `fig:materials' on page xv undefined on input line 20.
 
-] [12]
-Underfull \hbox (badness 10000) in alignment at lines 77--77
+
+)
+\tf@lot=\write7
+\openout7 = `build/thesis.lot'.
+
+ [15]
+Underfull \hbox (badness 10000) in alignment at lines 88--88
 [] []
  []
 
 
-Underfull \vbox (badness 10000) detected at line 77
+Underfull \vbox (badness 10000) detected at line 88
  []
 
-) [13
-
-] [14
-
-
-
-]
+) [16]
 \openout2 = `chapters/Introduction/main.aux'.
 
- (./chapters/Introduction/main.tex
-Chapter 1.
-[1
+ (./chapters/Introduction/main.tex [1
 
 
 
-] [2]
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 29.
 
 
-LaTeX Warning: Reference `ch:appendix' on page 3 undefined on input line 29.
-
-) [3] [4
 
 
 
 ]
+
+LaTeX Warning: Reference `ch:appendix' on page 2 undefined on input line 34.
+
+) [2]
 \openout2 = `chapters/Chapter1/main.aux'.
 
  (./chapters/Chapter1/main.tex
-Chapter 2.
-
-Overfull \hbox (37.24924pt too wide) in paragraph at lines 7--9
-\T1/pplj/m/n/10 (-20) con-tin-u-ous trans-for-ma-tions. We briefly in-tro-duce 
-fun-da-men-tal con-cepts [[]]. 
- []
-
+Chapter 1.
 
 
 pdfTeX warning: pdflatex (file ./figs/intro_genus.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<figs/intro_genus.pdf, id=207, 1984.41376pt x 420.82219pt>
+<figs/intro_genus.pdf, id=282, 1984.41376pt x 420.82219pt>
 File: figs/intro_genus.pdf Graphic file (type pdf)
 <use figs/intro_genus.pdf>
-Package pdftex.def Info: figs/intro_genus.pdf  used on input line 12.
-(pdftex.def)             Requested size: 261.76634pt x 55.50504pt.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/pplj/m/sc/9'.
-(microtype)             Ignoring protrusion settings for this character.
-[5
+Package pdftex.def Info: figs/intro_genus.pdf  used on input line 11.
+(pdftex.def)             Requested size: 352.81552pt x 74.81364pt.
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 12.
+! Missing delimiter (. inserted).
+<to be read again> 
+                   Y
+l.16 ...0 : X \rightarrow Y$ and $f_0 : X \right Y
+                                                  $ are homotopically equiva...
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+! Extra \right.
+<to be read again> 
+                   Y
+l.16 ...0 : X \rightarrow Y$ and $f_0 : X \right Y
+                                                  $ are homotopically equiva...
+I'm ignoring a \right that had no matching \left.
+
+[3
+
+
+
 
 
 
  <./figs/intro_genus.pdf>]
-LaTeX Font Info:    Try loading font information for U+fplmbb on input line 75.
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.74 ...hcal{P}$ & $\mathcal{C}$ & 1 & 2 & 3 & 4 &
+                                                   5 & 6 & 7 & 8 \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
 
+LaTeX Font Info:    Try loading font information for U+fplmbb on input line 77.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 )
-Overfull \hbox (20.88913pt too wide) in paragraph at lines 70--98
- [][] 
- []
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.77 ... & - & $\mathbb{Z}$ & - &   $\mathbb{Z}$ &
+                                                   - &  $\mathbb{Z}$  & -  $...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
 
-[6]
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.84 ... 1 & $\mathbb{Z}$ & - & $\mathbb{Z}$ & - &
+                                                   $\mathbb{Z}$ & - & $\math...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+Runaway argument?
+{Table of symmetry classes of non-interacting Hamiltonians. 0 corresp\ETC.
+! Paragraph ended before \caption@prepareanchor was complete.
+<to be read again> 
+                   \par 
+l.102 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+{\ignorespaces Table of symmetry classes of non-interacting Hamiltoni\ETC.
+! Paragraph ended before \caption@@@addcontentsline was complete.
+<to be read again> 
+                   \par 
+l.102 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+\caption@@addcontentsline ...n@chkfloat {#1}{#2}}}
+                                                  
+l.102 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.104 \end{table}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[4pdfTeX warning (ext4): destination with the same identifier (name{table.capti
+on.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.121 \end{equation}
+                    ]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.116 $\Delta \equiv  \Delta_{\mathbf{k}$
+l.123 $\Delta \equiv  \Delta_{\mathbf{k}$
                                          
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2501,156 +2689,425 @@ my insertion and my current dilemma will both disappear.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 141.
+(hyperref)                removing `math shift' on input line 148.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 141.
+(hyperref)                removing `subscript' on input line 148.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 141.
+(hyperref)                removing `math shift' on input line 148.
 
-[7]
+
 
 pdfTeX warning: pdflatex (file ./figs/intro_ssh.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<figs/intro_ssh.pdf, id=263, 2001.72844pt x 433.62pt>
+<figs/intro_ssh.pdf, id=324, 2001.72844pt x 433.62pt>
 File: figs/intro_ssh.pdf Graphic file (type pdf)
 <use figs/intro_ssh.pdf>
-Package pdftex.def Info: figs/intro_ssh.pdf  used on input line 170.
-(pdftex.def)             Requested size: 327.2067pt x 70.87595pt.
-[8 <./figs/intro_ssh.pdf>] [9]
-
-pdfTeX warning: pdflatex (file ./figs/intro_qheqshe.pdf): PDF inclusion: found 
-PDF version <1.7>, but at most version <1.5> allowed
-<figs/intro_qheqshe.pdf, id=301, 1984.41376pt x 420.82219pt>
-File: figs/intro_qheqshe.pdf Graphic file (type pdf)
-<use figs/intro_qheqshe.pdf>
-Package pdftex.def Info: figs/intro_qheqshe.pdf  used on input line 207.
-(pdftex.def)             Requested size: 327.2067pt x 69.38771pt.
-[10
-
- <./figs/intro_qheqshe.pdf>])
-\openout2 = `chapters/Chapter2/main.aux'.
-
- (./chapters/Chapter2/main.tex
-Chapter 3.
-[11
-
-
-
-
-
-
-
-]
-Package epstopdf Info: Source file: <figs/frac_spectra.eps>
-(epstopdf)                    date: 2018-06-07 10:39:52
-(epstopdf)                    size: 1979866 bytes
-(epstopdf)             Output file: <figs/frac_spectra-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-03-02 13:37:08
-(epstopdf)                    size: 2365834 bytes
-(epstopdf)             Command: <epstopdf --outfile=figs/frac_spectra-eps-conve
-rted-to.pdf figs/frac_spectra.eps>
-(epstopdf)             \includegraphics on input line 63.
-Package epstopdf Info: Output file is already uptodate.
-<figs/frac_spectra-eps-converted-to.pdf, id=354, 826.08624pt x 568.1225pt>
-File: figs/frac_spectra-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/frac_spectra-eps-converted-to.pdf>
-Package pdftex.def Info: figs/frac_spectra-eps-converted-to.pdf  used on input 
-line 63.
-(pdftex.def)             Requested size: 327.2067pt x 225.03441pt.
-<figs/frac_flux.pdf, id=357, 109.41928pt x 49.01265pt>
-File: figs/frac_flux.pdf Graphic file (type pdf)
-<use figs/frac_flux.pdf>
-Package pdftex.def Info: figs/frac_flux.pdf  used on input line 72.
-(pdftex.def)             Requested size: 163.60335pt x 73.29141pt.
-
-
-pdfTeX warning: pdflatex (file ./figs/frac_SC.pdf): PDF inclusion: found PDF ve
-rsion <1.7>, but at most version <1.5> allowed
-<figs/frac_SC.pdf, id=358, 4383.62718pt x 2811.00188pt>
-File: figs/frac_SC.pdf Graphic file (type pdf)
-<use figs/frac_SC.pdf>
-Package pdftex.def Info: figs/frac_SC.pdf  used on input line 86.
-(pdftex.def)             Requested size: 163.60335pt x 104.87186pt.
-[12] [13 <./figs/frac_spectra-eps-converted-to.pdf> <./figs/frac_flux.pdf>]
-<figs/frac_iprSC.pdf, id=417, 308.15125pt x 374.39874pt>
-File: figs/frac_iprSC.pdf Graphic file (type pdf)
-<use figs/frac_iprSC.pdf>
-Package pdftex.def Info: figs/frac_iprSC.pdf  used on input line 110.
-(pdftex.def)             Requested size: 261.76634pt x 318.06334pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figs/frac_iprSG.pdf, id=418, 320.19624pt x 374.39874pt>
-File: figs/frac_iprSG.pdf Graphic file (type pdf)
-<use figs/frac_iprSG.pdf>
-Package pdftex.def Info: figs/frac_iprSG.pdf  used on input line 118.
-(pdftex.def)             Requested size: 261.76634pt x 306.08347pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figs/wd_p_dist.png, id=422, 409.59023pt x 312.02573pt>
-File: figs/wd_p_dist.png Graphic file (type png)
-<use figs/wd_p_dist.png>
-Package pdftex.def Info: figs/wd_p_dist.png  used on input line 133.
-(pdftex.def)             Requested size: 163.60335pt x 124.63191pt.
+Package pdftex.def Info: figs/intro_ssh.pdf  used on input line 177.
+(pdftex.def)             Requested size: 441.01773pt x 95.52902pt.
+[5] [6 <./figs/intro_ssh.pdf>]
 ! Undefined control sequence.
-l.143 ...ot proportional to the Chern number~\ctie
-                                                  {KatnelsonFractal2020}. Mo...
+l.231 ...d $ \langle \langle \ldots \rangle \range
+                                                  $ to the next-nearest neig...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [14 <./figs/frac_SC.pdf>] [15 <./figs/frac_iprSC.pdf>] [16 <./figs/frac_iprSG
-.pdf> <./figs/wd_p_dist.png>]
-\openout2 = `chapters/Chapter3/main.aux'.
-
- (./chapters/Chapter3/main.tex
-Chapter 4.
-
-LaTeX Warning: Reference `ch:intro' on page 17 undefined on input line 5.
 
 
-
-pdfTeX warning: pdflatex (file ./figs/oal_newphases.pdf): PDF inclusion: found 
+pdfTeX warning: pdflatex (file ./figs/intro_qheqshe.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<figs/oal_newphases.pdf, id=486, 1984.41376pt x 420.82219pt>
-File: figs/oal_newphases.pdf Graphic file (type pdf)
-<use figs/oal_newphases.pdf>
-Package pdftex.def Info: figs/oal_newphases.pdf  used on input line 39.
-(pdftex.def)             Requested size: 327.2067pt x 69.38771pt.
-[17
+<figs/intro_qheqshe.pdf, id=368, 1984.41376pt x 420.82219pt>
+File: figs/intro_qheqshe.pdf Graphic file (type pdf)
+<use figs/intro_qheqshe.pdf>
+Package pdftex.def Info: figs/intro_qheqshe.pdf  used on input line 240.
+(pdftex.def)             Requested size: 441.01773pt x 93.51866pt.
+[7 <./figs/intro_qheqshe.pdf>] [8])
+\openout2 = `chapters/Chapter2/main.aux'.
+
+ (./chapters/Chapter2/main.tex
+Chapter 2.
+! Missing } inserted.
+<inserted text> 
+                }
+l.5 ...ed by a Hausdorff dimension $d_{\mathrm{H}$
+                                                  , which is not necessary a...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[9
 
 
 
 
-
-
-] [18 <./figs/oal_newphases.pdf>]
-
-pdfTeX warning: pdflatex (file ./figs/oal_finite.pdf): PDF inclusion: found PDF
- version <1.7>, but at most version <1.5> allowed
-<figs/oal_finite.pdf, id=526, 1381.41093pt x 523.20468pt>
-File: figs/oal_finite.pdf Graphic file (type pdf)
-<use figs/oal_finite.pdf>
-Package pdftex.def Info: figs/oal_finite.pdf  used on input line 98.
-(pdftex.def)             Requested size: 327.2067pt x 123.9271pt.
-) [19 <./figs/oal_finite.pdf>] [20
 
 
 
 ]
+
+pdfTeX warning: pdflatex (file ./figs/frac_lattice.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<figs/frac_lattice.pdf, id=456, 2785.40625pt x 1052.43187pt>
+File: figs/frac_lattice.pdf Graphic file (type pdf)
+<use figs/frac_lattice.pdf>
+Package pdftex.def Info: figs/frac_lattice.pdf  used on input line 23.
+(pdftex.def)             Requested size: 418.96548pt x 158.29155pt.
+[10 <./figs/frac_lattice.pdf>]
+
+pdfTeX warning: pdflatex (file ./figs/frac_flux.pdf): PDF inclusion: found PDF 
+version <1.7>, but at most version <1.5> allowed
+<figs/frac_flux.pdf, id=498, 2785.40625pt x 1052.43187pt>
+File: figs/frac_flux.pdf Graphic file (type pdf)
+<use figs/frac_flux.pdf>
+Package pdftex.def Info: figs/frac_flux.pdf  used on input line 36.
+(pdftex.def)             Requested size: 396.91325pt x 149.95703pt.
+
+
+pdfTeX warning: pdflatex (file ./figs/frac_spectra.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<figs/frac_spectra.pdf, id=506, 2693.56313pt x 2093.57156pt>
+File: figs/frac_spectra.pdf Graphic file (type pdf)
+<use figs/frac_spectra.pdf>
+Package pdftex.def Info: figs/frac_spectra.pdf  used on input line 48.
+(pdftex.def)             Requested size: 463.06996pt x 359.89561pt.
+
+Overfull \hbox (22.05223pt too wide) in paragraph at lines 48--49
+ [][] 
+ []
+
+[11 <./figs/frac_flux.pdf>] [12 <./figs/frac_spectra.pdf>]
+
+pdfTeX warning: pdflatex (file ./figs/frac_iprSC.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<figs/frac_iprSC.pdf, id=599, 612.36781pt x 200.79015pt>
+File: figs/frac_iprSC.pdf Graphic file (type pdf)
+<use figs/frac_iprSC.pdf>
+Package pdftex.def Info: figs/frac_iprSC.pdf  used on input line 65.
+(pdftex.def)             Requested size: 463.06996pt x 151.83919pt.
+
+Overfull \hbox (22.05223pt too wide) in paragraph at lines 65--66
+ [][] 
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./figs/frac_iprSG.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<figs/frac_iprSG.pdf, id=600, 612.36781pt x 200.79015pt>
+File: figs/frac_iprSG.pdf Graphic file (type pdf)
+<use figs/frac_iprSG.pdf>
+Package pdftex.def Info: figs/frac_iprSG.pdf  used on input line 72.
+(pdftex.def)             Requested size: 463.06996pt x 151.83919pt.
+
+Overfull \hbox (22.05223pt too wide) in paragraph at lines 72--73
+ [][] 
+ []
+
+[13 <./figs/frac_iprSC.pdf> <./figs/frac_iprSG.pdf>]
+
+pdfTeX warning: pdflatex (file ./figs/frac_SC.pdf): PDF inclusion: found PDF ve
+rsion <1.7>, but at most version <1.5> allowed
+<figs/frac_SC.pdf, id=646, 2773.36125pt x 1405.50093pt>
+File: figs/frac_SC.pdf Graphic file (type pdf)
+<use figs/frac_SC.pdf>
+Package pdftex.def Info: figs/frac_SC.pdf  used on input line 86.
+(pdftex.def)             Requested size: 418.96548pt x 212.31728pt.
+
+
+pdfTeX warning: pdflatex (file ./figs/frac_SG.pdf): PDF inclusion: found PDF ve
+rsion <1.7>, but at most version <1.5> allowed
+<figs/frac_SG.pdf, id=647, 2773.36125pt x 1405.50093pt>
+File: figs/frac_SG.pdf Graphic file (type pdf)
+<use figs/frac_SG.pdf>
+Package pdftex.def Info: figs/frac_SG.pdf  used on input line 93.
+(pdftex.def)             Requested size: 418.96548pt x 212.31728pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14 <./figs/frac_SC.pdf>] [15 <./figs/frac_SG.pdf>]
+
+pdfTeX warning: pdflatex (file ./figs/frac_chern_scaling.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.5> allowed
+<figs/frac_chern_scaling.pdf, id=716, 2548.27031pt x 1339.25343pt>
+File: figs/frac_chern_scaling.pdf Graphic file (type pdf)
+<use figs/frac_chern_scaling.pdf>
+Package pdftex.def Info: figs/frac_chern_scaling.pdf  used on input line 135.
+(pdftex.def)             Requested size: 352.81552pt x 185.40979pt.
+[16 <./figs/frac_chern_scaling.pdf>]
+
+pdfTeX warning: pdflatex (file ./figs/frac_square_sc.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<figs/frac_square_sc.pdf, id=759, 380.62201pt x 232.9503pt>
+File: figs/frac_square_sc.pdf Graphic file (type pdf)
+<use figs/frac_square_sc.pdf>
+Package pdftex.def Info: figs/frac_square_sc.pdf  used on input line 151.
+(pdftex.def)             Requested size: 418.96548pt x 256.4345pt.
+
+
+pdfTeX warning: pdflatex (file ./figs/frac_triangle_sg.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<figs/frac_triangle_sg.pdf, id=760, 378.4539pt x 232.9503pt>
+File: figs/frac_triangle_sg.pdf Graphic file (type pdf)
+<use figs/frac_triangle_sg.pdf>
+Package pdftex.def Info: figs/frac_triangle_sg.pdf  used on input line 158.
+(pdftex.def)             Requested size: 418.96548pt x 257.89542pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [17 <./figs/frac_square_sc.pdf>] [18 <./figs/frac_triangle_sg.pdf>]
+\openout2 = `chapters/Chapter3/main.aux'.
+
+
+(./chapters/Chapter3/main.tex
+Chapter 3.
+
+LaTeX Warning: Reference `Niu2015' on page 19 undefined on input line 18.
+
+
+LaTeX Warning: Reference `fig:latt_struct' on page 19 undefined on input line 3
+0.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[][]|\T1/pplj/m/n/10 (+20) Tight-binding pa-ram-e-ters for Bi and Sb taken from
+
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 51--51
+\T1/pplj/m/n/10 (+20) Refs. [[]], [[]]$[]$, [[]]$[]$. $\OML/zplm/m/it/10 d[]$ \
+T1/pplj/m/n/10 (+20) de-notes nearest-neighbor
+ []
+
+[19
+
+
+
+
+
+
+] [20] [21] [22]
+
+pdfTeX warning: pdflatex (file ./figs/oal_newphases.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+<figs/oal_newphases.pdf, id=910, 1984.41376pt x 420.82219pt>
+File: figs/oal_newphases.pdf Graphic file (type pdf)
+<use figs/oal_newphases.pdf>
+Package pdftex.def Info: figs/oal_newphases.pdf  used on input line 139.
+(pdftex.def)             Requested size: 441.01773pt x 93.51866pt.
+! Undefined control sequence.
+l.172 ...isfies $W_\gamma W_\gamma^\dagger = P(\bs
+                                                  {k}^*)$ and so, since any ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.172 ...so, since any projector satisfies $[P(\bs
+                                                  {k})]^2 = P(\bs{k})$, its ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.172 ...rojector satisfies $[P(\bs{k})]^2 = P(\bs
+                                                  {k})$, its eigenvalues are...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[23 <./figs/oal_newphases.pdf>]
+Runaway argument?
+{u_{\mathbf {k}_i, m} | u_{\mathbf {k}_j, n}$. It is clear how Wilson\ETC.
+! Paragraph ended before \braket was complete.
+<to be read again> 
+                   \par 
+l.179 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.179 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.183 ...miltonian as $\mathcal{T} \mathcal{H}(\bs
+                                                  {k}) \mathcal{T}^{-1} = \m...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.183 ...s{k}) \mathcal{T}^{-1} = \mathcal{H}(-\bs
+                                                  {k})$. For the projectors ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.183 ...rojectors this implies $\mathcal{T} P(\bs
+                                                  {k}) \mathcal{T}^{-1} = P(...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.183 ...al{T} P(\bs{k}) \mathcal{T}^{-1} = P(-\bs
+                                                  {k})$. When $\gamma$ is ma...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bs 
+                    
+l.183 ...RS, and its starting point satisfies $\bs
+                                                  {k}^* = -\bs{k}^*$ up to a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.183 ...starting point satisfies $\bs{k}^* = -\bs
+                                                  {k}^*$ up to a reciprocal ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.186 ...W_\gamma \mathcal{T}^\dagger = \prod_{\bs
+                                                  {k}}^{\gamma} P(-\bs{k}) =...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.186 ...^\dagger = \prod_{\bs{k}}^{\gamma} P(-\bs
+                                                  {k}) = W_\gamma^\dagger.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bs 
+                    
+l.190 ...the starting point invariant so that $\bs
+                                                  {k}^* = \mathsf{S} \bs{k}^...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.190 ...ariant so that $\bs{k}^* = \mathsf{S} \bs
+                                                  {k}^*$ up to a reciprocal ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.193 ..._\gamma \mathcal{S}^\dagger =  \prod_{\bs
+                                                  {k}}^{\gamma} \left[\mathc...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.193 ...{\bs{k}}^{\gamma} \left[\mathcal{S} P(\bs
+                                                  {k}) \mathcal{S}^\dagger \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[24]
+
+pdfTeX warning: pdflatex (file ./figs/oal_finite.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<figs/oal_finite.pdf, id=955, 1381.41093pt x 523.20468pt>
+File: figs/oal_finite.pdf Graphic file (type pdf)
+<use figs/oal_finite.pdf>
+Package pdftex.def Info: figs/oal_finite.pdf  used on input line 230.
+(pdftex.def)             Requested size: 441.01773pt x 167.02974pt.
+
+Overfull \hbox (56.87555pt too wide) in paragraph at lines 239--252
+ [][] 
+ []
+
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 257.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 9.30756pt on input line 257.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fvm' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Overfull \hbox (119.0836pt too wide) in paragraph at lines 261--277
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig:materials' on page 25 undefined on input line 277
+.
+
+
+LaTeX Warning: Reference `fig:materials' on page 25 undefined on input line 277
+.
+
+) [25 <./figs/oal_finite.pdf>] [26]
 \openout2 = `chapters/Chapter4/main.aux'.
 
  (./chapters/Chapter4/main.tex
-Chapter 5.
-[21
+Chapter 4.
+[27
+
+
+
 
 
 
@@ -2658,48 +3115,246 @@ Chapter 5.
 
 pdfTeX warning: pdflatex (file ./figs/nh_exceptional.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<figs/nh_exceptional.pdf, id=570, 4077.9853pt x 1908.37968pt>
+<figs/nh_exceptional.pdf, id=1014, 4077.9853pt x 1908.37968pt>
 File: figs/nh_exceptional.pdf Graphic file (type pdf)
 <use figs/nh_exceptional.pdf>
-Package pdftex.def Info: figs/nh_exceptional.pdf  used on input line 41.
-(pdftex.def)             Requested size: 327.2067pt x 153.11028pt.
-[22 <./figs/nh_exceptional.pdf>]) [23] [24
+Package pdftex.def Info: figs/nh_exceptional.pdf  used on input line 48.
+(pdftex.def)             Requested size: 441.01773pt x 206.36983pt.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\pi' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 54.
+
+
+LaTeX Warning: Reference `fig: 1' on page 28 undefined on input line 57.
+
+
+LaTeX Warning: Reference `fig: 1' on page 28 undefined on input line 66.
+
+
+LaTeX Warning: Reference `fig: 1' on page 28 undefined on input line 69.
+
+[28 <./figs/nh_exceptional.pdf>]
+
+LaTeX Warning: Reference `fig: 1' on page 29 undefined on input line 88.
 
 
 
-]
+pdfTeX warning: pdflatex (file ./figs/SI-SSH.pdf): PDF inclusion: found PDF ver
+sion <1.7>, but at most version <1.5> allowed
+<figs/SI-SSH.pdf, id=1038, 758.835pt x 180.675pt>
+File: figs/SI-SSH.pdf Graphic file (type pdf)
+<use figs/SI-SSH.pdf>
+Package pdftex.def Info: figs/SI-SSH.pdf  used on input line 95.
+(pdftex.def)             Requested size: 441.01773pt x 105.00659pt.
+[29 <./figs/SI-SSH.pdf>]) [30]
 \openout2 = `chapters/Conclusion/main.aux'.
 
- (./chapters/Conclusion/main.tex
-Chapter 6.
-) [25
+ (./chapters/Conclusion/main.tex) [31
 
 
 
-] [26
+
+
+
+
+
+] [32
 
 
 
 ]
 \openout2 = `chapters/Appendix/main.aux'.
 
- (./chapters/Appendix/main.tex
+
+(./chapters/Appendix/main.tex
 Appendix A.
-[27
+[33
 
 
 
-]) [28]
+]
+
+! Package inputenc Error: Unicode character ≈ (U+2248)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 ... ofG,rgis the translation part ofG, and≈
+                                                  indicatesequivalence  modu...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Undefined control sequence.
+l.94 \Bbbk
+           H | G_w \subset H \subset G
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Appendix B.
+[34]
+
+LaTeX Warning: Reference `PhysRevB.48.4442' on page 35 undefined on input line 
+108.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.130 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Display math should end with $$.
+<to be read again> 
+                   \par 
+l.130 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 \end{equation}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `\eqno' in vertical mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.132 \end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.132 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.132 \end{equation}
+                    
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+Runaway argument?
+{eq: \end {equation} as $N$ Bloch bands can be mixed with each other.\ETC.
+! Paragraph ended before \label@in@display@noarg was complete.
+<to be read again> 
+                   \par 
+l.140 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.140 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Display math should end with $$.
+<to be read again> 
+                   \par 
+l.140 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+[35
+
+
+]
+Appendix C.
+[36]
+
+! LaTeX Error: \begin{equation*} on input line 196 ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.198 \end{equation}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment theorem undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.219 \begin{theorem}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[37
+
+
+]
+
+! LaTeX Error: \begin{equation} on input line 135 ended by \end{theorem}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.225 \end{theorem}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) [38]
 \openout2 = `frontbackmatter/bibliography.aux'.
 
- (./frontbackmatter/bibliography.tex [29
+ (./frontbackmatter/bibliography.tex [39
 
 
 
 
 
 
-] [30] [31] [32]
+] [40] [41] [42] [43]
 ! Undefined control sequence.
 <recently read> \mathsc 
                         
@@ -2722,7 +3377,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[33]) [34]
+) [44]
 \openout2 = `frontbackmatter/cv.aux'.
 
  (./frontbackmatter/cv.tex
@@ -2730,12 +3385,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--27
 
  []
 
-) [35
+) [45
 
 
 
 
-] [36
+] [46
 
 
 
@@ -2753,7 +3408,7 @@ Package biblatex Info: Reference section=0 on input line 13.
 Package biblatex Info: Reference section=2 on input line 18.
 Package biblatex Info: Setting label 'refsection:2' on input line 18.
 Package biblatex Info: Reference section=0 on input line 22.
-) [37
+) [47
 
 
 
@@ -2761,6 +3416,19 @@ Package biblatex Info: Reference section=0 on input line 22.
 
 Package caption Warning: Unused \captionsetup[sub] on input line 71.
 See the caption package documentation for explanation.
+
+
+! LaTeX Error: \begin{equation} on input line 135 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
@@ -2779,41 +3447,45 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 91.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package logreq Info: Writing requests to 'build/thesis.run.xml'.
 \openout1 = `build/thesis.run.xml'.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 135 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 62873 strings out of 492616
- 1384694 string characters out of 6129480
- 2073761 words of memory out of 5000000
- 65031 multiletter control sequences out of 15000+600000
- 654755 words of font info for 544 fonts, out of 8000000 for 9000
+ 63403 strings out of 492616
+ 1395065 string characters out of 6129480
+ 2089791 words of memory out of 5000000
+ 65288 multiletter control sequences out of 15000+600000
+ 671268 words of font info for 664 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 81i,23n,136p,9102b,3145s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
-ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/local/texl
-ive/2019/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/local/texlive/2019
-/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2019/tex
-mf-dist/fonts/type1/public/mathpazo/fplmbi.pfb></usr/local/texlive/2019/texmf-d
-ist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2019/texmf-dist/f
-onts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2019/texmf-dist/fonts
-/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/p
-ublic/fpl/fplrij8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/pala
-tino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/up
-lr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplri8a.p
-fb>
-Output written on build/thesis.pdf (51 pages, 3650398 bytes).
+ 81i,23n,136p,9102b,3855s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc
+}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/mathpazo/fplmbi.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2019/t
+exmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2019/texmf
+-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2019/texmf-dist/fo
+nts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/typ
+e1/public/bera/fvmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/p
+alatino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino
+/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplri8
+a.pfb>
+Output written on build/thesis.pdf (63 pages, 5499215 bytes).
 PDF statistics:
- 922 PDF objects out of 1000 (max. 8388607)
- 779 compressed objects within 8 object streams
- 222 named destinations out of 1000 (max. 500000)
- 98213 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 1519 PDF objects out of 1728 (max. 8388607)
+ 1302 compressed objects within 14 object streams
+ 339 named destinations out of 1000 (max. 500000)
+ 111158 words of extra memory for PDF output out of 128383 (max. 10000000)
 

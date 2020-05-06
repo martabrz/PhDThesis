@@ -5,40 +5,60 @@
 \babel@toc {english}{}
 \babel@toc {polish}{}
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}{Introduction}}{1}{chapter.1}% 
-\contentsline {chapter}{\numberline {2}{Topological band theory}}{5}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}{Notion of topology}}{5}{section.2.1}% 
-\contentsline {subsection}{\numberline {2.1.1}{Homotopy and equivalence classes}}{5}{subsection.2.1.1}% 
-\contentsline {section}{\numberline {2.2}{Symmetries and classification of topological insulators and superconductors}}{5}{section.2.2}% 
-\contentsline {section}{\numberline {2.3}{Topological invariants}}{7}{section.2.3}% 
-\contentsline {subsection}{\numberline {2.3.1}{Chern number}}{7}{subsection.2.3.1}% 
-\contentsline {subsection}{\numberline {2.3.2}{$Z_2$ topological index}}{7}{subsection.2.3.2}% 
-\contentsline {section}{\numberline {2.4}{Topical examples}}{8}{section.2.4}% 
-\contentsline {subsection}{\numberline {2.4.1}{Class BDI: Su-Schriffer-Heeger chain}}{8}{subsection.2.4.1}% 
-\contentsline {subsection}{\numberline {2.4.2}{Class A: integer quantum Hall states and Chern insulators}}{9}{subsection.2.4.2}% 
-\contentsline {subsection}{\numberline {2.4.3}{Class AII: quantum spin Hall effect}}{10}{subsection.2.4.3}% 
-\contentsline {chapter}{\numberline {3}{Topological states in self-similar lattices}}{11}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}{Real-space methods for computing topological invariants}}{11}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}{Edge states}}{12}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}{Effect of disorder}}{14}{section.3.3}% 
-\contentsline {chapter}{\numberline {4}{Obstructed atomic limits}}{17}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}{Crystal symmetries}}{17}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}{Wannier representation}}{17}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}{Corner charges}}{18}{section.4.3}% 
-\contentsline {subsection}{\numberline {4.3.1}{Charge fractionalization in 1D}}{18}{subsection.4.3.1}% 
-\contentsline {section}{\numberline {4.4}{Bulk indices}}{18}{section.4.4}% 
-\contentsline {subsection}{\numberline {4.4.1}{Symmetry indicators}}{18}{subsection.4.4.1}% 
-\contentsline {subsection}{\numberline {4.4.2}{Wilson loops}}{19}{subsection.4.4.2}% 
-\contentsline {section}{\numberline {4.5}{Material candidates}}{19}{section.4.5}% 
-\contentsline {chapter}{\numberline {5}{Topology in non-Hermitian systems}}{21}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}{Exceptional points}}{22}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}{Breakdown of bulk-boundary correspondence}}{22}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}{Skin effect}}{23}{section.5.3}% 
-\contentsline {subsection}{\numberline {5.3.1}{Reciprocal skin effect}}{23}{subsection.5.3.1}% 
-\contentsline {chapter}{\numberline {6}{Summary}}{25}{chapter.6}% 
-\contentsline {chapter}{\numberline {A}{Band theory}}{27}{appendix.A}% 
-\contentsline {subsection}{\numberline {A.0.1}{General definitions}}{27}{subsection.A.0.1}% 
-\contentsline {subsection}{\numberline {A.0.2}{Wannier functions}}{28}{subsection.A.0.2}% 
-\contentsline {subsection}{\numberline {A.0.3}{Group theory: representations and character table}}{28}{subsection.A.0.3}% 
+\contentsline {chapter}{List of Figures}{xiii}{dummy.2}% 
+\contentsline {chapter}{List of Tables}{xv}{dummy.3}% 
+\contentsline {chapter}{\spacedlowsmallcaps {Introduction}}{1}{section*.3}% 
+\contentsline {chapter}{\numberline {1}{Topological band theory}}{3}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}{Notion of topology}}{3}{section.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}{Homotopy and equivalence classes}}{3}{subsection.1.1.1}% 
+\contentsline {section}{\numberline {1.2}{Symmetries and classification of topological insulators and superconductors}}{3}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}{Topological invariants}}{5}{section.1.3}% 
+\contentsline {subsection}{\numberline {1.3.1}{Geometrical phases and adiabatic evolution}}{5}{subsection.1.3.1}% 
+\contentsline {subsection}{\numberline {1.3.2}{Chern number}}{5}{subsection.1.3.2}% 
+\contentsline {subsection}{\numberline {1.3.3}{$Z_2$ topological index}}{5}{subsection.1.3.3}% 
+\contentsline {section}{\numberline {1.4}{Topical examples}}{5}{section.1.4}% 
+\contentsline {subsection}{\numberline {1.4.1}{Class BDI: Su-Schriffer-Heeger chain}}{6}{subsection.1.4.1}% 
+\contentsline {subsection}{\numberline {1.4.2}{Class A}}{6}{subsection.1.4.2}% 
+\contentsline {subsubsection}{\numberline {1.4.2.1}{Quantum Hall effect}}{6}{subsubsection.1.4.2.1}% 
+\contentsline {subsubsection}{\numberline {1.4.2.2}{Chern insulators}}{6}{subsubsection.1.4.2.2}% 
+\contentsline {subsection}{\numberline {1.4.3}{Class AII: quantum spin Hall effect}}{7}{subsection.1.4.3}% 
+\contentsline {chapter}{\numberline {2}{Topological states in fractal lattices}}{9}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}{Model}}{10}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}{Spectral properties}}{11}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}{Edge modes}}{12}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}{Real-space formulation of topological invariants}}{14}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}{Effect of disorder}}{16}{section.2.5}% 
+\contentsline {chapter}{\numberline {3}{Crystal symmetries in group-V monolayers}}{19}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}{Topological crystalline insulating states in two-dimensional monolayers}}{19}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}{Liu-Allen tight-binding model}}{19}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}{Mirror Chern number}}{20}{subsection.3.1.2}% 
+\contentsline {subsection}{\numberline {3.1.3}{Entanglement measures}}{20}{subsection.3.1.3}% 
+\contentsline {subsubsection}{\numberline {3.1.3.1}{Entanglement entropy}}{20}{subsubsection.3.1.3.1}% 
+\contentsline {subsubsection}{\numberline {3.1.3.2}{Entanglement spectrum}}{21}{subsubsection.3.1.3.2}% 
+\contentsline {subsubsection}{\numberline {3.1.3.3}{Free-fermionic systems}}{21}{subsubsection.3.1.3.3}% 
+\contentsline {subsection}{\numberline {3.1.4}{Free-standing layers }}{22}{subsection.3.1.4}% 
+\contentsline {subsection}{\numberline {3.1.5}{Substrate effect }}{22}{subsection.3.1.5}% 
+\contentsline {section}{\numberline {3.2}{Obstructed atomic limits}}{22}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}{Wannier representation}}{22}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}{Bulk indices}}{23}{subsection.3.2.2}% 
+\contentsline {subsubsection}{\numberline {3.2.2.1}{Symmetry indicators}}{23}{subsubsection.3.2.2.1}% 
+\contentsline {subsubsection}{\numberline {3.2.2.2}{Wilson loops}}{23}{subsubsection.3.2.2.2}% 
+\contentsline {subsection}{\numberline {3.2.3}{Fractional corner charges in finite flakes}}{25}{subsection.3.2.3}% 
+\contentsline {chapter}{\numberline {4}{Topology in non-Hermitian systems}}{27}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}{Breakdown of bulk-boundary correspondence}}{27}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}{Exceptional points}}{27}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}{$\pi $-flux model}}{28}{subsection.4.2.1}% 
+\contentsline {section}{\numberline {4.3}{Skin effect}}{30}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}{Reciprocal skin effect}}{30}{subsection.4.3.1}% 
+\contentsline {chapter}{\spacedlowsmallcaps {Summary}}{31}{section*.25}% 
+\contentsline {chapter}{\numberline {A}{Band theory}}{33}{appendix.A}% 
+\contentsline {subsection}{\numberline {A.0.1}{General definitions}}{33}{subsection.A.0.1}% 
+\contentsline {subsection}{\numberline {A.0.2}{Group theory: representations and character table}}{33}{subsection.A.0.2}% 
+\contentsline {chapter}{\numberline {B}{Wannier functions}}{35}{appendix.B}% 
+\contentsline {section}{\numberline {B.1}{Maximally localized Wannier functions}}{35}{section.B.1}% 
+\contentsline {section}{\numberline {B.2}{Symmetry constrains}}{36}{section.B.2}% 
+\contentsline {section}{\numberline {B.3}{Relation between Wannier functions and Wilson loops}}{36}{section.B.3}% 
+\contentsline {chapter}{\numberline {C}{Entanglement entropy from a single-particle correlation matrix}}{37}{appendix.C}% 
+\contentsline {section}{\numberline {C.1}{Singular value decomposition}}{38}{section.C.1}% 
 \vspace {\beforebibskip }
-\contentsline {chapter}{\numberline {}{Bibliography}}{29}{dummy.3}% 
+\contentsline {chapter}{\numberline {}{Bibliography}}{39}{dummy.5}% 

@@ -66,9 +66,9 @@
 \newcommand{\myfloatalign}{\centering}
 \usepackage{floatrow}
 \usepackage{caption}
-\captionsetup{format=hang,font=small,labelfont={sc},margin=5pt}
+\captionsetup{format=hang,font=small,labelfont={bf},margin=5pt}
 \usepackage{subcaption}
-\captionsetup[sub]{margin=0pt,font=small,labelfont={rm}}
+\captionsetup[sub]{margin=0pt,font=small,labelfont={bf}}
 
 % Blind text
 \usepackage{blindtext}
@@ -178,10 +178,10 @@
 % Hyperref
 \usepackage{bookmark}
 \hypersetup{
-  %urlcolor=webbrown, linkcolor=RoyalBlue, citecolor=webgreen, %pagecolor=RoyalBlue,%
+  urlcolor=webbrown, linkcolor=RoyalBlue, citecolor=webgreen, %pagecolor=RoyalBlue,%
   %urlcolor=webbrown, linkcolor=Maroon, citecolor=webgreen,%
   %urlcolor=link-color, linkcolor=link-color, citecolor=cite-color,%
-  urlcolor=Black, linkcolor=Black, citecolor=Black, %pagecolor=Black,%
+%  urlcolor=Black, linkcolor=Black, citecolor=Black, %pagecolor=Black,%
 }
 
 % Chapter font
@@ -211,7 +211,8 @@
 \titleformat{\chapter}[display]%
   {\relax}{\vspace*{-3\baselineskip}\makebox[\linewidth][r]{\color{halfgray}\chapterNumber\thechapter}}{10pt}%
   {\raggedright\spacedallcaps}[\normalsize\vspace*{.8\baselineskip}\titlerule]%
-
+  
+  
 % Chapter abstract
 \def\chapterabstract#1{%
   \begingroup
@@ -235,8 +236,8 @@
 \newcommand{\subfig}[1]{(#1)}
 
 % CV
-\newcommand{\cvleft}[1]{\begin{minipage}[t]{2.5cm}\begin{flushright}#1\end{flushright}\end{minipage}\hspace{5mm}}
-\newcommand{\cvright}[1]{\begin{minipage}[t]{8cm}{#1}\end{minipage}}
+\newcommand{\cvleft}[1]{\begin{minipage}[t]{3cm}\begin{flushright}#1\end{flushright}\end{minipage}\hspace{5mm}}
+\newcommand{\cvright}[1]{\begin{minipage}[t]{11cm}{#1}\end{minipage}}
 
 % Footnote without number
 \newcommand\blfootnote[1]{%
