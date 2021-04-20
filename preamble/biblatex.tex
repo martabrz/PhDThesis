@@ -1,11 +1,13 @@
 \usepackage[
   backend=biber,%
   bibencoding=utf8,%
-  style=nature,%
-  %style=science, article-title=true,%
+  %style=nature,%
+  style=science,%
+  articletitle=true,%
   natbib=true,%
-  clearlang=true%
+  clearlang=true
 ]{biblatex}
+
 
 \ExecuteBibliographyOptions{%
   %--- Backend --- --- ---
@@ -24,9 +26,9 @@
   % none       Do not sort at all. All entries are processed in citation order.
   % debug      Sort by entry key. This is intended for debugging only.
   %
-  sortcase=true,
-  sortlos=los, % (bib, los) The sorting order of the list of shorthands
-  sortcites=true, % do/do not sort citations according to bib	
+  sortcase=false,
+%  sorting=los, % (bib, los) The sorting order of the list of shorthands
+  sortcites=false, % do/do not sort citations according to bib	
   %--- Dates --- --- ---
   date=comp,  % (short, long, terse, comp, iso8601)
   %	origdate=
@@ -81,3 +83,56 @@
 
 % Use only the first page number in a given range
 \DeclareFieldFormat{pages}{\mkfirstpage{#1}}
+\newcommand{\doiorurl}{%
+  \iffieldundef{doi}
+    {\iffieldundef{url}
+       {}
+       {\strfield{url}}}
+    {http://dx.doi.org/\strfield{doi}}%
+}
+
+\newcommand{\myhref}[1]{%
+ \ifboolexpr{%
+   test {\ifhyperref}
+   and
+   not test {\iftoggle{bbx:url}}
+   and
+   not test {\iftoggle{bbx:doi}}
+  }
+  {\href{\doiorurl}{#1}}
+  {#1}%
+}
+
+\DeclareFieldFormat*{title}{#1}
+
+\DeclareFieldFormat{title}{\myhref{\mkbibemph{#1}}}
+\DeclareFieldFormat
+  [article,inbook,incollection,inproceedings,patent,thesis, misc, online]
+  {title}{\myhref{\mkbibquote{#1\isdot}}}
+  
+\renewcommand*{\mkbibnamegiven}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {#1}}
+
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {#1}}  
+    
+    
+
+\DeclareFieldFormat{labelnumber}{\mkbibemph{#1}}
+
+\renewcommand*\bibleftbracket{%
+  [% )
+}
+\renewcommand*\bibrightbracket{% (
+  ]%
+  \midsentence
+}
+%%   
+
+
+
+%unpublished

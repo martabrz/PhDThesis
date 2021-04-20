@@ -1,8 +1,14 @@
+\RequirePackage{silence}
+\WarningFilter{scrreprt}{Usage of package `titlesec'}
+\WarningFilter{scrreprt}{Activating an ugly workaround}
+\WarningFilter{titlesec}{Non standard sectioning command detected}
 \RequirePackage{fix-cm}
 \documentclass[%
     twoside, openright, titlepage, numbers=noenddot,%
     cleardoublepage=empty,%
     abstractoff,%
+    fontsize=11pt,
+    paper=a4,
     %BCOR=5.5mm, paper=a5, fontsize=10pt,% A5 soft cover
     BCOR=5.5mm, paper=21cm:29.7cm, fontsize=11pt,% A4
     %BCOR=5mm, paper=15.59cm:23.39cm, fontsize=10pt,% Royal soft cover
@@ -10,9 +16,10 @@
 ]{scrreprt}
 \usepackage{etex}
 \reserveinserts{10}
-
+\usepackage{fancyhdr}
 
 \input{preamble/general}
+\usepackage{xpatch}
 \usepackage[final]{pdfpages}
 \newcommand{\todo}[1]{{\color{blue} [\@#1]}}
 % Bibliography
@@ -20,13 +27,34 @@
 \addbibresource[label=preprints]{preprints.bib}
 \addbibresource{bibliography.bib}
 
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\nouppercase{\leftmark}}
+\fancyhead[LO]{\nouppercase{\rightmark}}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\renewcommand\headrulewidth{1.5pt}
+\makeatletter
+\def\headrule{{\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi
+\vskip 2pt% 2pt between lines
+\hrule\@height.5pt\@width\headwidth% lower line with .5pt line width
+\vskip-\headrulewidth
+\vskip-1.5pt}}
+\makeatother
+
 \begin{document}
+
 \frenchspacing
 \raggedbottom%
 \selectlanguage{english}
 \pagenumbering{roman}
-\pagestyle{scrplain}
+%\pagestyle{scrplain}
+%\pagestyle{scrheadings}
 \graphicspath{{figs/}}
+
+
 
 %
 % Cover
@@ -43,33 +71,42 @@
 \include{frontbackmatter/dirtytitlepage}
 \include{frontbackmatter/titlepage}
 \include{frontbackmatter/titleback}
-%\cleardoublepage\include{frontbackmatter/dedication}
+
 \cleardoublepage\include{frontbackmatter/abstract}
 \cleardoublepage\include{frontbackmatter/acknowledgments}
-\pagestyle{scrheadings}
+\cleardoublepage\include{frontbackmatter/dedication}
+\cleardoublepage\include{frontbackmatter/publications}
 \cleardoublepage\include{frontbackmatter/contents}
 
 %
 % Mainmatter
 %
-\cleardoublepage\pagenumbering{arabic}%
+\cleardoublepage
+\pagenumbering{arabic}%
 \def\dir{chapters/Introduction}
 \include{\dir/main}
-
+%
 \cleardoublepage%
 \def\dir{chapters/Chapter1}
 \include{\dir/main}
 
 \cleardoublepage%
+\include{frontbackmatter/part1}
 \def\dir{chapters/Chapter2}
 \include{\dir/main}
 
 \cleardoublepage%
+\include{frontbackmatter/part2}
 \def\dir{chapters/Chapter3}
 \include{\dir/main}
 
 \cleardoublepage%
 \def\dir{chapters/Chapter4}
+\include{\dir/main}
+
+\cleardoublepage%
+\include{frontbackmatter/part3}
+\def\dir{chapters/Chapter5}
 \include{\dir/main}
 
 \cleardoublepage%
@@ -80,12 +117,11 @@
 \cleardoublepage%
 \def\dir{chapters/Appendix}
 \include{\dir/main}
-
+%
 \cleardoublepage\include{frontbackmatter/bibliography}
-
 \bookmarksetup{startatroot}
-%\pagenumbering{gobble}
+\pagenumbering{gobble}
 \cleardoublepage\include{frontbackmatter/cv}
-\cleardoublepage\include{frontbackmatter/publications}
+
 
 \end{document}

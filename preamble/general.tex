@@ -7,14 +7,11 @@
 % classicthesis setup
 \PassOptionsToPackage{%
   %drafting,%
-  %dottedtoc,%
-  eulerchapternumbers,
-  %listings,%
-  %parts,%
-  floatperchapter, pdfspacing,%
+  eulerchapternumbers, dottedtoc,
+  pdfspacing,%
+  lineheaders,
   %minionprospacing,
   %subfig,%
-  %eulermath,%
 }{classicthesis}
 
 
@@ -34,15 +31,18 @@
 \newcommand{\eg}{e.\,g.\xspace}
 \newcommand{\Eg}{E.\,g.\xspace}
 
+
 % Handy packages
 \usepackage{csquotes}  % smart quotes
-
+%\usepackage{capt-of}
 \usepackage{braket}
 \usepackage[T1]{fontenc}
 \usepackage{xspace}
 \usepackage{textcomp}
 \usepackage{mparhack}
 \usepackage{relsize}
+%\usepackage{minitoc}
+\usepackage[section]{placeins}
 
 % Biblatex
 \input{preamble/biblatex}
@@ -60,7 +60,7 @@
 
 % Figures, tables, and captions
 \usepackage{tabularx}
-\usepackage{ltablex}
+%\usepackage{ltablex}
 \setlength{\extrarowheight}{3pt}
 \newcommand{\tableheadline}[1]{\multicolumn{1}{c}{\spacedlowsmallcaps{#1}}}
 \newcommand{\myfloatalign}{\centering}
@@ -96,7 +96,7 @@
   pdfauthor={\myName},%
   pdfcopyright={Copyright (C) \myTime, \myName},%
   pdfsubject={},%
-  pdfkeywords={},%
+  pdfkeywords={topological materials},%
   pdflang={en},%
 }
 
@@ -128,6 +128,7 @@
 \renewcommand*{\subsectionautorefname}{Section}
 \renewcommand*{\subsubsectionautorefname}{Section}
 \providecommand{\subfigureautorefname}{\figureautorefname}%
+
 \usepackage{cleveref}
 
 % Acronyms
@@ -140,6 +141,8 @@
 % Load classicthesis style
 \usepackage{scrhack}
 \usepackage{classicthesis}
+\usepackage{setspace}
+\setstretch{1.1} 
 
 % Customize text width and length
 
@@ -175,10 +178,11 @@
 \definecolor{link-color}{cmyk}{1, 0.50, 0, 0.25}
 \definecolor{cite-color}{cmyk}{0, 0.7, 0.9, 0.2}
 
+
 % Hyperref
 \usepackage{bookmark}
 \hypersetup{
-  urlcolor=webbrown, linkcolor=RoyalBlue, citecolor=webgreen, %pagecolor=RoyalBlue,%
+  urlcolor=webbrown, linkcolor=RoyalBlue, citecolor=webgreen, pagecolor=Black,%
   %urlcolor=webbrown, linkcolor=Maroon, citecolor=webgreen,%
   %urlcolor=link-color, linkcolor=link-color, citecolor=cite-color,%
 %  urlcolor=Black, linkcolor=Black, citecolor=Black, %pagecolor=Black,%
@@ -209,8 +213,10 @@
 
 % Chapter number on inside
 \titleformat{\chapter}[display]%
-  {\relax}{\vspace*{-3\baselineskip}\makebox[\linewidth][r]{\color{halfgray}\chapterNumber\thechapter}}{10pt}%
-  {\raggedright\spacedallcaps}[\normalsize\vspace*{.8\baselineskip}\titlerule]%
+  {\relax}{\vspace*{-3\baselineskip}\makebox[\linewidth][r]{\color{halfgray}\chapterNumber\thechapter}}{11pt}%
+  {\bf\raggedright\spacedallcaps}[\large\vspace*{.8\baselineskip}\color{black}\titlerule]%
+
+
   
   
 % Chapter abstract
@@ -236,8 +242,8 @@
 \newcommand{\subfig}[1]{(#1)}
 
 % CV
-\newcommand{\cvleft}[1]{\begin{minipage}[t]{3cm}\begin{flushright}#1\end{flushright}\end{minipage}\hspace{5mm}}
-\newcommand{\cvright}[1]{\begin{minipage}[t]{11cm}{#1}\end{minipage}}
+\newcommand{\cvleft}[1]{\hspace*{-0.0cm}\begin{minipage}[t]{3cm}\begin{flushright}#1\end{flushright}\end{minipage}\hspace{5mm}}
+\newcommand{\cvright}[1]{\begin{minipage}[t]{11.2cm}{#1}\end{minipage}}
 
 % Footnote without number
 \newcommand\blfootnote[1]{%
@@ -253,7 +259,8 @@
 % Widow and club penalties
 \clubpenalty = 10000
 \widowpenalty = 10000
-%\displaywidowpenalty = 10000
+\displaywidowpenalty = 10000
 
-\usepackage[left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage[a4paper, text={160mm,240mm}, headsep=10mm, footskip=12mm, bindingoffset=1.5cm,top=27mm]{geometry}
+%\usepackage[left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
 %\usepackage{lmodern}

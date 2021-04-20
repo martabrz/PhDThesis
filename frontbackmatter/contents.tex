@@ -1,7 +1,7 @@
 %*******************************************************
 % Table of Contents
 %*******************************************************
-%\phantomsection
+\phantomsection
 \refstepcounter{dummy}
 \pdfbookmark[1]{\contentsname}{tableofcontents}
 \setcounter{tocdepth}{2} % <-- 2 includes up to subsections in the ToC
@@ -12,6 +12,7 @@
 \automark[section]{chapter}
 \renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
 \renewcommand{\sectionmark}[1]{\markright{\thesection\enspace\spacedlowsmallcaps{#1}}}
+
 %*******************************************************
 % List of Figures and of the Tables
 %*******************************************************
@@ -26,22 +27,20 @@
     %*******************************************************
     \phantomsection
      \refstepcounter{dummy}
-    \addcontentsline{toc}{chapter}{\listfigurename}
+    \addcontentsline{toc}{chapter}{\tocEntry{\listfigurename}}
      \pdfbookmark[1]{\listfigurename}{lof}
      \listoffigures
 
-    % \vspace{8ex}
+%     \vspace{8ex}
 %
 %    %*******************************************************
 %    % List of Tables
 %    %*******************************************************
     \phantomsection
      \refstepcounter{dummy}
-    \addcontentsline{toc}{chapter}{\listtablename}
+    \addcontentsline{toc}{chapter}{\tocEntry{\listtablename}}
      \pdfbookmark[1]{\listtablename}{lot}
-     \listoftables
-
-    % \vspace{8ex}
+     \listoftables	
      \newpage
 
     %*******************************************************
@@ -60,31 +59,37 @@
     \pdfbookmark[1]{Abbreviations}{notation}
     \markboth{\spacedlowsmallcaps{Abbreviations}}{\spacedlowsmallcaps{Abbreviations}}
     \chapter*{Abbreviations}
-    \vskip -2em
     \begin{tabularx}{\textwidth}{lX}
-      \toprule%
+ 
       1D, 2D, $\ldots$ & one-dimensional, two-dimensional,  $\ldots$ \\
       AZ & Atland-Zirnbauer \\
       BZ & Brillouin zone \\
       CB & conduction band \\
-      CHS & chiral symmetry \\
+      CS & chiral symmetry \\
       DFT & density functional theory \\
       DOS & density of states \\
+      EBR & elementary band representation \\
       EE & entanglement entropy \\
       ES & entanglement spectrum \\
+      HOTI & higher-order topological insulator \\
+      HSP & high-symmetry point \\
       IR & irreducible representation \\
       NN & nearest-neighbour \\
-      NNN & next-to-neares nearest-neighbour \\
+      NNN & next-to-nearest neighbour \\
+      OAL & obstructed atomic limit \\
       PHS & particle-hole symmetry \\
-      QHE & quantum Hall effect  \\
+      (I/F)QHE & (integer/fractional) quantum Hall effect  \\
+      QSHE & quantum spin Hall effect \\
       SG & space group \\
       SLS & sublattice symmetry \\
       SOC & spin-orbit coupling \\
       SPT phase & symmetry-protected topological phase \\ 
+      SSH & Su-Schrieffer-Heeger \\ 
+      TCI & topological crystalline insulator \\
       TI & topological insulator \\
       TRIM & time-reversal invariant momentum \\
       TRS & time-reversal symmetry \\
-      VB  & valence band
+      VB & valence band
     \end{tabularx}
 
   

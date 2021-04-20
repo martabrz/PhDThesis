@@ -15,15 +15,29 @@
 \ttl@tocsep 
 \ttl@tocsep 
 \ttl@tocsep 
-\ttl@tocsep 
-\contentsline {table}{\numberline {3.1}{\ignorespaces Tight-binding parameters for Bi and Sb taken from Refs. \unskip ~\origcite {Liu:Allen}, \unskip ~\origcite {stable:bi111}$^*$, \unskip ~\origcite {Sb:nontriv}$^{**}$. $d_1$ denotes nearest-neighbor distance between sites in a honeycomb lattice.\relax }}{20}{table.caption.18}% 
-\contentsline {table}{\numberline {3.3}{\ignorespaces Band representations corresponding to distinct phases as shown in Fig.~\ref {fig:materials} in the main text. `-' indicates that a given band representation cannot be written as a combination of EBRs.\relax }}{26}{table.caption.22}% 
-\contentsline {table}{\numberline {3.2}{\ignorespaces \textbf {Topological invariants and symmetry indicators $\chi ^{(3)}_{\mathcal {I}}$ corresponding to different regions in the phase diagrams:} The symmetry indicators were calculated using the primitive 2-site unit cell of the honeycomb lattice (see Table~\ref {tab:band_reps} for a decomposition in terms of elementary band representations). The indices $\chi ^{(3)}_{\mathcal {I}}$ allow for a more refined classification even of the strong TIs. We find that the $3c$ and $1a$ OALs differ in their inversion indicator $[M^\mathcal {I}_2]$ and thus, as explained in the main text, inversion-symmetric flakes built from their hexagonal unit cells differ by a protected corner charge equal to $1 \penalty \z@ \mkern 12mu{\mathgroup \symoperators mod}\tmspace +\thinmuskip {.1667em}\tmspace +\thinmuskip {.1667em}2$.\relax }}{26}{table.caption.21}% 
+\contentsline {table}{\numberline {1}{\ignorespaces Classification of non-interacting fermionic Hamiltonians}}{11}{table.caption.6}%
 \ttl@tocsep 
 \ttl@tocsep 
+\contentsline {table}{\numberline {2}{\ignorespaces Tight-binding parameters for bismuth and antimony taken}}{60}{table.caption.34}%
+\ttl@tocsep 
+\contentsline {table}{\numberline {3}{\ignorespaces Classification of the band structures corresponding to the (spatial) symmetry-protected phases}}{72}{table.caption.45}%
+\contentsline {table}{\numberline {4}{\ignorespaces Summary of Wilson loop and symmetry indicator invariants}}{88}{table.caption.51}%
+\contentsline {table}{\numberline {5}{\ignorespaces EBRs with $C_2$ symmetry induced from the maximal Wyckoff positions and their invariants}}{88}{table.caption.52}%
+\contentsline {table}{\numberline {6}{\ignorespaces EBRs with $C_4$ symmetry induced from the maximal Wyckoff positions and their invariants}}{89}{table.caption.53}%
+\contentsline {table}{\numberline {7}{\ignorespaces EBRs with $C_3$ symmetry induced from the maximal Wyckoff positions and their invariants}}{89}{table.caption.54}%
+\contentsline {table}{\numberline {8}{\ignorespaces EBRs with $C_6$ symmetry induced from the maximal Wyckoff positions and their invariants}}{89}{table.caption.55}%
+\contentsline {table}{\numberline {9}{\ignorespaces Summary of corner charge formulas}}{92}{table.caption.56}%
+\contentsline {table}{\numberline {10}{\ignorespaces Topological invariants and symmetry indicators $\chi ^{(3)}_{\mathcal {I}}$ corresponding to different regions in the phase diagrams}}{93}{table.caption.58}%
+\contentsline {table}{\numberline {11}{\ignorespaces Band representations corresponding to distinct phases}}{95}{table.caption.59}%
+\contentsline {table}{\numberline {12}{\ignorespaces Lattice constant and buckling parameter for the unstrained (free-standing) buckled structures}}{95}{table.caption.60}%
+\contentsline {table}{\numberline {13}{\ignorespaces Corner charge classification and topological indices of layer groups}}{96}{table.caption.61}%
 \ttl@tocsep 
 \ttl@tocsep 
 \ttl@tocsep 
 \ttl@tocsep 
+\ttl@tocsep 
+\contentsline {table}{\numberline {14}{\ignorespaces $C_6$ symmetry: $C_3$ invariants induced from Wyckoff position $2b$ with different site symmetry representations}}{133}{table.caption.71}%
+\contentsline {table}{\numberline {15}{\ignorespaces $C_3$ symmetry: $C_3$ invariants induced from Wyckoff position $1b$ with different site symmetry representations}}{134}{table.caption.72}%
+\contentsline {table}{\numberline {16}{\ignorespaces $C_3$ symmetry: $C_3$ invariants induced from Wyckoff position $1c$ with different site symmetry representations}}{134}{table.caption.73}%
 \ttl@tocsep 
 \ttl@tocsep 

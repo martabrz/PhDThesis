@@ -1,226 +1,560 @@
-\chapter{Band theory}
-\label{ch:appendixA}
+%\chapter{Conventional band theory}
+%\label{ch:appendixA}
 
-If the crystal potential $V( \mathbf{r})$ is periodic
-\begin{equation}
-V (\mathbf{r} + \mathbf{R})  = V ( \mathbf{r}),
-\label{eq:periodic_pot}
-\end{equation}
-then, according to the Bloch theorem, the eigenstate of the $H$ can be written in a form of plane waves
-\begin{equation}
-\psi_{n, \mathbf{k}} (\mathbf{r}) = e^ { - \mathrm{i} \mathbf{k} \cdot \mathbf{r}} u_{n, \, \mathbf{k}} (\mathbf{r})  
-\label{eq:bloch}
-\end{equation}
-
-
-
-
-
-
-
-\subsection{General definitions}
-This imposes only quadratic terms in creation and annihilation operators in the second-quantized Hamiltonian. We define a crystal as a regular arrangement of the unit cells at positions $\mathbf{R_n}$
-\begin{equation}
-\mathbf{R_n} = n_1  \mathbf{a}_1 + n_2  \mathbf{a}_2 + n_3  \mathbf{a}_3, \hspace*{0.5cm}  i = 1, \, 2, \, 3 \hspace*{0.5cm}  \textnormal{and} \hspace*{0.5cm} \mathbf{n} = (n_1, n_2, n3)  \in \mathbb{R}^3
-\end{equation}
-where $\lbrace \mathbf{a}_i \rbrace$ are the linearly independent basis vectors. We can define the reciprocal lattice vectors $\lbrace \mathbf{b}_i \rbrace$
-\begin{equation}
-\mathbf{G}_m = m_1 \mathbf{b}_i + m_2 \mathbf{b}_i + m_3 \mathbf{b}_i, \hspace*{0.5cm} m_i \in \mathbb{Z}
-\end{equation}
-satisfying
-\begin{equation}
-\mathbf{a}_i \cdot \mathbf{a}_i = 2 \pi \delta_{ij}, \hspace*{0.5cm} i, \, j = 1, \, 2, \, 3
-\end{equation}
-constructed
-\begin{equation}
-\mathbf{b}_i  = 2 \pi \frac{\mathbf{a}_j  \times \mathbf{a}_k }{\mathbf{a}_i  \cdot \left(\mathbf{a}_j  \times \mathbf{a}_k  \right)} \hspace*{0.5cm} \textnormal{and} \hspace*{0.5cm} \mathbf{a}_i = 2 \pi \frac{\mathbf{b}_j  \times \mathbf{b}_k }{\mathbf{b}_i  \cdot \left( \mathbf{b}_j \times \mathbf{b}_k  \right)}
-\end{equation}
-
-
-
-\begin{equation}
-\mathbf{R}_n \cdot \mathbf{G}_m = 2 \pi \left( n_1 m_1 + n_2 m_2 + n_3 m_3 \right) = 2 \pi N,
-\end{equation}
-with $N$ being an integer.
-
-Brillouin zone  is the unit cell of the reciprocal lattice.
-
-% Hence, the creation and annihilation operators can be written
-
+%This chapter is devoted to the band theory, which serves as a fundamental tool in studying electrons in a crystalline solids.
+%
+%
+%
+%If periodic boundary conditions are present, then the momentum $k$ is a good quantum number. Hence, it is possible to work in momentum space with the 
 %\begin{equation}
-%\hat{c}^{\dagger}_{\alpha, \mathbf{r}} = \frac{1}{\sqrt{N}} \sum_{\mathbf{k}} e^{\mathnormal{i} 
-%\mathbf{k} \cdot \mathbf{r} \hat{c}^{\dagger}_{\alpha, \mathbf{k}}
+%c_j = \frac{1}{\sqrt{L}} \sum_{k \in \mathrm{BZ}} c_k e^{\mathrm{i} k j}, \hspace{1cm} c_k = \frac{1}{\sqrt{L}} \sum_{j = 0}^{L-1} c_j e^{- \mathrm{i} k j}
+%\end{equation} 
+%
+%$c_k$ obeys the same anticommutation relations are the original $c_j$ operators.
+%
+%\section{Crystal structure and Bloch theorem}
+%A crystal is defined as a regular arrangement of atoms. The building block of such a lattice is called a unit cells, located at positions $\mathbf{R_n}$
+%\begin{equation}
+%\mathbf{R_n} = n_1  \mathbf{a}_1 + n_2  \mathbf{a}_2 + n_3  \mathbf{a}_3, \hspace*{0.5cm}  i = 1, \, 2, \, 3 \hspace*{0.5cm}  \textnormal{and} \hspace*{0.5cm} \mathbf{n} = (n_1, n_2, n3)  \in \mathbb{R}^3
 %\end{equation}
+%
+%
+%If the crystal potential $V( \mathbf{r})$ is periodic, $ V (\mathbf{r} + \mathbf{R})  = V ( \mathbf{r})$, then the eigenstates of the Hamiltonian can be written in a form of plane waves
+%\begin{equation}
+%\psi_{n \mathbf{k}} (\mathbf{r} + \mathbf{R})  = e^{\mathrm{i} \mathbf{k} \cdot \mathbf{R}} \psi_{n \mathbf{k}} ( \mathbf{r}).
+%\label{eq:bloch}
+%\end{equation}
+%Equivalently, the wavefunction $\psi_{n \mathbf{k}}$ can be expressed as a product of a phase factor and cell-periodic states $u_{n \mathbf{k}}$
+%\begin{equation}
+%u_{n \mathbf{k}}  (\mathbf{r} + \mathbf{R}) = u_{n \mathbf{k}}  ( \mathbf{r} )
+%\label{eq:bloch_twoparts}
+%\end{equation}
+%
+%
+%
+%\begin{equation}
+%\psi_{n, \mathbf{k}} (\mathbf{r}) = \braket{\mathbf{r} | \psi_{n, \mathbf{k}}} = \psi_{n, \mathbf{k} + \mathbf{G}} ( \mathbf{r} ) = e^ { - \mathrm{i} \mathbf{k} \cdot \mathbf{r}} u_{n, \, \mathbf{k}} (\mathbf{r})  
+%\end{equation}
+%\begin{equation}
+%\psi_{n, \mathbf{k}} (\mathbf{r}) =  \psi_{n, \mathbf{k} + \mathbf{G}} ( \mathbf{r} )
+%\label{eq:bloch}
+%\end{equation}
+%
+%$u$-functions are periodic in real space, but not in momentum space. Conversely, $\psi$-functions are periodic in reciprocal space.
+%
+%
+%
+%
+
+%We define a 
+%\begin{equation}
+%\mathbf{R_n} = n_1  \mathbf{a}_1 + n_2  \mathbf{a}_2 + n_3  \mathbf{a}_3, \hspace*{0.5cm}  i = 1, \, 2, \, 3 \hspace*{0.5cm}  \textnormal{and} \hspace*{0.5cm} \mathbf{n} = (n_1, n_2, n3)  \in \mathbb{R}^3
+%\end{equation}
+%where $\lbrace \mathbf{a}_i \rbrace$ are the linearly independent basis vectors. We can define the reciprocal lattice vectors $\lbrace \mathbf{b}_i \rbrace$
+%\begin{equation}
+%\mathbf{G}_m = m_1 \mathbf{b}_i + m_2 \mathbf{b}_i + m_3 \mathbf{b}_i, \hspace*{0.5cm} m_i \in \mathbb{Z}
+%\end{equation}
+%satisfying
+%\begin{equation}
+%\mathbf{a}_i \cdot \mathbf{a}_i = 2 \pi \delta_{ij}, \hspace*{0.5cm} i, \, j = 1, \, 2, \, 3
+%\end{equation}
+%constructed
+%\begin{equation}
+%\mathbf{b}_i  = 2 \pi \frac{\mathbf{a}_j  \times \mathbf{a}_k }{\mathbf{a}_i  \cdot \left(\mathbf{a}_j  \times \mathbf{a}_k  \right)} \hspace*{0.5cm} \textnormal{and} \hspace*{0.5cm} \mathbf{a}_i = 2 \pi \frac{\mathbf{b}_j  \times \mathbf{b}_k }{\mathbf{b}_i  \cdot \left( \mathbf{b}_j \times \mathbf{b}_k  \right)}
+%\end{equation}
+%
+%
+%
+%\begin{equation}
+%\mathbf{R}_n \cdot \mathbf{G}_m = 2 \pi \left( n_1 m_1 + n_2 m_2 + n_3 m_3 \right) = 2 \pi N,
+%\end{equation}
+%with $N$ being an integer.
+%
+%Brillouin zone  is the unit cell of the reciprocal lattice.
+%
+
+%\chapter{Group theory}
+%Here, we recall basic notions from group theory~\cite{dresselhaus2007group}. A group $\mathbb{G}$ has the properties:
+%\begin{itemize}
+%\item the product of two elements of $\mathbb{G}$ is also in $\mathbb{G}$: $a, b 
+%in \mathbb{G} \Rightarrow a \star b = c \in \mathbb{G}$
+%\item there is a unit element $e \in \mathbb{G}$ that satisfies $e \star a = a \star e = a,  \forall a \in \mathbb{G}$
+%\item multiplication is associative: $a \star ( b \star c) = (a \star b) \star$
+%\item for every element $a \in \mathbb{G}$, there is an inverse $a^{-1} \in \mathbb{G} \Rightarrow a^{-1} \star a = a \star a^{-1} = e$.
+%\end{itemize}
+%A group is call Abelian if for all elements $a \star b = b \star a$, otherwise it it non-Abelian.
+%
+%The group $G$ describing symmetry operations that leaves a crystal invariant is called a space group. An operator $T_g$ corresponding to certain symmetry operation $g \in G$ commutes with the matrix of the Hamiltonian, i.e. $[T_g,H] = 0$. In reciprocal space, although the whole matrix H still commutes with $T_g$, a block $ H(k)$ corresponding to a vector $k$ in the BZ may not do so:
+%
+%\begin{equation}
+%T_g H(k) T_G^+ = H (gK)
+%\end{equation}
+%in Wigner-Seitz notation $g = \lbrace R | \mathbf{v} \rbrace$. The set of $g \in G$ that leaves $k$ invariant up to a reciprocal lattice vector $G$ is called little group $G_k$ of $k$:
+%\begin{equation}
+%G_{\mathbf{k}} = \lbrace g = \lbrace p_g | \mathbf{r}_g \rbrace \in G | p_g \mathbf{k} \approx \mathbf{k}
+%\label{eq:littlegroup}
+%\end{equation}
+%whereGis the crystal space group,pgis the point group part ofG,rgis the translation part ofG, and≈indicatesequivalence  modulo  translation  by  integer  multiples  of  reciprocal  lattice  vectors.   Note  thatGkcontains  all  thetranslation symmetries.  Topological quantum chemistry (TQC) (10,24) maps this momentum space description to areal space picture and offers simple criteria to asses the topology of a set of bands.
+%
+%Consider a set of eigenstates $H (\mathbf{k})$. Under the action of a symmetry operation $g \in G_{\mathbf{k}}$, each $\ket{\psi_{n \mathbf{k}}}$ transforms linearly
+%\begin{equation}
+%g ket{\psi_{i \mathbf{k}}} = \sum_{j=1}^N K^{ji} (g) \ket{ \psi_{j \mathbf{k}}}
+%\end{equation}
+%Matrices $K(g)$ form the representation $K$ of $G_{\mathbf{k}}$ defined in the space spanned by
+%$\lbrace \ket{\psi_{n \mathbf{k}}} \rbrace_N$. It is said that K is an IR, if this space can not be divided in smaller invariant non-trivial subspaces. Every IR is characterized by the set of traces $\chi_K (g) = Tr K (g)$ of its matrices, known as character of the IR. Eigenstates $\ket{\psi_{n \mathbf{k}}}$ transform under IRs of $G_{\mathbf{k}}$ 
+%
+
+%\section{Band representations}
+%
+%Band representations (BRs) are particular group representations that are induced by the irreducible represen-tation of the site-symmetry group at the Wyckoff positions.  Elementary band representations (EBRs) are BRs thatcannot be further decomposed into multiples of BRs.  These are induced by localized orbitals at maximal Wyckoff
+%
+%
+%A representation of a group over some vector space $V$ is a collection of linear operators on  this  vector  space,  which  satisfy  the  same  algebra  as  the  group  elements. For finite groups, this operators can be simply matrices. Then, an irreducible representation is a set of matrix operators that are block-diagonalized simultaneously and cannot be divided into smaller parts.
+%
 
 
-\subsection{Group theory: representations and character table}
-Here, we recall basic notions from group theory~\cite{dresselhaus2007group}. A group $\mathbb{G}$ has the properties:
-\begin{itemize}
-\item the product of two elements of $\mathbb{G}$ is also in $\mathbb{G}$: $a, b 
-in \mathbb{G} \Rightarrow a \star b = c \in \mathbb{G}$
-\item there is a unit element $e \in \mathbb{G}$ that satisfies $e \star a = a \star e = a,  \forall a \in \mathbb{G}$
-\item multiplication is associative: $a \star ( b \star c) = (a \star b) \star$
-\item for every element $a \in \mathbb{G}$, there is an inverse $a^{-1} \in \mathbb{G} \Rightarrow a^{-1} \star a = a \star a^{-1} = e$.
-\end{itemize}
-A group is call Abelian if for all elements $a \star b = b \star a$, otherwise it it non-Abelian.
-
-The group $G$ describing symmetry operations that leaves a crystal invariant is called a space group. An operator $T_g$ corresponding to certain symmetry operation $g \in G$ commutes with the matrix of the Hamiltonian, i.e. $[T_g,H] = 0$. In reciprocal space, although the whole matrix H still commutes with $T_g$, a block $ H(k)$ corresponding to a vector $k$ in the BZ may not do so:
-
-\begin{equation}
-T_g H(k) T_G^+ = H (gK)
-\end{equation}
-in Wigner-Seitz notation $g = \lbrace R | \mathbf{v} \rbrace$. The set of $g \in G$ that leaves $k$ invariant up to a reciprocal lattice vector $G$ is called little group $G_k$ of $k$:
-\begin{equation}
-G_{\mathbf{k}} = \lbrace g = \lbrace p_g | \mathbf{r}_g \rbrace \in G | p_g \mathbf{k} \approx \mathbf{k}
-\label{eq:littlegroup}
-\end{equation}
-whereGis the crystal space group,pgis the point group part ofG,rgis the translation part ofG, and≈indicatesequivalence  modulo  translation  by  integer  multiples  of  reciprocal  lattice  vectors.   Note  thatGkcontains  all  thetranslation symmetries.  Topological quantum chemistry (TQC) (10,24) maps this momentum space description to areal space picture and offers simple criteria to asses the topology of a set of bands.
-
-Consider a set of eigenstates $H (\mathbf{k})$. Under the action of a symmetry operation $g \in G_{\mathbf{k}}$, each $\ket{\psi_{n \mathbf{k}}}$ transforms linearly
-\begin{equation}
-g ket{\psi_{i \mathbf{k}}} = \sum_{j=1}^N K^{ji} (g) \ket{ \psi_{j \mathbf{k}}}
-\end{equation}
-Matrices $K(g)$ form the representation $K$ of $G_{\mathbf{k}}$ defined in the space spanned by
-$\lbrace \ket{\psi_{n \mathbf{k}}} \rbrace_N$. It is said that K is an IR, if this space can not be divided in smaller invariant non-trivial subspaces. Every IR is characterized by the set of traces $\chi_K (g) = Tr K (g)$ of its matrices, known as character of the IR. Eigenstates $\ket{\psi_{n \mathbf{k}}}$ transform under IRs of $G_{\mathbf{k}}$ 
-
-A  Wyckoff  position  is  a  generic  location  inside  the  unit  cell  of  a  crystal.   Each  Wyckoff  positionw has  its  own site-symmetry group $G_w$ which is a subgroup of the crystal space group$G$:
-\begin{equation}
-G_w = \lbrace g = \lbrace p_g | \mathbf{r}_g \rbrace \in G |
-\label{eq:wyckoff}
-\end{equation}
-
-Among all points inside the unit cell, maximal Wyckoff positions play an important role.  These are defined as sites where the site-symmetry group is a maximal subgroup of G
-\begin{equation}
-\Bbbk H | G_w \subset H \subset G
-\end{equation}
-
-
-
-
-Band representations (BRs) are particular group representations that are induced by the irreducible represen-tation of the site-symmetry group at the Wyckoff positions.  Elementary band representations (EBRs) are BRs thatcannot be further decomposed into multiples of BRs.  These are induced by localized orbitals at maximal Wyckoff
-
-
-A representation of a group over some vector space $V$ is a collection of linear operators on  this  vector  space,  which  satisfy  the  same  algebra  as  the  group  elements. For finite groups, this operators can be simply matrices. Then, an irreducible representation is a set of matrix operators that are block-diagonalized simultaneously and cannot be divided into smaller parts.
-
+%\section{Topology and elementary band representations}
+%Our classification relies on the elementary band representations (EBRs), being building blocks of topological quantum chemistry (TQC) framework. In this approach, topology is defined in terms of an obstruction to finding a gauge in which the Wannier functions are exponentially localized and preserve all of the symmetries of the system. Here, we recap the essential notions from TQC formalism. The main statement is that topology of a group of bands is characterized solely by the symmetry data vector $B$ containing the multiplicity of the various irreducible representations at momenta $\mathbf{k}$ in the Brillouin zone. These multiplicities are not independent and satisfy the compatibility relations~\cite{bradley2010mathematical}. As a consequence, only irreps at high-symmetry points are relevant to fully describe irreps at \emph{all} momenta.
+%\todo{more}
+%Symmetry data vector of a gapped band structure can be always decomposed into a linear combination of EBRs
+%\begin{equation}
+%B = \sum_i p_i \, \mathrm{EBR}_i
+%\end{equation}
+%with $p$-vector defined as 
+%\begin{equation}
+%p = \left(  p ( \rho^1_{G_{w_1}} ),  p ( \rho^2_{G_{w_1}} ), \ldots, p ( \rho^1_{G_{w_2}}), p ( \rho^2_{G_{w_2}} ), \ldots      \right)^T
+%\label{eq:p-vector}
+%\end{equation}
+%This decomposition in not generically unique. Values of $p_i$ can distinguish between different types of bands structures:
+%\begin{itemize}
+%\item if one of $p_i$ is fractional, then the given band structure has a strong topology 
+%\item if all $p_i$ are integers and some $p_i$ are negative, then it is a fragile topology
+%\item if any of above are not true, then the bands stemming from localized orbitals at different Wyckoff positions and the system realizes an obstructed atomic limit
+%\item if all $p_i$ are non-negative and all non-zero $p_i$ correspond to occupied Wyckoff positions, then it is a trivial atomic insulator
+%\end{itemize}
+%
+%
 
 \chapter{Wannier functions}
 \label{ch:app_wannier}
-Although the concept of Wannier functions (WF) dates back to 1937~\cite{PhysRev.52.191}, it has become an important computational tool in materials science. Especially, an intimate connection between the spatial localization of Wannier states and the properties of corresponding Bloch states provides insights into understanding of topological phases. Wannier functions also simplify computing polarization - instead of integrating over the Berry phase, it is enough to sum the Wannier charge centers~\ref{PhysRevB.48.4442}.
+The Wannier functions (WFs)~\cite{PhysRev.52.191}, a complete set of orthogonal functions localized in real space, allow for an intuitive description of topological invariants. In this Section, we briefly recap the essential properties of Wannier states. For more details, we refer the reader to Ref.~\cite{MarziariWF2012}.
 
-The main objective is to construct the real-space localized basis. As the Wannier functions span the same single-particle Hilbert space as the Bloch states, they share the same eigenvalue spectrum.
-
-The Wannier function of an isolated band $n$ is defined as
+Suppose the ground state of a periodic system is described by extended Bloch functions $\ket{\psi_{n \mathbf{k}}}$, where $n$ labels the bands and $\mathbf{k}$ stands for the crystal momentum. An alternative representation can be given in terms of localized Wannier functions, which are related to the Bloch functions by a Fourier transform
 \begin{equation}
-w_n (\mathbf{r} - \mathbf{R})= \frac{V}{(2 \pi)^d} \int_{BZ} d \mathbf{k} e^{-\mathrm{i} \mathbf{k} \cdot \mathbf{R}}  \psi_{n, \, \mathbf{k}} (\mathbf{k}).
+\ket{W_n (\mathbf{R})}= \frac{V}{(2 \pi)^3} \int_{\mathrm{BZ}} d \mathbf{k} \, e^{ \mathrm{i} \mathbf{k} \cdot ( \mathbf{r} - \mathbf{R})} \ket{u_{n \mathbf{k}}}.
 \label{eq:wannier}
 \end{equation}
-Here, $V$ correspond to the unit cell volume in $d$ dimension and $  \psi_{n, \, \mathbf{k}} (\mathbf{k})$ is the Bloch state for the $n$-th band. All the original Bloch states can all be exactly reproduced from a linear combination of the WF
+$V$ is the real-space primitive cell volume, $\ket{u_{n \mathbf{k}}} = e^{- \mathrm{i} \mathbf{k} \cdot \mathbf{r}} \ket{\psi_{n \mathbf{k}}}$ is a cell-periodic function, and $\mathbf{R}$ corresponds to a real-space lattice vector. $\ket{W_n (\mathbf{R})}$ form an orthonormal set. As the transformation is unitary, the Bloch states can be exactly reproduced from a linear combination of the WFs. The definition in Eq.~\eqref{eq:wannier} indicates that WFs are not unique; each occupied Bloch band can be multiplied by a $\mathrm{U}(1)$ phase factor, which acts locally in reciprocal space and leaves the physical observables invariant, but it changes the shape of WFs in real space. This gives rise to a $\mathrm{U} (N)$ gauge freedom
 \begin{equation}
-\psi_{n, \, \mathbf{k}} (\mathbf{k}) = \sum_{\mathbf{R}} e^{\mathrm{i} \mathbf{k} \cdot \mathbf{R}} w_n (\mathbf{r} - \mathbf{R}).
-\label{eq:wannier_inverse}
+\ket{u_{n \mathbf{k}}} \longrightarrow \sum_m U_{mn} (\mathbf{k}) \ket{u_{m \mathbf{k}}}.
+\label{eq:wf_gaugefree}
 \end{equation}
-From Eq.~\eqref{eq:wannier}, it is easily seen that Wannier functions are not uniquely defined. For instance, multiplying the Bloch state by $U(1)$ phase factor, $\ket{\mathbf{k}, n} \rightarrow e^{\textnormal{i} \phi( \mathbf{k} )} \ket{\mathbf{k}, n}$, which acts locally in reciprocal space, leaves the physical observables invariant. However, it changes the shape of basis functions in real space. WF center, $\braket{w | \mathbf{r} | w}$, is gauge-independent.
-
-
-
-
-The generalization to a set of isolated bands is 
+As the WFs are expected to be localized in real space, the gauge choice ambiguity can be removed by enforcing a gauge that minimizes the spread of WFs\footnote{A reasonable set of Wannier functions can be also constructed by imposing different constrains, such as symmetries~\cite{PhysRevB.49.10869, Sporkmann_1997}.}. The procedure of finding the maximally-localized Wannier functions basically boils down to minimizing the localization criterion 
 \begin{equation}
-w_ (\mathbf{r} - \mathbf{R})= \frac{V}{(2 \pi)^d} \int_{BZ} d \mathbf{k} e^{-\mathrm{i} \mathbf{k} \cdot \mathbf{R}}  \psi_{n, \, \mathbf{k}} (\mathbf{k}).
-
-\label{eq:WF_many}
+\Omega = \sum_n \left[ \braket{ W_n (\mathbf{0}) | r^2 | W_n (\mathbf{0})} - \braket{ W_n (\mathbf{0}) | \mathbf{r} | W_n (\mathbf{0})}^2 \right] = \sum_n \left[ \langle r^2 \rangle_n -\bar{\mathbf{r}}_n^2 \right].
+\label{eq:loc_crit}
 \end{equation}
-
-In case of N occupied bands there is additional $U(N)$ gauge freedom:
-\begin{equation}
-\psi_{n, \, \mathbf{k}} \longrightarrow \sum_m U_{mn} ( \mathbf{k} ) \psi_{m, \, \mathbf{k}} 
-\label{eq:
-\end{equation}
-as $N$ Bloch bands can be mixed with each other. Large freedom of a gauge choice exists even if with the constrain that resulting states and phases have to be smooth functions of $\mathbf{k}$.
-
-
-
-
-The standard choice is to make a unitary transformation of the occupied bands only, thus resulting in as many WF as there are occupied bands.
-
-
- only the sum over the Wannier centers in a given unit cell remains the same. Because of that gauge freedom, it
-
-
-\section{Maximally localized Wannier functions}
-One of the possible choice of a matrix $U$ is to minimize the spread
-\begin{equation}
-\Omega = \sum_n \braket{r^2}_n - \braket{\mathbf{r}}^2_n.
-\label{eq:wf_spread}
-\end{equation}
-$\Omega$ can be spllitted into two parts, gauge invariant $\Omega_I$ and gauge dependent $\tilde{\Omega }$
+$\bar{\mathbf{r}}_n$ is the expectation value of the position operator $\mathbf{r} = \mathrm{i} \nabla_{\mathbf{k}}$ called the Wannier charge center. The localization functional $\Omega$ can be further decompose into gauge-invariant $\Omega_I$ and gauge-dependent $\tilde{\Omega}$ part, $\Omega = \Omega_I + \tilde{\Omega}$, where
 \begin{equation}
 \begin{aligned}
-\Omega := \Omega_I +\tilde{\Omega} \\
-\Omega_I = \sum_n \braket{r^2}_n - \sum_{\mathbf{R}, \, n, \, m} |\braket{\mathbf{R}, \, m | \mathbf{r} | 0, \, n}|^2 \\
-\tilde{\Omega} \sum_n \sum_{\mathbf{R}, \,m} | \braket{\mathbf{R m | \mathbf{r} | \mathbf{0} n}}^2
+\Omega_I &= \sum_n \left[  \langle r^2 \rangle_n  - \sum_{\mathbf{R}m} | \braket{ W_m (\mathbf{R}) | \mathbf{r} | W_n (\mathbf{0})} |^2 \right], \\
+ \tilde{\Omega} &= \sum_n \sum_{\mathbf{R} m \neq \mathbf{0}n} | \braket{ W_m (\mathbf{R}) | \mathbf{r} | W_n (\mathbf{0})} |^2.
 \end{aligned}
-\label{eq:MLWF}
 \end{equation}
-\section{Symmetry constrains}
+It fact, the minimization procedure of $\Omega$ corresponds to minimization of $\tilde{\Omega}$ part only. In $1D$, it is possible to find a unique gauge in which the maximally localized WFs are eigenstates of the band-projected position operator $P x P$ with $P = \sum_{nk} \ket{\psi_{nk}} \bra{\psi_{nk}}$. If PBC are used, the standard position operator $x$ is ill-defined and the unitary operator $X = e^{\mathrm{i} 2 \pi x / L$ should be used instead~\cite{PhysRevLett.80.1800}. In $2D$ and $3D$, though, WFs cannot be simultaneously localized in all directions due to non-commutativity of the operators $PxP$, $PyP$ and $PzP$. There are also further obstructions to the construction of exponentially localized WFs in 2D systems with a non-zero Chern number~\cite{Thouless_1984, PhysRevB.74.235111, PhysRevLett.98.046402} and non-trivial $\mathbb{Z}_2$ index~\cite{PhysRevB.83.035108}.
 
-\section{Relation between Wannier functions and Wilson loops}
+We see that $1D$ systems are special, \ie there are no topological obstructions to obtain maximally localized WFs. Therefore, it is possible to construct the WFs for higher dimensions in a way that they are exponentially localized in one direction, but Bloch-like in the other dimensions. Assuming $z$ to be the direction in which the states will have Wannier-like character, we define the hybrid Wannier functions as
+\begin{equation}
+\ket{W_{n l} (k_x, k_y)} = \frac{1}{2 \pi} \int d k_z e^{\mathrm{i} \mathbf{k} \cdot (\mathbf{r} - lz)} \ket{u_{n \mathbf{k}}},
+\label{eq:hwf}
+\end{equation} 
+where $l$ is a layer index in $z$ direction and the lattice constant between the layers is set to $1$. Regardless of topological properties of a system, the hybrid WFs in Eq.~\eqref{eq:hwf} can be constructed at each $(k_x, k_y)$ and their centers $\bar{z}_n (k_x, k_y) = \braket{W_n (0) | z | W_n (0)}$ are the eigenvalues of $PzP$. Momenta $k_x$ and $k_y$ remain good quantum numbers, hence $\bar{z}_n (k_x, k_y)$ can be plotted over the same $2D$ BZ, similar to the energy bands. The evolution of the Wannier centers along the line on ($k_x$, $k_y$)-plane is called the Wannier bands.
 
+In continuum, the Wannier center $\bar{\mathbf{r}}_n$ can be computed as 
+\begin{equation}
+\bar{\mathbf{r}}_n = \frac{V}{(2 \pi)^3} \int_{\mathrm{BZ}} \braket{u_{n \mathbf{k}} | \mathrm{i} \nabla_{\mathbf{k}} u_{n \mathbf{k}}} d \mathbf{k},
+\end{equation}
+which in $1D$ becomes
+\begin{equation}
+\bar{x}_n = \frac{a}{2 \pi} \int_0^{2 \pi} \braket{ u_{nk} | \mathrm{i} \partial_k u_{nk} } dk = a \frac{\gamma_n}{2 \pi}.
+\label{eq:1dberry}
+\end{equation}
+Eq.~\eqref{eq:1dberry} states that a Berry phase $\gamma_n$ evolving from $0$ to $2 \pi$ corresponds to a Wannier center evolving from $x = 0$ to $x =a$.
 
-
-
-
-\chapter{Entanglement entropy from a single-particle correlation matrix}
-We start with the non-interacting Hamiltonian $H = - \sum_{ij} t_{ij} c^{\dagger}_i c_j$, which is the most general bilinear function of the fermionic operators preserving the number of excitations $n_i = c_i^{\dagger} c_i$. Let us define the one-particle correlation function
-\begin{equation*}
-C_{ij} = \braket{ c^{\dagger}_i c_j} = \braket{\psi | c^{\dagger}_i c_j | \psi} ,
-\end{equation*}
-where $\ket{\psi}$ is an eigenstate of $H$ (Slater determinant), not necessarily the ground state. By using Wick's theorem, we can express four-point (and higher-order) correlation function in terms of two-point correlation function. 
-
-Consider only subsystem $A$ of a composite system - $i,j$ indices are now restricted to the $A$ part. We can express $C_{ij}$ through density matrix of a canonical statistical ensemble ($\rho = \exp (- \beta H) / Z$, $\beta = 1$)
-\begin{equation*}
-\braket{c^{\dagger}_i c_j} = Tr (\rho c^{\dagger}_i c_j )= C_{ij}
-\end{equation*}
-To easily calculate the trace, we transform our Hamiltonian $H$ into the diagonal basis. So we rewrite our creation/annihilation operators $c^{\dagger}_i,  c_j$ as new fermionic operators:
+\chapter{Rotation symmetries in obstructed atomic limits}
+\section{Consequences of rotation symmetry}
+\label{sec:rotsymwladimir}
+To obtain the constraints on the symmetry eigenvalues used in the Chapter~\ref{ch:oals}, we here derive the consequences of rotational symmetry for the Bloch eigenstates of a crystal. Rotation symmetry is expressed as
+\begin{equation}
+\hat{r} h({\mathbf{k}}) \hat{r}^\dagger = h(R{\mathbf{k}}).
+\label{eq:RotationSymmetry}
+\end{equation}
+Here, $\hat{r}$ is the $n$-fold rotation operator (we could also write this operator as $\hat{r}_n$, but we will omit the subscript for simplicity) and $R$ is the matrix that rotates the crystal momentum by an angle of $\frac{2\pi}{n}$. For systems in class AII, the rotation operator obeys $\hat{r}^n=-1$. From \eqref{eq:RotationSymmetry}, it follows that
+\begin{equation}
+h(R{\mathbf{k}}) \hat{r} \ket{u_{\mathbf{k}}^n}=\hat{r} h({\mathbf{k}})  \ket{u_{\mathbf{k}}^n}= \epsilon_n({\mathbf{k}}) \hat{r}\ket{u_{\mathbf{k}}^n}.
+\end{equation}
+Thus, $\hat{r} \ket{u_{\mathbf{k}}^n}$ is an eigenstate of $h(R{\mathbf{k}})$ with energy $\epsilon_n({\mathbf{k}})$. This means that we can write the expansion
+\begin{equation}
+\hat{r} \ket{u_{\mathbf{k}}^n} = \sum_m \ket{u_{R{\mathbf{k}}}^m}\bra{u_{R{\mathbf{k}}}^m} \hat{r} \ket{u_{\mathbf{k}}^n} =\sum_m \ket{u_{R{\mathbf{k}}}} B_{\mathbf{k}}^{mn},
+\end{equation}
+where $B^{mn}_{\mathbf{k}}&=\bra{u_{R{\mathbf{k}}}^m} \hat{r} \ket{u_{\mathbf{k}}^n}$ is the sewing matrix, which is unitary:
+\begin{equation}
+B^{ml}_{\mathbf{k}} (B^{\dagger}_{\mathbf{k}})^{ln} = \sum_l \bra{u_{R{\mathbf{k}}}^m} \hat{r} \ket{u_{\mathbf{k}}^{l}}\bra{u_{{\mathbf{k}}}^{l}} \hat{r}^\dagger \ket{u_{R{\mathbf{k}}}^n} = \bra{u_{R{\mathbf{k}}}^m}\hat{r} \hat{r}^\dagger \ket{u_{R{\mathbf{k}}}^n} = \delta_{mn}.
+\end{equation}
+As before, let us use \eqref{eq:RotationSymmetry} to do the following calculation:
 \begin{equation}
 \begin{aligned}
-c_i &= \sum_k \phi_k (i) a_k \\
-c_j^{\dagger} &= \sum_k  \phi_k^* (j) a_k^{\dagger} 
+h(R{\mathbf{k}})\hat{r} \ket{u_{\mathbf{k}}^n}&=\epsilon_n({\mathbf{k}}) \hat{r} \ket{u_{\mathbf{k}}^n}=\epsilon_n({\mathbf{k}}) \sum_m \ket{u_{R{\mathbf{k}}}^m} B_{\mathbf{k}}^{mn} \\
+&=h(R{\mathbf{k}})\sum_m \ket{u_{R{\mathbf{k}}}^m} B_{\mathbf{k}}^{mn} =\sum_m \epsilon_m(R{\mathbf{k}}) \ket{u_{R{\mathbf{k}}}^m} B_{\mathbf{k}}^{mn},
 \end{aligned}
 \end{equation}
-$\phi_k (i) = \braket{i |k}$ are the eigenvectors in the site basis $\ket{i}$ with corresponding eigenvalues $\epsilon_k$.
+from which it follows that
 \begin{equation}
-H = - \sum_{ij} t_{ij} c^{\dagger}_i c_j \overset{diag}{\longrightarrow} H = \sum_k t_{ij} \phi_k^* (i) \phi_k (j) a_k^{\dagger} a_k = \sum_k \epsilon_k a_k^{\dagger} a_k 
+\sum_m \ket{u_{R{\mathbf{k}}}^m} B_{\mathbf{k}}^{mn} (\epsilon_n({\mathbf{k}})-\epsilon_m(R{\mathbf{k}}))=0.
 \end{equation}
-The density matrix becomes
-\begin{equation*}
-\rho = \frac{1}{Z} e^{- \sum_k \epsilon_k a_k^{\dagger} a_k},
+for every $n$. Since the eigenstates form an orthonormal basis, the expression above implies that
+\begin{equation}
+B_{\mathbf{k}}^{mn} (\epsilon_n({\mathbf{k}})-\epsilon_m(R{\mathbf{k}}))=0.
+\label{eq:aux1}
 \end{equation}
-while the correlation function is ($M$ - number of states)
+for every $m$ and $n$. Equation~\eqref{eq:aux1} implies that the sewing matrix $B_{\mathbf{k}}^{mn}$ only connects states at ${\mathbf{k}}$ and $R{\mathbf{k}}$ having the same energy. 
+
+\section{Invariant points under rotation}
+\label{sec:invptswladimir}
+Now we focus on the high symmetry points of the BZ (HSPs). These are points that obey
+\begin{equation}
+R {\mathbf \Pi} = {\mathbf \Pi}
+\end{equation}
+up to a reciprocal lattice vector. 
+These points are shown in Fig.~\ref{fig:BZ} for all the $C_{n=2,3,4,6}$ symmetries. At HSPs, Eq.~\eqref{eq:RotationSymmetry} reduces to $\hat{r} h({\mathbf \Pi}) \hat{r}^\dagger = h({\mathbf \Pi})$, where $\hat{r}$ here corresponds to the rotation operator of the little group at the HSP ${\mathbf \Pi}$. This expression is compactly written as
+\begin{equation}
+[\hat{r},h({\mathbf \Pi})]=0.
+\end{equation}
+Thus, it is possible to choose a gauge in which the energy eigenstates are also eigenstates of the rotation operator,
+\begin{equation}
+\hat{r} \ket{u_{\mathbf \Pi}^n}=r_{\mathbf \Pi}^n \ket{u_{\mathbf \Pi}^n}.
+\end{equation}
+This is automatic if there are no degeneracies, but if energy degeneracies exist, one can always choose a gauge such that the above expression is possible. At these invariant points, the sewing matrix is diagonal:
+\begin{equation}
+B_{\mathbf \Pi}^{mn}=\bra{u_{\mathbf \Pi}^m} \hat{r} \ket{u_{\mathbf \Pi}^n}=r^n_{\mathbf \Pi} \braket{u_{\mathbf \Pi}^m}{u_{\mathbf \Pi}^n}=r^n_{\mathbf \Pi} \delta_{mn}.
+\end{equation}
+We show that the rotation eigenvalues of HSPs that are related by symmetry are equal. Consider the rotation by an angle $\phi$ in a crystal with $C_{2\pi/\phi}$ symmetry. This rotation symmetry relates HSPs that are invariant under rotations by a larger angle $\theta=n \phi$, for $n$ integer. Call these HSPs ${\mathbf \Pi}_{\theta}$. Here, we are interested in knowing how the rotation eigenvalues of ${\mathbf \Pi}_{\theta}$ and $R_\phi {\mathbf \Pi}_{\theta}$ are related. In particular, this applies to two cases:
+\begin{itemize}
+\item In $C_6$-symmetric crystals, $\phi=2\pi/6$. For ${\theta}_1=2\pi/3=2\phi$ we have $\mathbf{K}=R_\phi \mathbf{K'}$, while for ${\theta}_2=\pi=3\phi$ we have $\mathbf{M'}=R_\phi \mathbf{M}=R_\phi^2 \mathbf{M''}$
+\item in $C_4$-symmetric crystals, $\phi=\pi/2$, for $\theta=\pi=2\phi$ we have $\mathbf{X'}=R_\phi \mathbf{X}$.
+\end{itemize}
+Let us start by asking what we get from applying $\hat{r}_{\theta} \ket{u_{{R_\phi}{\mathbf \Pi_{\theta}}}^n}$. Since ${R_\phi}{\mathbf \Pi_{\theta}}$ is invariant under $\hat{r}_{\theta}$, we have
+\begin{equation}
+\hat{r}_{\theta} \ket{u_{{R_\phi}{\mathbf \Pi_{\theta}}}^n}=r_{R_{\theta} {\mathbf \Pi_{\theta}}}^n \ket{u_{{R_\phi}{\mathbf \Pi_{\theta}}}^n}.
+\label{eq:app_rotation_eigenvalues}
+\end{equation}
+Since ${R_\phi}{\mathbf \Pi_{\theta}}$ and ${\mathbf \Pi_{\theta}}$ are related by $C_{2\pi/\phi}$ symmetry, we can expand
+\begin{equation}
+\hat{r}_\phi \ket{u_{{\mathbf \Pi}_{\theta}}^n} =\sum_m \ket{u_{R_\phi {\mathbf \Pi}_{\theta}}^m} \bra{u_{R_\phi {\mathbf \Pi}_{\theta}}^m}\hat{r}_\phi \ket{u_{{\mathbf \Pi}_{\theta}}^n} =\sum_m \ket{u_{R_\phi {\mathbf \Pi}_{\theta}}^m} B_{{\mathbf \Pi}_{\theta}}^{mn},
+\label{eq:app_expansion}
+\end{equation}
+where $B_{{\mathbf \Pi}_{\theta}}^{mn}=\bra{u_{R_\phi {\mathbf \Pi}_{\theta}}^m}\hat{r}_\phi \ket{u_{{\mathbf \Pi}_{\theta}}^n}$ is the sewing matrix, with the properties shown before. Conversely, we also have that
+\begin{equation}
+\ket{u_{R_\phi {\mathbf \Pi}_{\theta}}^n}=\sum_m\hat{r}_\phi \ket{u_{{\mathbf \Pi}_{\theta}}^m}\left[B_{{\mathbf \Pi}_{\theta}}^{\dagger}\right]^{mn}.
+\label{eq:app_expansion_inverse}
+\end{equation}
+So, replacing this expansion in \eqref{eq:app_rotation_eigenvalues}, we have
+\begin{equation}
+\hat{r}_{\theta} \ket{u_{R_\phi {\mathbf \Pi}_{\theta}}^n}= \hat{r}_\phi \sum_m r_{R_{\theta} {\mathbf \Pi_{\theta}}}^n \ket{u_{{\mathbf \Pi}_{\theta}}^m}\left[B_{{\mathbf \Pi}_{\theta}}^{\dagger}\right]^{mn}.
+\label{eq:app_rotation_eigenvalues_exp1}
+\end{equation}
+Taking a different approach, we calculate directly the rotation eigenvalues in the expansion \eqref{eq:app_expansion_inverse} to get
 \begin{equation}
 \begin{aligned}
-C_{ij} &= \frac{ Tr \left( e^{- \sum_k \epsilon_k a_k^{\dagger} a_k} c^{\dagger}_i c_j \right)}{Z} = \frac{Tr \left( \sum_k \phi_k (i) \phi_k^* (j) e^{-  \epsilon_k a_k^{\dagger} a_k} a^{\dagger}_k a_k \right) }{Tr \left( \sum_k  e^{- \epsilon_k a_k^{\dagger} a_k} \right)} \\
-&= \frac{\sum_{k=1}^M \phi_k (i) \phi_k^* (j)  \braket{k | e^{-\epsilon_k a_k^{\dagger} a_k} a_k^{\dagger} a_k | k} + \braket{0 | e^{0} a_0^{\dagger} a_0 | 0} }{\braket{0 | e^{0} | 0} + \sum_{k=1}^M  \braket{k |e^{-\epsilon_k a_k^{\dagger} a_k}  |k }} \\
-& = \sum_k \phi_k (i) \phi_k^* (j) \frac{\left( e^{-\epsilon_k} + 0 \right) }{1 + e^{-\epsilon_k}} =  \sum_k \phi_k (i) \phi_k^* (j)  \frac{1}{(1 + e^{-\epsilon_k}) e^{\epsilon_k} } \\
-&= \boxed{ \sum_k \phi_k (i) \phi_k^* (j) \frac{1}{1 + e^{\epsilon_k}}}
+\hat{r}_{\theta} \ket{u_{R_\phi {\mathbf \Pi}_{\theta}}^n} &= \hat{r}_{\theta} \sum_m\hat{r}_\phi \ket{u_{{\mathbf \Pi}_{\theta}}^m}\left[B_{{\mathbf \Pi}_{\theta}}^{\dagger}\right]^{mn} \\
+&= \hat{r}_\phi \sum_m \hat{r}_{\theta} \ket{u_{{\mathbf \Pi}_{\theta}}^m}\left[B_{{\mathbf \Pi}_{\theta}}^{\dagger}\right]^{mn}  \\
+&= \hat{r}_\phi \sum_m r_{{\mathbf \Pi}_{\theta}}^m \ket{u_{{\mathbf \Pi}_{\theta}}^m}\left[B_{{\mathbf \Pi}_{\theta}}^{\dagger}\right]^{mn}.
 \end{aligned}
 \end{equation}
-If we denote $\zeta_k$ as eigenvalues of $C_{ij}$, then the relation between $\zeta_k$ and $\epsilon_k$ is
+So, comparing the last two results we conclude that
 \begin{equation}
-\zeta_k = \frac{1}{1 + e^{\epsilon_k}}
+\sum_m (r_{R_\phi {\mathbf \Pi}_{\theta}}^n-r_{{\mathbf \Pi}_{\theta}}^m) \ket{u_{{\mathbf \Pi}_{\theta}}^m}\left[B_{{\mathbf \Pi}_{\theta}}^{\dagger}\right]^{mn}=0.
+\end{equation}
+for all $n$. Furthermore, since the eigenstates form an orthonormal basis, we have
+\begin{equation}
+(r_{R_\phi {\mathbf \Pi}_{\theta}}^n-r_{{\mathbf \Pi}_{\theta}}^m) \left[B_{{\mathbf \Pi}_{\theta}}^{\dagger}\right]^{mn}=0,
+\end{equation}
+for all $m$ and $n$. Now, the sewing matrix will have non-zero elements for equal energies at the two different HSPs $R_\phi {\mathbf \Pi}_{\theta}$ and ${\mathbf \Pi}_{\theta}$. Thus, for $\epsilon_m(R_\phi {\mathbf \Pi}_{\theta})=\epsilon_n({\mathbf \Pi}_{\theta})$, we need $r^m_{{\mathbf \Pi}_{\theta}}=r^n_{R_\phi {\mathbf \Pi}_{\theta}}$, i.e., the rotation spectra at $R_\phi {\mathbf \Pi}_{\theta}$ and ${\mathbf \Pi}_{\theta}$ are equal for bands having equal energies.
+In particular, we have the relations
+\begin{equation}
+\begin{aligned}
+\{r^n_{\mathbf{K}}\}&\stackrel{C_6}{=}\{r^n_{\mathbf{K'}}\}, \\ 
+\{r^n_{\mathbf{M}}\}& \stackrel{C_6}{=} \{r^n_{\mathbf{M'}}\} \stackrel{C_6}{=} \{r^n_{\mathbf{M''}}\}, \\
+\{r^n_{\mathbf{X}}\}& \stackrel{C_4}{=} \{r^n_{\mathbf{X'}}\}.
+\end{aligned}
 \end{equation}
 
+\section[Constraints on the rotation eigenvalues due to TRS]{Constraints on the rotation eigenvalues due to time-reversal symmetry}
+\label{sec:trscnstrnswladimir}
 
+Now we look at the interplay between TRS and rotation symmetry. The two operators commute:
+\begin{equation}
+[\mathcal{T}, \hat{r}]=0.
+\end{equation}
+Thus, on one hand we have
+\begin{equation}
+\mathcal{T} \left( \hat{r} \ket{u_{{\mathbf{k}}}^l} \right) &= \mathcal{T} \left( \sum_n \ket{u_{R {\mathbf{k}}}^n} B_{\mathbf{k}}^{nl} \right) = \sum_{m,n}\ket{u_{-R {\mathbf{k}}}^m} V_{R {\mathbf{k}}}^{mn} B_{\mathbf{k}}^{nl*},
+\end{equation}
+where $V$ is the sewing matrix for TRS. On the other hand, we have
+\begin{equation}
+\hat{r} \left( \mathcal{T} \ket{u_{{\mathbf{k}}}^l} \right) &= \hat{r} \left( \sum_m \ket{u_{- {\mathbf{k}}}^n} V_{\mathbf{k}}^{nl} \right) = \sum_{m,n} \ket{u_{-R {\mathbf{k}}}^m} B_{- {\mathbf{k}}}^{mn} V_{\mathbf{k}}^{nl}.
+\end{equation}
+In the last expression, we have used the fact that $R (- {\mathbf{k}})= - R {\mathbf{k}}$. From these two expressions we conclude that
+\begin{equation}
+\sum_{m,n} \ket{u_{-R {\mathbf{k}}}^m} \left( V_{R {\mathbf{k}}}^{mn} B_{\mathbf{k}}^{nl*}  - B_{- {\mathbf{k}}}^{mn} V_{\mathbf{k}}^{nl} \right) = 0
+\end{equation}
+for all $l$. Since the eigenstates are orthonormal, this relation implies that
 
+\begin{equation}
+\sum_{n} \left( V_{R {\mathbf{k}}}^{mn} B_{\mathbf{k}}^{nl*}  - B_{- {\mathbf{k}}}^{mn} V_{\mathbf{k}}^{nl} \right) = 0
+\end{equation}
+for all $m$, $l$. As noted earlier, of particular interest are the HSPs. At these points, $B_{{\mathbf \Pi}}^{mn}=r^n_{{\mathbf \Pi}}\delta_{mn}$ in the gauge in which $\{ \ket{u^n_{{\mathbf \Pi}}}\}$ are rotation eigenstates. Then, at these points, the previous relation results in
+\begin{equation}
+V_{{\mathbf \Pi}}^{ml} \left( r^{l*}_{{\mathbf \Pi}} - r^m_{-{\mathbf \Pi}} \right) = 0
+\end{equation}
+for all $l$, $m$. Thus, if $V_{{\mathbf \Pi}}^{ml} \neq 0$, $r^{l*}_{{\mathbf \Pi}} = r^m_{-{\mathbf \Pi}}$. This is possible only if $\epsilon_m(-{\mathbf \Pi})=\epsilon_l({\mathbf \Pi})$. Thus, we have that, under TRS,
+\begin{equation}
+\{r^n_{\mathbf \Pi}\}& \stackrel{\mathrm{TRS}}{=} \{r^{n*}_{-{\mathbf \Pi}}\}.
+\end{equation}
+More specifically, for equal energies at ${\mathbf{k}}={\mathbf \Pi}$ and ${\mathbf{k}}=-{\mathbf \Pi}$, their rotation eigenvalues are complex conjugates of each other [if, on the other hand, $\epsilon_m(-{\mathbf \Pi}) \neq \epsilon_l({\mathbf \Pi})$, we have that $V_{{\mathbf \Pi}}^{ml}=0$, which means that there is no restriction on the rotation eigenvalues]. In particular, at TRIMs which are also HSPs, ${\mathbf \Pi}=-{\mathbf \Pi}$, we have that $r^{l*}_{{\mathbf \Pi}}=r^m_{{\mathbf \Pi}}$ for equal energies $\epsilon_m({\mathbf \Pi})= \epsilon_l({\mathbf \Pi})$. This imposes the following constraints on the rotation eigenvalues:
+\begin{itemize}
+\item for a non-degenerate state labeled by $n$, $r^{n*}_{{\mathbf \Pi}}=r^{n}_{{\mathbf \Pi}}$, i.e., its rotation eigenvalue is real: $r^{n}_{{\mathbf \Pi}}=\pm 1$ 
+\item for two degenerate states $n=1,2$ one could have $r^1_{{\mathbf \Pi}}=\lambda$ and $r^2_{{\mathbf \Pi}}=\lambda^*$, so that $r^{1*}_{{\mathbf \Pi}}=\lambda^*=r^{2}_{{\mathbf \Pi}}$ and $r^{2*}_{{\mathbf \Pi}}=\lambda=r^{1}_{{\mathbf \Pi}}$, that is, in energy-degenerate states, the rotation eigenvalues can be complex, but have to come in complex conjugate pairs. 
+\end{itemize}
+As said before, these constraints follow for HSPs that are also TRIM. This is the case for all the HSPs except  $\mathbf{K}$ and $\mathbf{K'}$, which map into each other under TRS. 
 
+\section{Mapping between spinless and spinful $C_3$ eigenvalues}
+\label{sec:C3appendix}
+We start with the spinless indicators
+\begin{equation}
+[\tilde{K}^{(3)}_i]= \#\tilde{K}^{(3)}_i - \#\tilde{\Gamma}^{(3)}_i,
+\end{equation}
+where $\tilde{K}^{(3)}_{i=1,2,3}$, $\tilde{\Gamma}^{(3)}_{i=1,2,3}=\{1,e^{i 2\pi/3},e^{-i 2\pi/3}\}$. Upon introducing spin degree of freedom, each spinless eigenvalue $\lambda$ contributes two spinful eigenvalues $\lambda \, e^{\pm \mathrm{i} \pi/3}$. From this we obtain the relations
+\begin{equation}
+\begin{aligned}
+&[K^{(3)}_1]=[\tilde{K}^{(3)}_1]+[\tilde{K}^{(3)}_2], \\
+&[K^{(3)}_2]=[\tilde{K}^{(3)}_2]+[\tilde{K}^{(3)}_3], \\
+&[K^{(3)}_3]=[\tilde{K}^{(3)}_3]+[\tilde{K}^{(3)}_1],
+\end{aligned}
+\end{equation}
+where the $[K^{(3)}_i]$, $i=1, \, 2, \, 3$, are defined in Eq.~\eqref{eq:C3spinfulindicators}. Together with the constraints in Eq.~\eqref{eq:secondsetofC3indicatorconstraints} this implies
+\begin{equation}
+\begin{aligned}
+&[\tilde{K}^{(3)}_1]=-[K^{(3)}_2], \\
+&[\tilde{K}^{(3)}_2]=-[K^{(3)}_3], \\
+&[\tilde{K}^{(3)}_3]=-[K^{(3)}_1],
+\end{aligned}
+\end{equation}
+providing a mapping between spinless and spinful $C_3$ eigenvalues.
 
+\chapter{Induction of band representations from maximal Wyckoff positions and relation to symmetry indicator invariants}
+\label{sec:inductionEBRs}
+Here, we explicitly induce the energy band representations at HSPs of the BZ following the prescription in Ref.~\cite{Cano17-2}. Given a site symmetry representation, the induced band representation will allow us to identify the symmetry indicator invariants associated with a maximal Wyckoff position. In this section, we induce the band representations and corresponding symmetry indicator invariants for all the allowed site symmetry representations of spinful time-reversal symmetric orbitals at each maximal Wyckoff position.
+In the following, $\rho$ refers to the representation of the site symmetry group, while $\rho^{\mathbf{k}}_G$ refers to the band representation at crystal momentum $\mathbf{k}$. We treat each case separately. For $C_4$ and $C_2$ symmetries, we use the following primitive vectors $\mathbf{a}_1=(1,0)$, $\mathbf{a}_2=(0,1)$, and for both $C_6$ and $C_3$ symmetries, we use the following primitive vectors $\mathbf{a}_1=(1,0)$, $\mathbf{a}_{2}=( \frac{1}{2}, \frac{\sqrt{3}}{2})$ and $\mathbf{a}_{3}=(- \frac{1}{2}, \frac{\sqrt{3}}{2})$.
 
-\section{Singular value decomposition}
-\begin{theorem}
-Let $M$ be a $ m \times n$ matrix whose entries $\in \mathbb{C}$. Therefore, there exists a factorization of the form
+\section{$C_4$ symmetry: Representations induced from $2c$}
+Given a site symmetry representation $\rho(C_2)$ of the orbitals at $2c$, the band representations are
+\begin{equation}
+\rho_G^{\mathbf{k}}(C_4)&=
+\begin{pmatrix}
+0 & e^{\mathrm{i} {\mathbf{k}} \cdot \mathbf{a}_1}\rho(C_2)\\
+1 & 0
+\end{pmatrix}, \hspace*{0.5cm}
+\rho_G^{\mathbf{k}}(C_2)&=
+\begin{pmatrix}
+e^{\mathrm{i} {\mathbf{k}} \cdot \mathbf{a}_1} & 0\\
+0 & e^{\mathrm{i} {\mathbf{k}} \cdot \mathbf{a}_2}
+\end{pmatrix} \, \rho(C_2).
+\end{equation}
+
+We consider the only possible site-symmetry representation, $\rho(C_2)=e^{\mathrm{i} \frac{\pi}{2} \sigma_z}$. 
+For $C_4$, the band representations at HSPs are
 \begin{equation*}
-M = U \Sigma V^{\dagger}
+\begin{aligned}
+\rho_G^{\mathbf{\Gamma}}(C_4)&=
+\begin{pmatrix}
+0 & e^{\mathrm{i} \frac{\pi}{2} \sigma_z}\\
+1 & 0
+\end{pmatrix}, \hspace*{0.5cm}
+\rho_G^{\mathbf{M}}(C_4) &=
+\begin{pmatrix}
+0 & -e^{\mathrm{i} \frac{\pi}{2} \sigma_z}\\
+1 & 0
+\end{pmatrix}.
+\end{aligned}
 \end{equation*}
-where $U$ is a $ m \times m$ unitary matrix ($U^{\dagger} U  = \mathbb{1}$), $\Sigma$ is a $m \times n$ diagonal matrix with non-negative elements, and $V^{\dagger}$ is a $n \times n$ unitary matrix. 
-\end{theorem}
-The vectors in the matrices $U$ and $V$ are orthonormal, so they represent rotations. Moreover, $U$ and $V$ are usually not related to each other at all. $\Sigma_{ii}$ elements are all real and non-negative. The SVD always exist for any sort of rectangular or square matrix.
+Both of these matrices have the four eigenvalues $e^{\mathrm{i} \pi/4}$, $e^{-\mathrm{i} \pi/4}$, $e^{3\mathrm{i} \pi/4}$, $e^{-3\mathrm{i} \pi/4}$. Therefore, $[M_1^{(4)}]=0$. For $C_2$, the band representations at HSPs are
+\begin{equation}
+\begin{aligned}
+&\rho_G^{\mathbf{\Gamma}}(C_2)=\sigma_0 e^{\mathrm{i} \frac{\pi}{2} \sigma_z},  \hspace*{0.5cm}
+\rho_G^{\mathbf{X}}(C_2)=-\sigma_z e^{\mathrm{i} \frac{\pi}{2} \sigma_z}, \\
+&\rho_G^{\mathbf{Y}}(C_2)=\sigma_z e^{\mathrm{i} \frac{\pi}{2} \sigma_z}, \hspace*{0.5cm}
+\rho_G^{\mathbf{M}}(C_2)=-\sigma_0 e^{\mathrm{i} \frac{\pi}{2} \sigma_z}. 
+\end{aligned}
+\end{equation}
+All these matrices have eigenvalues $+\mathrm{i}$, $+\mathrm{i}$, $-\mathrm{i}$, $-\mathrm{i}$, also leading to vanishing symmetry indicators. As we will see, this is also the case when the band representations are induced from $1b$: in fact, with spinful time-reversal symmetry, the only possible EBR is given by a pair of states with $C_2$ eigenvalues ($+\mathrm{i}$, $-\mathrm{i}$). Therefore, no symmetry indicators exist associated with the band representations of $C_2$.
+
+\section{$C_4$ symmetry: Representations induced from $1b$}
+Given a site symmetry representation $\rho(C_4)$ of the orbitals at $1b$, the band representations are
+\begin{equation}
+\rho_G^{\mathbf{k}}(C_4)&=
+e^{\mathrm{i} {\mathbf{k}} \cdot \mathbf{a}_1}\rho(C_4), \hspace{0.5cm}
+\rho_G^{\mathbf{k}}(C_2)&=e^{\mathrm{i} {\mathbf{k}} \cdot (\mathbf{a}_1 + \mathbf{a} _2)}\rho(C_2).
+\end{equation}
+where $\rho(C_2)=\rho^2(C_4)$.
+Let us consider the site symmetry representation $\rho(C_4)=e^{\mathrm{i} \frac{\pi}{4} \sigma_z}$.
+For $C_4$, the band representations at HSPs are
+\begin{equation*}
+\rho_G^{\mathbf{\Gamma}}(C_4)= e^{\mathrm{i} \frac{\pi}{4} \sigma_z}, \hspace{0.5cm}
+\rho_G^{\mathbf{M}}(C_4)=- e^{\mathrm{i} \frac{\pi}{4} \sigma_z}.
+\end{equation*}
+
+The matrix for the band representation of $C_4$ at ${\mathbf{\Gamma}}$ has eigenvalues $e^{\mathrm{i} \pi/4}$, $e^{-\mathrm{i} \pi/4}$, while the one at ${\mathbf{M}}$ has eigenvalues $e^{3\mathrm{i} \pi/4}$, $e^{-3\mathrm{i} \pi/4}$. Thus, $[M_1^{(4)}]=1$. Now, if the site symmetry representation were $\rho(C_4)=-e^{\mathrm{i} \frac{\pi}{4} \sigma_z}$ instead, the band representations at ${\mathbf{\Gamma}}$ and ${\mathbf{M}}$ would flip. This leads to the symmetry indicator invariant $[M_1^{(4)}]=-1$. For $C_2$, the band representations are always of the form $\pm e^{\mathrm{i} \frac{\pi}{2} \sigma_z}$, which has eigenvalues $+\mathrm{i}$, $-\mathrm{i}$, leading to vanishing symmetry indicators. 
+
+Let us now consider obstructions arising from the band representation when multiple orbitals localize at $1b$. If the two orbitals have the same representation, \eg, $\rho(C_4)=e^{\mathrm{i} \frac{\pi}{4} \sigma_z}$, the overall site symmetry representation, $\sigma_0 \, e^{\mathrm{i} \frac{\pi}{4} \sigma_z}$, induces a band representation with invariant $[M_1^{(4)}]=2$. If, on the other hand, the representations at the two orbitals differ, the induced band representations will have an invariant $[M_1^{(4)}]=0$. Both cases, however, are obstructed, because it is not possible to smoothly move two Kramers pairs from $1b$ to $1a$ in a $C_4$ symmetric way. We see from this analysis that other invariants must exist beyond symmetry indicators that capture the obstruction of the case of two Kramers pairs with $[M_1^{(4)}]=0$. 
+
+\section{$C_6$ symmetry: Representations induced from $2b$}
+Let $\rho(C_3)$ be a site-symmetry representation of the orbitals at $2b$. Therefore, the band representations are
+\begin{equation}
+\begin{aligned}
+\rho_G^{\mathbf{k}}(C_3)&=
+\begin{pmatrix}
+e^{\mathrm{i} {\mathbf{k}} \cdot {a}_1} & 0\\
+0 & e^{-\mathrm{i} {\mathbf{k}} \cdot {a}_1}
+\end{pmatrix}
+\,  \rho(C_3),\\
+\rho_G^{\mathbf{k}}(C_2)&=
+\begin{pmatrix}
+0 & -1\\
+1 & 0
+\end{pmatrix} \, \mathbb{1}_{2N \times 2N},
+\end{aligned}
+\end{equation}
+where $N$ is the number of Kramers pairs in the site $2b$.
+Consider one Kramers pair at $2b$. For $C_3$, the band representations at the HSPs are
+\begin{equation*}
+\rho_G^{\mathbf{\Gamma}}(C_3)=\rho(C_3), \hspace*{0.5cm}
+\rho_G^{\mathbf{K}}(C_3)=e^{\mathrm{i}\frac{2\pi}{3} \sigma_z}\rho(C_3).
+\end{equation*}
+Thus, for the site symmetry representation $\rho(C_3)=e^{\mathrm{i} n \frac{\pi}{3} \sigma_z}$ (for $n =1$ or $n = 3$), the eigenvalues are $e^{\mathrm{i} n \frac{\pi}{3}}$, $e^{-\mathrm{i} n \frac{\pi}{3}}$ at ${\mathbf{\Gamma}}$, and $e^{\mathrm{i} \frac{\pi}{3} (n+2)}$, $e^{-\mathrm{i} \frac{\pi}{3} (n+2)}$ at ${\mathbf{K}}$. This yields the invariants in Table~\ref{tab:C6_inducedC3InvariantsFrom2b}.
+
+\begin{table}[!h]
+	\centering
+	\begin{tabular}{| c | c | c | c| }
+		\hline 
+		Site symmetry & Eigenvalues ${\mathbf{\Gamma}}$ & Eigenvalues ${\mathbf{K}}$ & Invariants\\
+		\hline\hline
+		& $\#\Gamma_1=2$ & $\#K_1=1$ & $[K_1^{(3)}]=-1$ \\
+		$e^{\mathrm{i}\frac{\pi}{3}\sigma_z}$ & $\#\Gamma_2=0$ & $\#K_2=2$ & $[K_2^{(3)}]=2$ \\
+		 & $\#\Gamma_3=2$ & $\#K_3=1$ & $[K_3^{(3)}]=-1$\\
+		\hline
+		& $\#\Gamma_1=0$ & $\#K_1=2$ & $[K_1^{(3)}]=2$ \\
+		$-\sigma_0$ & $\#\Gamma_2=4$ & $\#K_2=0$ & $[K_2^{(3)}]=-4$ \\
+		 & $\#\Gamma_3=0$ & $\#K_3=2$ & $[K_3^{(3)}]=2$\\
+		\hline
+	\end{tabular} 
+	\caption[$C_6$ symmetry: $C_3$ invariants induced from Wyckoff position $2b$ with different site symmetry representations]{$C_6$ symmetry: $C_3$ invariants induced from Wyckoff position $2b$ with different site symmetry representations}
+	\label{tab:C6_inducedC3InvariantsFrom2b}
+\end{table}
+
+Notice, from the invariants in Table~\ref{tab:C6_inducedC3InvariantsFrom2b}, that the obstruction is lifted only if three Kramers pairs locate at $2b$, two with representations $e^{\mathrm{i}\frac{\pi}{3}\sigma_z}$ and one with $-\sigma_0$. This illustrates the fact that the number of Kramers pairs at a maximal Wyckoff position alone does not determine whether an OAL is trivial. The site symmetry representation is crucial; they determine whether the Kramers pairs are free to move symmetrically or not. Regarding $C_2$, it follows from the lack of dependence of $\rho_G^{\mathbf{k}}(C_2)$ on the crystal momentum, that all invariants vanish.
+
+\vspace*{-1cm}
+\section{$C_6$ symmetry: Representations induced from $3c$}
+With a site-symmetry representation $\rho(C_2)$ of the orbitals at $3c$, the band representations are
+\begin{equation}
+\begin{aligned}
+\rho_G^{\mathbf{k}}(C_3)&=
+\begin{pmatrix}
+0 & 0 & -1\\
+1 & 0 & 0\\
+0 & 1 & 0
+\end{pmatrix}
+\, \mathbb{1}_{2N \times 2N},\\
+\rho_G^{\mathbf{k}}(C_2)&=
+\begin{pmatrix}
+e^{\mathrm{i} {\mathbf{k}} \cdot \mathbf{a}_2}& 0\\
+0 & e^{-\mathrm{i} {\mathbf{k}} \cdot \mathbf{a}_1} &0\\
+0 & 0 & e^{-\mathrm{i} {\mathbf{k}} \cdot \mathbf{a}_3}
+\end{pmatrix} \,  \rho(C_2),
+\end{aligned}
+\end{equation}
+where $N$ denotes the number of Kramers pairs in the site $3c$. For $C_3$, the band representation is constant across the $C_3$-invariant HSPs. Therefore, all invariants are trivial. 
+For $C_2$, the band representations at the HSPs are
+\begin{equation}
+\rho_G^{\mathbf{\Gamma}}(C_2)=\mathbb{1}_{2 \times 2} \, \rho(C_2), \hspace*{0.5cm} \rho_G^{\mathbf{M}}(C_2)=
+\begin{pmatrix}
+-1 & 0 & 0\\
+0 & -1 & 0\\
+0 & 0 & 1
+\end{pmatrix} \, \rho(C_2). 
+\end{equation}
+But since the site representation for a Kramers pair, $\rho(C_2)=e^{\mathrm{i} \frac{\pi}{2}\sigma_z}$, has eigenvalues $+i$, $-i$, the band representations at $\mathbf{\Gamma}$ and ${\mathbf{M}}$ are the same. 
+
+\section{$C_3$ symmetry: Representations induced from $1b$}
+For a given site-symmetry representation $\rho(C_3)$ of the orbitals at $1b$, the band representations are
+\begin{equation}
+\rho_G^{\mathbf{k}}(C_3)= e^{\mathrm{i} {\mathbf{k}} \cdot \mathbf{a}_2} \rho(C_3).
+\end{equation}
+The band representations at the HSPs are then
+\begin{equation*}
+\rho_G^{\mathbf{\Gamma}}(C_3)=\rho(C_3), \hspace{0.5cm} \rho_G^{\mathbf{K}}(C_3)=e^{\mathrm{i} \frac{2\pi}{3}}\rho(C_3), \quad \rho_G^{\mathbf{K}'}(C_3)=e^{-\mathrm{i} \frac{2\pi}{3}}\rho(C_3).
+\end{equation*}
+Thus, the invariants depend on the site symmetry representation $\rho(C_3)$. 
+They are shown in Table~\ref{tab:C3_inducedC3InvariantsFrom1b}. Since TRS relates ${\mathbf{K}}$ with ${\mathbf{K}'}$, we only provide the representations at $\mathbf{\Gamma}$ and ${\mathbf{K}}$.
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|c|c|}
+		\hline 
+		Site symmetry & Eigenvalues ${\mathbf{\Gamma}}$ & Eigenvalues ${\mathbf{K}}$ & Invariants\\
+		\hline\hline
+		& $\#\Gamma_1=1$ & $\#K_1=1$ & $[K_1^{(3)}]=0$ \\
+		$e^{\mathrm{i}\frac{\pi}{3}\sigma_z}$ & $\#\Gamma_2=0$ & $\#K_2=1$ & $[K_2^{(3)}]=1$ \\
+		 & $\#\Gamma_3=1$ & $\#K_3=0$ & $[K_3^{(3)}]=-1$\\
+		\hline
+		& $\#\Gamma_1=0$ & $\#K_1=0$ & $[K_1^{(3)}]=0$ \\
+		$-\sigma_0$ & $\#\Gamma_2=2$ & $\#K_2=0$ & $[K_2^{(3)}]=-2$ \\
+		 & $\#\Gamma_3=0$ & $\#K_3=2$ & $[K_3^{(3)}]=2$\\
+		\hline
+	\end{tabular} 
+	\caption[$C_3$ symmetry: $C_3$ invariants induced from Wyckoff position $1b$ with different site symmetry representations]{$C_3$ symmetry: $C_3$ invariants induced from Wyckoff position $1b$ with different site symmetry representations.}
+	\label{tab:C3_inducedC3InvariantsFrom1b}
+\end{table}
+Note that, in order to have a trivial insulator with three movable Kramers pairs at $1b$, two of them need to have the representation $e^{\mathrm{i}\frac{\pi}{3}\sigma_z}$ and the third one the representation $-\sigma_0$.
+
+\section{$C_3$ symmetry: Representations induced from $1c$}
+Given a site-symmetry representation $\rho(C_3)$ of the orbitals at $1c$, the band representations read
+\begin{equation}
+\rho_G^{\mathbf{k}}(C_3)= e^{\mathrm{i} {\mathbf{k}} \cdot \mathbf{a}_1} \rho(C_3).
+\end{equation}
+Then, the band representations at the HSPs are
+\begin{equation*}
+\rho_G^{\mathbf{\Gamma}}(C_3)=\rho(C_3), \quad \rho_G^{\mathbf{K}}(C_3)=e^{-\mathrm{i} \frac{2\pi}{3}}\rho(C_3), \quad \rho_G^{\mathbf{K}'}(C_3)=e^{\mathrm{i} \frac{2\pi}{3}}\rho(C_3).
+\end{equation*}
+As in the case of $1b$, the invariants depend on the site symmetry representation $\rho(C_3)$. We are show them in Table~\ref{tab:C3_inducedC3InvariantsFrom1c}.
+\begin{table}[h]
+	\centering
+	\begin{tabular}{| c | c | c | c |}
+		\hline 
+		Site symmetry & Eigenvalues ${\mathbf{\Gamma}}$ & Eigenvalues ${\mathbf{K}}$ & Invariants\\
+		\hline\hline
+		& $\#\Gamma_1=1$ & $\#K_1=0$ & $[K_1^{(3)}]=-1$ \\
+		$e^{\mathrm{i} \frac{\pi}{3} \sigma_z}$ & $\#\Gamma_2=0$ & $\#K_2=1$ & $[K_2^{(3)}]=1$ \\
+		 & $\#\Gamma_3=1$ & $\#K_3=1$ & $[K_3^{(3)}]=0$\\
+		\hline
+		& $\#\Gamma_1=0$ & $\#K_1=2$ & $[K_1^{(3)}]=2$ \\
+		$-\sigma_0$ & $\#\Gamma_2=2$ & $\#K_2=0$ & $[K_2^{(3)}]=-2$ \\
+		 & $\#\Gamma_3=0$ & $\#K_3=0$ & $[K_3^{(3)}]=0$\\
+		\hline
+	\end{tabular} 
+\caption[$C_3$ symmetry: $C_3$ invariants induced from Wyckoff position $1c$ with different site symmetry representations]{$C_3$ symmetry: $C_3$ invariants induced from Wyckoff position $1c$ with different site symmetry representations.}
+\label{tab:C3_inducedC3InvariantsFrom1c}
+\end{table}
+In order to have a trivial insulator with three movable Kramers pairs at $1c$, two of them need to have the representation $e^{\mathrm{i} \frac{\pi}{3} \sigma_z}$ and the third one the representation $-\sigma_0$.
+\section{$C_2$ symmetry: Representations induced from any $C_2$ invariant HSP}
+All the invariants due to $C_2$ are trivial, since all $C_2$-invariants points are also TRIM points and the $C_2$ eigenvalues of the site symmetry group of Kramers pairs is always $+\mathrm{i}$, $-\mathrm{i}$, which exhausts the representations.
